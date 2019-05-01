@@ -19,7 +19,7 @@
 # ...................................................................................
 # ...................................................................................
 # CHECK STATUS OF JOB
-# while true; do date; squeue -u cpr74; sleep 2;  var1="$(squeue -u cpr74 | wc -l)"; echo -n "number_of_jobs = "; expr $var1 - 1; printf "\n"; sleep 3; done
+# while true; do date; squeue -u cpr74; var1="$(squeue -u cpr74 | wc -l)"; echo -n "number_of_jobs = "; expr $var1 - 1; printf "\n"; sleep 3; done
 
 # OPEN INTERACTIVE NODE
 # srun --partition=genetics_1 --nodes=1 --ntasks=1 --cpus-per-task=28 --mem=30G --time=01:00:00 --export=ALL --pty bash -i
