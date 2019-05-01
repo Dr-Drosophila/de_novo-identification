@@ -152,7 +152,7 @@ echo "All variables written to memory."
 #  .JMML.           .JMML.
 
 sleep 3
-cd /scratch/cpr74/2019Spring/drosophila_classifications/dana_nanopore_2019_03_05
+cd /scratch/cpr74/2019Spring/drosophila_classifications/dana_nanopore_2019_05_01
 
 # Deletion of temporary files required to get the directories and files set up
 # rm ./../Amarel.zip ; sleep 5
