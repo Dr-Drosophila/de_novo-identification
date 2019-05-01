@@ -1,0 +1,1147 @@
+   SW   perc perc perc  query                                 position in query     matching         repeat               position in repeat
+score   div. del. ins.  sequence                              begin end    (left)   repeat           class/family      begin   end    (left)   ID
+
+ 3087   11.6  1.2  2.7  rnd-1_family-0#RC/Helitron                2    50  (1237) C hAT-N1B_DBp      DNA/hAT-Ac          (400)   1216   1171    1  
+ 2477   21.5  3.5  1.9  rnd-1_family-0#RC/Helitron               51   787   (500) + Helitron-N1_DAn  RC/Helitron           249    852    (1)    2 *
+ 2768   18.1  0.3  1.9  rnd-1_family-0#RC/Helitron              322  1281     (6) + Helitron-N1_DAn  RC/Helitron           249   1328  (151)    3 *
+ 3087   11.6  1.2  2.7  rnd-1_family-0#RC/Helitron              788  1208    (79) C hAT-N1B_DBp      DNA/hAT-Ac          (400)   1170    766    1  
+ 1912   17.6  0.0  0.0  rnd-1_family-1#DNA/CMC-Transib            1   340  (3255) C hAT-N1B_DBp      DNA/hAT-Ac          (412)   1204    865    4  
+ 4619    2.9  0.3  0.2  rnd-1_family-1#DNA/CMC-Transib          342   903  (2692) C Transib-1_DEl    DNA/CMC-Transib     (949)    535      2    5  
+  298   25.3  8.1  1.9  rnd-1_family-1#DNA/CMC-Transib         1049  1197  (2398) + hAT-5N1_DK       DNA/hAT-hobo          511    668    (0)    6  
+ 2743    1.0  0.0  0.0  rnd-1_family-1#DNA/CMC-Transib         1508  1805  (1790) C hAT-N1B_DBp      DNA/hAT-Ac          (153)   1463   1166    7  
+  484    3.5  1.7  0.0  rnd-1_family-1#DNA/CMC-Transib         1755  1812  (1783) + Helitron-N1_DAn  RC/Helitron           528    586  (267)    8 *
+  327   19.7  3.8  3.8  rnd-1_family-1#DNA/CMC-Transib         2102  2114  (1481) C TransibN1_DP     DNA/CMC-Transib    (1021)    173     95    9  
+  349   19.7  0.0  0.0  rnd-1_family-1#DNA/CMC-Transib         2115  2180  (1415) + Transib-N1_DM    DNA/CMC-Transib       356    421   (93)   10  
+  577   10.8  0.0  0.0  rnd-1_family-1#DNA/CMC-Transib         2246  2328  (1267) C Helitron-N1_DAn  RC/Helitron         (769)     84      2   11  
+  325   20.0  2.9  0.0  rnd-1_family-1#DNA/CMC-Transib         2332  2401  (1194) + hAT-N1B_DBp      DNA/hAT-Ac            871    942  (674)   12  
+  333   23.6  1.8  4.6  rnd-1_family-1#DNA/CMC-Transib         2568  2678   (917) + Transib-4_DAn    DNA/CMC-Transib        63    170 (2616)   13  
+  697   25.5  1.5  1.0  rnd-1_family-1#DNA/CMC-Transib         2694  2895   (700) + Transib-4_DAn    DNA/CMC-Transib       816   1018 (1768)   14  
+ 1980   22.3  4.0  1.0  rnd-1_family-1#DNA/CMC-Transib         2915  3412   (183) + Transib-6_DRh    DNA/CMC-Transib      1137   1649  (217)   15  
+ 2461    6.2  1.5  1.2  rnd-1_family-10#RC/Helitron               1   341   (565) + Helitron-N1_DBp  RC/Helitron           334    675  (804)   16  
+ 3222    6.4  8.9  0.8  rnd-1_family-100#RC/Helitron             84   551   (880) + Helitron-1_DF    RC/Helitron            21    446  (887)   17  
+ 1561    7.0  3.8  3.8  rnd-1_family-100#RC/Helitron            599   837   (594) + Helitron-1_DF    RC/Helitron          1017   1255   (78)   17  
+  272    5.6  0.0  0.0  rnd-1_family-100#RC/Helitron            836   871   (560) C Helitron-1_DF    RC/Helitron          (84)   1249   1214   18 *
+ 1530    6.3  0.3  4.3  rnd-1_family-100#RC/Helitron            903  1144   (287) + Helitron-1_DAna  RC/Helitron          1254   1639  (200)   17  
+  470   26.3  0.0  3.5  rnd-1_family-101#RC/Helitron              1   146    (12) + Helitron-N1_DBi  RC/Helitron           178    318  (270)   19  
+  342   22.6  1.1  1.1  rnd-1_family-103#DNA/Kolobok-Hydra      174   267   (470) + Transib-5_DK     DNA/CMC-Transib      1090   1183  (772)   20  
+  268   19.0  9.5  9.5  rnd-1_family-103#DNA/Kolobok-Hydra      268   342   (395) C Kolobok-N1_DAn   DNA/Kolobok-Hydra   (168)    558    390   21  
+  255   22.0  7.9  9.2  rnd-1_family-103#DNA/Kolobok-Hydra      573   737     (0) C Gypsy-1_DFi-I    LTR/Gypsy          (1064)   7570   7408   22  
+ 5415    1.5  0.0  0.3  rnd-1_family-106#LINE/Jockey              1   617     (0) + Jockey-3_DBp     LINE/I-Jockey        3459   4073  (131)   23  
+ 5245    3.1  0.6  0.5  rnd-1_family-108#LTR/Gypsy              295   943     (0) + Gypsy-7_DBp-LTR  LTR/Gypsy               1    650   (11)   24  
+ 1505    1.7  5.7  0.0  rnd-1_family-11#Unknown                   1   177   (256) + Helitron-N1_DBp  RC/Helitron           577    763  (716)   25  
+  627    2.7  0.0  0.0  rnd-1_family-11#Unknown                 168   240   (193) + Helitron-N1_DBp  RC/Helitron           594    666  (813)   26 *
+  622    4.8  0.0  9.5  rnd-1_family-11#Unknown                 241   259   (174) C hAT-N1B_DBp      DNA/hAT-Ac          (846)    770    687   27  
+  792   12.3  0.8  0.0  rnd-1_family-11#Unknown                 312   433     (0) C Mariner-4_DY     DNA/TcMar-Tc1       (970)    322    200   28  
+26691    0.3  0.0  0.0  rnd-1_family-110#LTR/Pao                  1  2851     (0) + BEL-11_DBp-I     LTR/Pao              1135   3986 (1915)   29  
+  324   27.6  5.4  6.2  rnd-1_family-112#DNA/TcMar-Tc1          204   350   (183) + Mariner-4_DBp    DNA/TcMar-Tc1        1060   1205  (443)   30  
+  245   10.8  0.0  0.0  rnd-1_family-114#DNA/Kolobok-Hydra      186   222   (583) + Kolobok-N1_DF    DNA/Kolobok-Hydra     173    209  (517)   31  
+  385   14.9  4.3  5.5  rnd-1_family-12#RC/Helitron               1    92  (1283) + Helitron-1_DF    RC/Helitron          1165   1255   (78)   32  
+  272    5.6  0.0  0.0  rnd-1_family-12#RC/Helitron              91   126  (1249) C Helitron-1_DF    RC/Helitron          (84)   1249   1214   33 *
+  694   28.2  1.3  1.7  rnd-1_family-12#RC/Helitron             150   387   (988) + Helitron-5_DRh   RC/Helitron          4311   4547   (65)   34  
+ 2624    4.2  0.3  0.6  rnd-1_family-12#RC/Helitron            1040  1373     (2) + Helitron-N1_DBp  RC/Helitron           334    666  (813)   35  
+ 4055    7.0  0.5  0.6  rnd-1_family-120#LINE/R1-LOA              1   575     (0) + Loa-1_DBp        LINE/R1-LOA          2772   3372 (2180)   36  
+17077    0.6  0.0  0.2  rnd-1_family-121#RC/Helitron              2  1874     (1) + Helitron-N2_DBp  RC/Helitron             1   1870    (0)   37  
+ 4198    8.8  0.6  1.2  rnd-1_family-122#DNA/Kolobok-Hydra        5   659     (4) + Kolobok-1_DBp    DNA/Kolobok-Hydra    2186   2765    (0)   38  
+  295   29.4  0.0  0.0  rnd-1_family-123#RC/Helitron              9   100     (1) + Helitron-N1_DBi  RC/Helitron           160    251  (337)   39  
+ 8452    2.4  0.2  0.1  rnd-1_family-124#LTR/Gypsy                6  1010     (0) + Gypsy-10_DBp-I   LTR/Gypsy            2877   3882 (2275)   40  
+29693    5.0  0.0  0.1  rnd-1_family-126#LTR/Gypsy                1  3683     (0) + TABOR_DA-I       LTR/Gypsy            2522   6202  (186)   41  
+ 1303   13.0  0.9  0.5  rnd-1_family-127#DNA/hAT-hobo             1   216   (413) + Hoana4           DNA/hAT-hobo          548    764 (1768)   42  
+  797    5.6  0.9  0.0  rnd-1_family-127#DNA/hAT-hobo           246   352   (277) + Hoana4           DNA/hAT-hobo          879    986 (1546)   43 *
+ 1807    3.2  0.3  0.0  rnd-1_family-127#DNA/hAT-hobo           341   561    (68) C Loa-1_DBp        LINE/R1-LOA         (878)   4674   4338   44  
+18600    4.8  1.0  0.2  rnd-1_family-128#LTR/Gypsy                1  2640    (22) + Gypsy-13_DBp-I   LTR/Gypsy               1   3661    (0)   45  
+13272    5.2  0.1  1.1  rnd-1_family-129#LTR/Gypsy                1  1933     (0) + TABOR_DA-I       LTR/Gypsy            4757   6388    (0)   46  
+12360    8.1  1.7  0.3  rnd-1_family-130#LTR/Gypsy                2  1795     (0) + Gypsy-13_DBp-I   LTR/Gypsy             563   2132 (1529)   47  
+ 6267   14.9  0.5  0.5  rnd-1_family-131#LTR/Gypsy                1  1549   (508) + Gypsy-1_DSim-I   LTR/Gypsy            5253   6733  (289)   48  
+ 4064    2.1  2.1  0.4  rnd-1_family-131#LTR/Gypsy             1554  2057     (0) + Gypsy-10_DBp-I   LTR/Gypsy               1    452 (5705)   49  
+25312    3.8  0.1  0.0  rnd-1_family-137#LTR/Gypsy                1  3053     (0) + Gypsy-7_DBp-I    LTR/Gypsy             650   3703 (2898)   50  
+ 5417    1.3  0.0  0.0  rnd-1_family-138#DNA/P                    1   603     (2) C P-1N1_DBp        DNA/P               (828)    603      1   51  
+  415    9.0  1.9  7.8  rnd-1_family-14#DNA/TcMar-Mariner         2   109  (1249) C Hoyak1           DNA/hAT-hobo       (2128)    475    374   52  
+  983    9.9  0.0  2.1  rnd-1_family-14#DNA/TcMar-Mariner       240   384   (974) C Helitron-1_DF    RC/Helitron         (973)    360    219   53  
+  266   29.2  2.0  2.0  rnd-1_family-14#DNA/TcMar-Mariner       827   924   (434) + Helitron-1_DEl   RC/Helitron           312    409  (869)   54  
+ 2455    6.6  0.7  0.0  rnd-1_family-14#DNA/TcMar-Mariner       929  1232   (126) + Mariner-1_DBi    DNA/TcMar-Mariner     701   1006  (321)   55  
+ 1088    0.8  0.0  0.0  rnd-1_family-14#DNA/TcMar-Mariner      1239  1358     (0) + hAT-N1B_DBp      DNA/hAT-Ac            993   1112  (504)   56  
+26241    3.1  0.2  0.4  rnd-1_family-141#LTR/Pao                  1  3088     (0) + BEL-5_DBp-I      LTR/Pao              1310   4391 (3898)   57  
+16999    2.5  0.2  0.2  rnd-1_family-142#LTR/Gypsy                1  2037     (0) + Gypsy-10_DBp-I   LTR/Gypsy            3216   5252  (905)   58  
+  936    2.5  0.8  1.6  rnd-1_family-143#LTR/Pao                  1   123    (15) + BEL-1_DBp-LTR    LTR/Pao               177    298    (0)   59  
+ 5015    1.1  0.3  0.3  rnd-1_family-145#DNA                      1   573     (5) + DNA-1_DBp        DNA                     1    573    (0)   60  
+ 5756    2.0  0.3  0.0  rnd-1_family-146#LINE/R1-LOA              1   661     (0) + Loa-1_DBp        LINE/R1-LOA          4736   5398    (0)   61  
+ 2911    1.3  0.0  0.0  rnd-1_family-147#LINE/I-Jockey            1   318     (0) + Jockey-14_DBp    LINE/I-Jockey        4281   4598   (44)   62  
+  346   12.7  0.0  1.8  rnd-1_family-148#RC/Helitron             28    83     (4) + DNAREP1_DYak     RC/Helitron           739    793    (0)   63  
+  253    8.3  0.0  2.8  rnd-1_family-148#RC/Helitron             51    87     (0) + Hoyak2           DNA/hAT-Ac              1     36 (2525)   64 *
+  282   13.6  3.3  3.3  rnd-1_family-149#LINE/I-Jockey          304   364     (0) + Outcast-1_DBi    LINE/I-Jockey        2811   2871    (1)   65  
+ 2467    6.9  0.3  0.0  rnd-1_family-15#DNA/TcMar-Mariner         1   305   (557) + Mariner-1_DBi    DNA/TcMar-Mariner     701   1006  (321)   66  
+ 1097    0.8  0.0  0.0  rnd-1_family-15#DNA/TcMar-Mariner       312   432   (430) + hAT-N1B_DBp      DNA/hAT-Ac            993   1113  (503)   67  
+ 1207    1.5  0.0  0.0  rnd-1_family-15#DNA/TcMar-Mariner       720   855     (7) + Loa-1_DBp        LINE/R1-LOA             5    140 (5258)   68  
+ 1080   10.1  0.5  8.3  rnd-1_family-150#LTR/Pao                  1   195     (0) + BEL-5_DBp-LTR    LTR/Pao                75    255   (45)   69  
+19392    1.2  0.1  0.1  rnd-1_family-152#LINE/CR1                 2  2140     (0) + CR1-2_DBp        LINE/CR1                1   2139 (2217)   70  
+12437    0.7  0.1  0.0  rnd-1_family-155#LTR/Pao                  1  1348     (0) + BEL-11_DBp-I     LTR/Pao              4200   5548  (353)   71  
+  241   24.8  3.7  2.8  rnd-1_family-16#Unknown                  87   194    (39) C BEL-2_DFi-I      LTR/Pao            (2790)   2866   2758   72  
+ 5049    1.2  0.2  0.2  rnd-1_family-161#LINE/Jockey              1   575     (0) + Jockey-14_DBp    LINE/I-Jockey           9    583 (4059)   73  
+  358   24.6  3.9  5.7  rnd-1_family-164#DNA/Kolobok-Hydra      332   564   (140) + Gypsy-1_DFi-I    LTR/Gypsy            7746   7974  (660)   74  
+ 2459    8.6  3.8  1.2  rnd-1_family-167#LTR/Pao                  1   490     (0) + BEL-5_DBp-I      LTR/Pao               932   1374 (6915)   75  
+ 9622    2.1  0.0  1.2  rnd-1_family-168#Unknown                  1  1113     (0) + Helitron-2_DBp   RC/Helitron           143   1242 (2634)   76  
+15667    0.9  0.1  0.0  rnd-1_family-171#LINE/CR1                 1  1723     (3) + CR1-1_DBp        LINE/CR1             2732   4456    (0)   77  
+11375   10.4  0.4  0.2  rnd-1_family-174#LINE/R1                  1  1812     (0) + R1-2_DBp         LINE/R1              3773   5589   (25)   78  
+ 6221   10.3  0.0  0.0  rnd-1_family-176#LTR/Gypsy                1   884     (0) + Gypsy-13_DAn-I   LTR/Gypsy            2756   3639 (2387)   79  
+ 6939    1.6  2.8  0.0  rnd-1_family-177#LTR/Pao                  1   820   (135) + BEL-11_DBp-I     LTR/Pao              5059   5901    (0)   80  
+  708    3.9  2.9  0.0  rnd-1_family-177#LTR/Pao                853   955     (0) + BEL-11_DBp-LTR   LTR/Pao                10    115  (219)   80  
+  452   28.2  5.0  5.0  rnd-1_family-178#DNA/Kolobok-Hydra       26   286    (91) C Kolobok-N1_DAn   DNA/Kolobok-Hydra    (21)    705    445   81  
+  340   19.9 11.8  3.4  rnd-1_family-178#DNA/Kolobok-Hydra      176   310    (67) + Kolobok-N1_DF    DNA/Kolobok-Hydra     172    317  (409)   82 *
+  241   25.8  7.7  7.1  rnd-1_family-178#DNA/Kolobok-Hydra      311   368     (9) C Gypsy-1_DFi-I    LTR/Gypsy           (660)   7971   7778   83  
+ 2044    3.6  0.4  0.0  rnd-1_family-181#DNA                      8   257   (138) + DNA-1_DBp        DNA                     1    251  (322)   84  
+  774    1.1  1.1  0.0  rnd-1_family-181#DNA                    243   331    (64) C DNA-1_DBp        DNA                 (276)    297    208   85 *
+  554    0.0  0.0  1.5  rnd-1_family-181#DNA                    330   395     (0) + DNA-1_DBp        DNA                   282    346  (227)   86 *
+ 2941    1.4  1.1  3.2  rnd-1_family-182#DNA/P                    1   378     (0) C P-1N1_DBp        DNA/P               (257)   1174    805   87  
+15328    1.8  0.0  0.0  rnd-1_family-183#LINE/CR1                 1  1711     (0) + CR1-1_DBp        LINE/CR1                1   1711 (2745)   88  
+16977    7.6  1.5  0.0  rnd-1_family-186#LINE/R1                  1  2400     (0) + R1-1_DBp         LINE/R1               600   3034  (565)   89  
+  235   14.7  0.0 16.3  rnd-1_family-187#LTR/Pao                 85   141   (124) + BEL-10_DBp-I     LTR/Pao              3597   3645    (0)   90  
+  995    5.7  0.0  0.0  rnd-1_family-187#LTR/Pao                142   265     (0) + BEL-10_DBp-LTR   LTR/Pao                 1    124  (198)   90  
+13311    9.6  0.3  0.7  rnd-1_family-189#LINE/R1                  1  2129     (0) + R1-2_DBp         LINE/R1              2715   4835  (779)   91  
+ 7340    0.5  0.3  0.1  rnd-1_family-190#DNA/hAT-Ac               3   856     (0) + hAT-N1_DBp       DNA/hAT-Ac              1    856    (0)   92  
+14824    1.6  0.0  0.1  rnd-1_family-192#LTR/Pao                  1  1674  (1539) + BEL-8_DBp-I      LTR/Pao              3771   5442    (2)   93  
+ 2969    1.4  5.1  2.9  rnd-1_family-192#LTR/Pao               1678  2047  (1166) + BEL-8_DBp-LTR    LTR/Pao                 1    378    (0)   93  
+10648    0.8  0.0  0.0  rnd-1_family-192#LTR/Pao               2048  3213     (0) + BEL-8_DBp-I      LTR/Pao                 1   1166 (4278)   93  
+12188    4.5  0.6  0.9  rnd-1_family-193#LTR/Pao                 46  1997     (0) + BEL-11_DBp-I     LTR/Pao               637   2565 (3757)   94  
+ 1158   21.4 13.1  2.2  rnd-1_family-195#RC/Helitron            358   835    (93) + Helitron-1_DF    RC/Helitron           491   1193  (948)   95  
+ 3120    6.2  0.4  5.6  rnd-1_family-196#LTR/Gypsy                1   539    (16) + Gypsy-11_DBp-I   LTR/Gypsy               1    402 (5656)   96  
+10955    2.0  0.0  0.0  rnd-1_family-197#RC/Helitron              1  1224     (0) + Helitron-2_DBp   RC/Helitron           458   1681 (2195)   97  
+ 3895    2.3  0.0  0.0  rnd-1_family-198#LINE/R1-LOA              1   443     (0) + Loa-1_DBp        LINE/R1-LOA          3962   4404  (994)   98  
+ 5385    7.9  1.2  4.1  rnd-1_family-2#RC/Helitron                1   992     (7) + Helitron-N1_DBp  RC/Helitron           129   1479    (0)   99  
+  472    3.6  0.0  0.0  rnd-1_family-2#RC/Helitron              943   998     (1) + piggyBac-3_DAn   DNA/PiggyBac          891    946  (605)  100 *
+ 3050   12.7  0.2  0.0  rnd-1_family-20#LINE/Jockey               1   465   (217) + Jockey-1_DAn     LINE/I-Jockey        2433   2898 (1140)  101  
+ 1625    5.5  1.4  1.4  rnd-1_family-20#LINE/Jockey             460   682     (0) C Helitron-N1_DBp  RC/Helitron         (813)    666    444  102 *
+ 5806    8.4  0.7  1.7  rnd-1_family-200#LINE/R1                  1   834   (316) + R1B_DAn          LINE/R1              4980   5805    (0)  103  
+  481   20.3  3.9  3.9  rnd-1_family-200#LINE/R1                987  1140    (10) + R1A_DAn          LINE/R1                 1    154 (5456)  104  
+ 4845   12.0  0.0  0.0  rnd-1_family-201#LTR/Gypsy                1   736     (0) + Gypsy-13_DAn-I   LTR/Gypsy            3364   4099 (1927)  105  
+18148    7.3  1.5  1.1  rnd-1_family-204#LTR/Pao                  1  2631     (0) + BEL-8_DBp-I      LTR/Pao              1286   3840 (1604)  106  
+ 2476    3.4  0.0  1.4  rnd-1_family-205#LINE/Jockey              1   299     (0) + Jockey-14_DBp    LINE/I-Jockey        3286   3580 (1062)  107  
+  336   11.8  0.0  0.0  rnd-1_family-209#RC/Helitron              3    53     (0) + Helitron-1_DT    RC/Helitron             1     51  (842)  108  
+  415    2.1  0.0  0.0  rnd-1_family-212#RC/Helitron              3    50   (345) + Helitron-1_DF    RC/Helitron          1185   1232  (101)  109  
+  707   13.9  0.6  0.6  rnd-1_family-212#RC/Helitron            109   254   (141) + Helitron-1_DF    RC/Helitron             1     78 (1255)  110  
+  888    2.6  0.0 13.6  rnd-1_family-212#RC/Helitron            261   394     (1) + Helitron-1_DF    RC/Helitron          1127   1244   (89)  110  
+12531    4.6  0.0  0.2  rnd-1_family-214#Unknown                  1  1561     (0) + Gypsy-7_DBp-I    LTR/Gypsy            3001   4558 (2043)  111  
+13868   15.3  0.6  1.2  rnd-1_family-216#LTR/Pao                  1  2656     (0) + BEL-19_DAn-I     LTR/Pao              2622   5261  (452)  112  
+16788    2.5  0.1  0.1  rnd-1_family-218#LTR/Gypsy                1  1971     (0) + Gypsy-11_DBp-I   LTR/Gypsy            2087   4056 (2002)  113  
+ 1784    0.5  7.7  0.0  rnd-1_family-22#RC/Helitron               1   209     (0) + Helitron-N1_DBp  RC/Helitron            22    246 (1233)  114  
+ 6120   14.9  0.3  0.5  rnd-1_family-220#LTR/Gypsy                1  1035     (0) + Gypsy-13_DAn-I   LTR/Gypsy            4278   5310  (716)  115  
+  302   17.1 12.9  1.8  rnd-1_family-221#DNA/hAT-hobo             1   101   (739) + Hoyak1           DNA/hAT-hobo            1    112 (2491)  116  
+ 1943    7.2  1.6  6.5  rnd-1_family-221#DNA/hAT-hobo           499   838     (2) + hAT-6_DBp        DNA/hAT-hobo         1907   2198    (0)  117  
+ 5957    3.0  0.3  1.4  rnd-1_family-222#LINE/I-Jockey            1   739     (0) + Jockey-3_DBp     LINE/I-Jockey         988   1718 (2486)  118  
+  477   24.4  3.6  3.6  rnd-1_family-223#DNA/Kolobok-Hydra      182   402   (342) C Kolobok-N1_DAn   DNA/Kolobok-Hydra   (168)    558    338  119  
+ 5117    0.7  0.0  0.0  rnd-1_family-226#LTR/Pao                  1   557    (63) + BEL-1_DBp-I      LTR/Pao              5139   5695    (0)  120  
+  479    8.1  0.0  0.0  rnd-1_family-226#LTR/Pao                558   619     (1) + BEL-1_DBp-LTR    LTR/Pao                 1     62  (236)  120  
+ 1058    5.8  0.0  0.7  rnd-1_family-227#LTR/Pao                  1   139    (32) + BEL-10_DBp-LTR   LTR/Pao                 1    138  (184)  121  
+ 2072    5.4  1.8  0.7  rnd-1_family-228#LTR/Pao                  1   282     (2) + BEL-11_DBp-LTR   LTR/Pao                10    294   (40)  122  
+  457    1.9  0.0  0.0  rnd-1_family-229#LTR/Pao                  1    52   (127) C BEL-1_DBp-I      LTR/Pao            (5048)    647    596  123  
+  422    2.1  0.0  0.0  rnd-1_family-229#LTR/Pao                 68   115    (64) C BEL-1_DBp-I      LTR/Pao            (5235)    460    413  123  
+  374   13.8  0.0  0.0  rnd-1_family-230#LINE/Jockey              1    58  (1625) + R1B_DAn          LINE/R1              5748   5805    (0)  124  
+  290   30.4  4.5  4.0  rnd-1_family-230#LINE/Jockey            212   434  (1249) + R1B_DAn          LINE/R1                 9    232 (5573)  125  
+ 2597   20.8  1.0  3.6  rnd-1_family-230#LINE/Jockey            836  1664    (19) + Jockey-3_DBp     LINE/I-Jockey         776   1580 (3129)  126  
+ 1042    2.8  1.4  1.4  rnd-1_family-231#LINE/CR1                 1   147    (80) + CR1-2_DBp        LINE/CR1             4210   4356    (0)  127  
+  620    3.0  0.7  3.7  rnd-1_family-231#LINE/CR1               133   225     (2) + Gypsy-11_DBp-I   LTR/Gypsy             234    393   (63)  128 *
+ 8131    4.7  6.0  0.2  rnd-1_family-233#LINE/Jockey            341  1416     (0) + Outcast-1_DBp    LINE/I-Jockey         989   2126   (49)  129  
+ 2032    9.9  0.0  0.0  rnd-1_family-234#LINE/Jockey              1   292     (0) + Jockey-3_DBp     LINE/I-Jockey        3126   3417  (787)  130  
+  632    1.4  0.0  0.0  rnd-1_family-237#DNA                     24    94     (0) + DNA-1_DBp        DNA                   117    187  (386)  131  
+ 3815    6.2  0.4  1.9  rnd-1_family-238#LINE/Jockey              1   530     (0) + Jockey-3_DBp     LINE/I-Jockey        3287   3808  (396)  132  
+ 5085    9.6  1.1  0.0  rnd-1_family-239#LTR/Gypsy                1   756     (0) + Gypsy-13_DBp-I   LTR/Gypsy            1764   2453 (1208)  133  
+ 4185    3.0  0.6  1.0  rnd-1_family-24#LTR/Gypsy                86   591  (3249) + Gypsy-7_DBp-LTR  LTR/Gypsy             151    654    (7)  134  
+ 1329    9.4  1.0  1.5  rnd-1_family-24#LTR/Gypsy               597   800  (3040) + Gypsy-7_DBp-LTR  LTR/Gypsy             459    661    (0)  135  
+ 5933    7.6  0.1  5.6  rnd-1_family-24#LTR/Gypsy               801  1651  (2189) + Gypsy-7_DBp-I    LTR/Gypsy               1    807 (5794)  135  
+  237   12.5  0.0  2.5  rnd-1_family-24#LTR/Gypsy              1655  1695  (2145) C Hoyak2           DNA/hAT-Ac         (2520)     41      2  136  
+  236   17.4  2.1  2.1  rnd-1_family-24#LTR/Gypsy              1665  1711  (2129) C DNAREP1_DYak     RC/Helitron           (1)    792    746  137 *
+ 3491    7.1  0.8  3.0  rnd-1_family-24#LTR/Gypsy              1978  2497  (1343) + Gypsy-7_DBp-LTR  LTR/Gypsy             151    659    (2)  138  
+ 1242    9.9  1.8  2.7  rnd-1_family-24#LTR/Gypsy              2469  2727  (1113) + Gypsy-7_DBp-I    LTR/Gypsy               1    197 (6404)  138 *
+ 5598    6.2  2.4  6.1  rnd-1_family-24#LTR/Gypsy              2728  3563   (277) + Gypsy-7_DBp-I    LTR/Gypsy               1    807 (5794)  139  
+  237   12.5  0.0  2.5  rnd-1_family-24#LTR/Gypsy              3567  3607   (233) C Hoyak2           DNA/hAT-Ac         (2520)     41      2  140  
+  236   17.4  2.1  2.1  rnd-1_family-24#LTR/Gypsy              3577  3623   (217) C DNAREP1_DYak     RC/Helitron           (1)    792    746  141 *
+ 1844   10.6  0.3 10.1  rnd-1_family-240#RC/Helitron              1   337     (9) + Helitron-2_DBp   RC/Helitron          3547   3853   (23)  142  
+ 1346    2.6  0.0  0.0  rnd-1_family-241#DNA                      1   156     (0) + DNA-1_DBp        DNA                   417    572    (1)  143  
+ 1545   24.7  0.8  0.0  rnd-1_family-244#LTR/Gypsy                3   367   (461) + Gypsy-7_DBi-I    LTR/Gypsy            2004   2371 (4416)  144 *
+ 1698   19.0  0.3  1.0  rnd-1_family-244#LTR/Gypsy              351   663   (165) + Gypsy-1_DSe-I    LTR/Gypsy            1622   1932 (4496)  145  
+  910    9.5  1.2  2.5  rnd-1_family-244#LTR/Gypsy              665   826     (2) + Gypsy-1_DSe-I    LTR/Gypsy            2784   2943 (3083)  145  
+  580    0.0  0.0  0.0  rnd-1_family-247#LINE/I-Jockey            1    63    (13) + Jockey-14_DBp    LINE/I-Jockey         914    976 (3666)  146  
+ 4199   21.5  0.4  0.3  rnd-1_family-254#LTR/Gypsy                1   919     (2) + Gypsy-7_DFi-I    LTR/Gypsy            4328   5247 (1636)  147  
+  687    3.6  0.0  0.0  rnd-1_family-255#LINE/R1-LOA              1    84     (0) + Loa-1_DBp        LINE/R1-LOA          1300   1383 (4015)  148  
+ 2630   14.4  1.4  0.7  rnd-1_family-256#LINE/R1                  1   551     (0) + R1-1_DBp         LINE/R1              2210   2764  (835)  149  
+  746   19.6  0.0  0.6  rnd-1_family-258#DNA/CMC-Transib          1   159   (180) C Transib-N1_DM    DNA/CMC-Transib       (0)    514    357  150  
+  234   30.4  4.5  3.8  rnd-1_family-258#DNA/CMC-Transib        160   311    (28) + Transib-4_DBp    DNA/CMC-Transib         1    313 (2733)  151 *
+  290   18.1  2.8  0.0  rnd-1_family-258#DNA/CMC-Transib        268   339     (0) C Transib-N1_DM    DNA/CMC-Transib     (252)    262    189  150  
+ 4976    1.6  0.2  1.5  rnd-1_family-259#DNA/hAT-Ac               1   623   (156) C hAT-N1_DBp       DNA/hAT-Ac            (0)    856    242  152  
+ 1102    0.0  0.0  0.8  rnd-1_family-259#DNA/hAT-Ac             647   779     (0) C hAT-N1_DBp       DNA/hAT-Ac          (724)    132      1  152  
+ 1359    0.7  0.0  0.0  rnd-1_family-260#DNA                      1   153     (0) + DNA-1_DBp        DNA                   147    299  (274)  153  
+  226    8.8  0.0  0.0  rnd-1_family-262#RC/Helitron            111   144   (150) + Helitron-2_DBp   RC/Helitron           221    254 (3622)  154 *
+  731    3.1  1.0  4.1  rnd-1_family-262#RC/Helitron            142   242    (52) + Helitron-2_DBp   RC/Helitron           424    521 (3355)  154  
+  688    0.0  0.0  0.0  rnd-1_family-262#RC/Helitron            218   294     (0) + Helitron-N2_DBp  RC/Helitron           417    493 (1377)  155 *
+ 4900   13.7  1.1  2.6  rnd-1_family-263#LTR/Gypsy                1   826     (0) + Gypsy-13_DAn-I   LTR/Gypsy             667   1480 (4546)  156  
+ 3327    5.3  0.5  1.1  rnd-1_family-264#LTR/Pao                  1   437     (0) + BEL-6_DBp-I      LTR/Pao              2340   2773 (2838)  157  
+11194    2.4  0.0  0.9  rnd-1_family-265#LTR/Gypsy               69  1419     (0) + Gypsy-11_DBp-I   LTR/Gypsy            1008   2346 (3712)  158  
+ 8541   17.1  1.3  0.7  rnd-1_family-267#LTR/Pao                  3  1815     (0) + BEL-19_DAn-I     LTR/Pao              1751   3574 (2139)  159  
+ 5556    0.8  0.0  0.0  rnd-1_family-268#LTR/Pao                  1   605     (0) + BEL-1_DBp-I      LTR/Pao              4706   5310  (385)  160  
+ 1190    5.4  0.6  2.4  rnd-1_family-27#RC/Helitron               1   171   (543) + Helitron-N1_DBp  RC/Helitron          1271   1438   (41)  161 *
+ 4650    2.5  0.0  0.2  rnd-1_family-27#RC/Helitron             166   713     (1) C Transib-3_DF     DNA/CMC-Transib     (482)    547      1  162  
+ 8076   11.3  0.0  0.1  rnd-1_family-272#LTR/Pao                  1  1262   (268) + BEL-19_DAn-I     LTR/Pao              4453   5713    (0)  163  
+  691   17.9  9.7  5.0  rnd-1_family-272#LTR/Pao               1263  1509    (21) + BEL-19_DAn-LTR   LTR/Pao                 1    258   (89)  163  
+ 1478    9.1  4.6  0.0  rnd-1_family-275#LTR/Gypsy                1   267     (1) + Gypsy-29_DEl-I   LTR/Gypsy            3002   3235  (678)  164  
+ 3406   16.1  0.1  0.0  rnd-1_family-277#LTR/Gypsy                1   689     (8) + Gypsy-17_DAn-I   LTR/Gypsy            3538   4227 (1329)  165  
+ 2301    0.4  0.0  0.0  rnd-1_family-279#LINE/I-Jockey            1   251     (0) + Jockey-3_DBp     LINE/I-Jockey        3165   3415  (789)  166  
+ 2303    3.9  0.3  0.7  rnd-1_family-283#DNA/hAT-Pegasus        546   855     (2) C REP-3_DF         Unknown               (0)    309      1  167  
+ 5092    7.1  0.7  5.0  rnd-1_family-285#DNA/hAT-hobo             1   814     (0) + hAT-6_DBp        DNA/hAT-hobo         1451   2603    (0)  168  
+ 7389   19.9  0.1  1.9  rnd-1_family-288#LTR/Gypsy                1  1518    (16) + Gypsy-31_DAn-I   LTR/Gypsy            1141   2630 (2720)  169  
+ 1843   11.6  0.0  0.0  rnd-1_family-289#LTR/Gypsy                1   301     (0) + Gypsy-17_DAn-I   LTR/Gypsy            3134   3434 (2122)  170  
+ 2573   18.4  0.7  0.9  rnd-1_family-290#LTR/Gypsy                1   456     (0) + Gypsy-31_DEl-I   LTR/Gypsy            5220   5674 (1152)  171  
+ 2598   12.0  7.9  0.0  rnd-1_family-291#LTR/Gypsy                1   441    (71) + Gypsy-13_DTa-I   LTR/Gypsy            1823   2298 (2157)  172  
+  543    9.2  0.0  0.0  rnd-1_family-291#LTR/Gypsy              437   512     (0) + Gypsy-13_DTa-I   LTR/Gypsy            3125   3200  (713)  172 *
+  461   17.8  0.0  0.0  rnd-1_family-293#DNA/CMC-Transib          7    96    (32) + Transib-N1_DM    DNA/CMC-Transib         1     90  (424)  173  
+  330   20.6  8.2  4.8  rnd-1_family-293#DNA/CMC-Transib         97   128     (0) C TransibN1_DP     DNA/CMC-Transib       (0)   1194   1069  174  
+ 4685    8.6  0.5  0.9  rnd-1_family-295#LINE/R1                  1   741     (0) + R1-4_DBp         LINE/R1              4223   4960   (32)  175  
+  327   19.7  3.8  3.8  rnd-1_family-3#DNA/CMC-Transib          130   142  (2212) C TransibN1_DP     DNA/CMC-Transib    (1021)    173     95  176  
+  349   19.7  0.0  0.0  rnd-1_family-3#DNA/CMC-Transib          143   208  (2146) + Transib-N1_DM    DNA/CMC-Transib       356    421   (93)  177  
+  577   10.8  0.0  0.0  rnd-1_family-3#DNA/CMC-Transib          274   356  (1998) C Helitron-N1_DAn  RC/Helitron         (769)     84      2  178  
+  325   20.0  2.9  0.0  rnd-1_family-3#DNA/CMC-Transib          360   429  (1925) + hAT-N1B_DBp      DNA/hAT-Ac            871    942  (674)  179  
+  333   23.6  1.8  4.6  rnd-1_family-3#DNA/CMC-Transib          596   706  (1648) + Transib-4_DAn    DNA/CMC-Transib        63    170 (2616)  180  
+  753   24.9  1.0  1.0  rnd-1_family-3#DNA/CMC-Transib          722   924  (1430) + Transib-4_DAn    DNA/CMC-Transib       816   1018 (1768)  181  
+ 1871   22.2  6.1  3.7  rnd-1_family-3#DNA/CMC-Transib          944  1756   (598) + Transib-6_DRh    DNA/CMC-Transib      1137   1648  (218)  182  
+  872   23.1  4.2  2.5  rnd-1_family-3#DNA/CMC-Transib         1757  2050   (304) C Transib-3_DF     DNA/CMC-Transib       (0)   1029    859  183 *
+ 3579    3.3  0.2  0.2  rnd-1_family-3#DNA/CMC-Transib         1817  2239   (115) C hAT-N1B_DBp      DNA/hAT-Ac          (340)   1276    854  184  
+  538   14.3  2.2  0.0  rnd-1_family-3#DNA/CMC-Transib         2161  2251   (103) + Helitron-N1_DAn  RC/Helitron           249    341  (512)  185 *
+  822    2.4  0.4  0.4  rnd-1_family-3#DNA/CMC-Transib         2234  2354     (0) C Transib-1_DEl    DNA/CMC-Transib    (2718)    550    423  186  
+  562   12.6  0.0  0.0  rnd-1_family-30#RC/Helitron               1    87     (0) + Helitron-1_DT    RC/Helitron            17    103  (790)  187  
+ 1083    3.6  0.0  0.0  rnd-1_family-301#LINE/Jockey              1   137     (0) + Jockey-3_DBp     LINE/I-Jockey        3024   3160 (1044)  188  
+10012   18.3  1.2  1.3  rnd-1_family-303#LINE/R1                  1  2109     (0) + R1-1_DAn         LINE/R1               506   2612 (2482)  189  
+ 2558   13.1  0.0  0.0  rnd-1_family-307#LTR/Gypsy                1   404     (0) + Gypsy-13_DAn-I   LTR/Gypsy            3852   4255 (1771)  190  
+ 1471   24.7  3.5  3.9  rnd-1_family-309#Unknown                 11   604    (16) + Transib-4_DAn    DNA/CMC-Transib         1    592 (2194)  191  
+ 1157    4.9  0.0  0.0  rnd-1_family-310#RC/Helitron             25   166   (472) + Helitron-1_DF    RC/Helitron           219    360  (973)  192  
+ 1587   17.0  0.6  3.6  rnd-1_family-310#RC/Helitron            297   637     (1) + Hoyak1           DNA/hAT-hobo          374    704 (1899)  193  
+10918    0.7  0.0  0.0  rnd-1_family-311#LTR/Gypsy                1  1246     (0) + Gypsy-10_DBp-I   LTR/Gypsy            4476   5721  (436)  194  
+10333    9.2  0.5  6.9  rnd-1_family-312#LTR/Copia                1  1749   (196) + Copia-2_DBp-I    LTR/Copia            2093   3737    (0)  195  
+ 1207    6.2  3.9  2.3  rnd-1_family-312#LTR/Copia             1750  1945     (0) + Copia-2_DBp-LTR  LTR/Copia               1    238    (0)  195  
+10097    4.0  0.0  0.0  rnd-1_family-313#LTR/Gypsy                3  1237     (0) + Gypsy-7_DBp-I    LTR/Gypsy            4051   5285 (1316)  196  
+  241   12.7  2.8 32.9  rnd-1_family-314#DNA/hAT-Pegasus        113   156   (158) C Helitron-1_DEu   RC/Helitron        (5822)   2314   2295  197  
+ 1271    6.3  0.0  0.0  rnd-1_family-314#DNA/hAT-Pegasus        157   314     (0) C hAT-9_DBp        DNA/hAT-Pegasus       (0)   2827   2670  198  
+ 2574    7.2  0.9  0.0  rnd-1_family-316#DNA/CMC-Transib          1   349   (571) + Transib-4_DBp    DNA/CMC-Transib       438    789 (2257)  199 *
+ 3169   14.3  0.3  2.5  rnd-1_family-316#DNA/CMC-Transib        348   914     (6) + Transib-4_DBp    DNA/CMC-Transib      2141   2695  (351)  200  
+  422    2.1  0.0  0.0  rnd-1_family-318#LTR/Pao                 15    62     (0) + BEL-1_DBp-I      LTR/Pao               413    460 (5235)  201  
+  814   25.6  3.1  2.8  rnd-1_family-321#DNA/TcMar-Tc1           18   306    (44) + Mariner-8_DBp    DNA/TcMar-Tc1         802   1091  (138)  202  
+ 1756    4.7  0.0  0.0  rnd-1_family-322#DNA/hAT-Pegasus          1   211     (0) C hAT-9_DBp        DNA/hAT-Pegasus    (2577)    250     40  203  
+ 1327    3.2  0.0  0.0  rnd-1_family-323#LINE/CR1                 1   157     (0) + CR1-1_DBp        LINE/CR1             1715   1871 (2585)  204  
+  364   28.3  1.1  1.1  rnd-1_family-324#DNA/P                    7   188   (170) + KBOC_DB          DNA/P                2745   2926  (374)  205  
+ 4533   10.9  0.6  0.3  rnd-1_family-326#LTR/Gypsy                1   718     (5) + Gypsy-37_DAn-I   LTR/Gypsy            5023   5742  (207)  206  
+ 2339   12.8  0.0  0.0  rnd-1_family-329#LTR/Gypsy                1   405     (0) + Gypsy-15_DBp-I   LTR/Gypsy            4127   4531  (554)  207  
+  748    1.1 12.8  0.0  rnd-1_family-33#RC/Helitron               1    94     (0) C hAT-N1B_DBp      DNA/hAT-Ac          (228)   1388   1283  208  
+ 1846   14.5  0.0  0.0  rnd-1_family-330#LINE/R1                  1   282   (496) + R1B_DAn          LINE/R1              1607   1888 (3917)  209  
+  379   15.6  0.0  0.0  rnd-1_family-330#LINE/R1                282   345   (433) + R1B_DAn          LINE/R1              4876   4939  (866)  209 *
+ 2436    9.3  0.3  0.3  rnd-1_family-330#LINE/R1                444   778     (0) + R1B_DAn          LINE/R1              4971   5305  (500)  209  
+  460    9.2  0.6  2.0  rnd-1_family-331#LTR/Gypsy                2    76     (0) + Gypsy-23_DAn-I   LTR/Gypsy            4815   4876  (195)  210  
+ 2551    4.4  0.0  0.6  rnd-1_family-332#LTR/Pao                  1   323     (0) + BEL-8_DBp-I      LTR/Pao              4426   4746  (698)  211  
+  613    9.9  0.7  0.7  rnd-1_family-334#LINE/I-Jockey            1   132     (0) + Jockey-3_DBp     LINE/I-Jockey        3339   3412  (792)  212  
+  998    9.2  5.7  1.6  rnd-1_family-335#LTR/Pao                 94   269   (461) + BEL-22_DAn-I     LTR/Pao                97    279 (3406)  213  
+  225   19.1 12.2  3.8  rnd-1_family-335#LTR/Pao                403   500   (230) + BEL-10_DBp-I     LTR/Pao               102    207 (3438)  214  
+  298    8.0  4.0  0.0  rnd-1_family-338#RC/Helitron             56   105    (34) + Helitron-N2_DBp  RC/Helitron             1     52 (1818)  215  
+  544   14.3  0.0  0.0  rnd-1_family-340#LTR/Gypsy                4    87   (109) + Gypsy-33_DEl-I   LTR/Gypsy            6311   6394  (541)  216 *
+ 1106    1.6  0.0  0.0  rnd-1_family-340#LTR/Gypsy               71   196     (0) + Gypsy-23_DBp-I   LTR/Gypsy               7    132 (5344)  217  
+ 1146   27.7  0.9  1.6  rnd-1_family-344#LTR/Gypsy                2   324     (1) + Gypsy-7_DFi-I    LTR/Gypsy            1817   2137 (4746)  218  
+  257   21.4  7.0  4.5  rnd-1_family-345#DNA/CMC-Transib          1   173     (1) + Transib-4_DBp    DNA/CMC-Transib      2794   2936  (110)  219  
+ 1277    2.1  0.0  0.0  rnd-1_family-347#LTR/Pao                  1   142     (0) + BEL-1_DBp-I      LTR/Pao              4526   4667 (1028)  220  
+ 5189   16.2  1.4  0.5  rnd-1_family-348#LTR/Gypsy                1   925     (0) + Gypsy-1_DBi-I    LTR/Gypsy             990   1922 (3529)  221  
+ 2220    0.0  0.0  0.0  rnd-1_family-349#LINE/I-Jockey            1   244     (0) + Jockey-11B_DBp   LINE/I-Jockey        4083   4326    (6)  222  
+ 3092    8.4  0.2  0.2  rnd-1_family-350#LTR/Gypsy                1   451     (0) + Gypsy-17_DBp-I   LTR/Gypsy            1929   2379  (786)  223  
+ 2089    3.0  2.2  1.5  rnd-1_family-351#RC/Helitron              1   269     (0) + Helitron-2_DBp   RC/Helitron             4    274 (3602)  224  
+ 1744    5.1  1.4  5.3  rnd-1_family-353#Unknown                 99   390   (101) + REP-3_DF         Unknown                29    309    (0)  225  
+ 2645    9.7  2.6  1.7  rnd-1_family-356#LTR/Gypsy                1   513     (1) + Gypsy-11_DBp-I   LTR/Gypsy             217    996 (5062)  226  
+ 8820   10.2  0.2  0.0  rnd-1_family-357#LTR/Gypsy                1  1286     (0) + Gypsy-5_DBp-I    LTR/Gypsy            1952   3240 (1329)  227  
+ 1599   13.8  0.4  0.7  rnd-1_family-358#LTR/Gypsy                1   278     (0) + Gypsy-27_DBp-I   LTR/Gypsy            3120   3396 (3132)  228  
+ 4449    4.2  1.6  0.7  rnd-1_family-359#LINE/I-Jockey            4   559     (0) + Jockey-2_DEu     LINE/I-Jockey           3    563 (4134)  229  
+  309    0.0  0.0  0.0  rnd-1_family-36#RC/Helitron              79   114     (0) + Helitron-N1_DAn  RC/Helitron             1     36  (817)  230  
+ 3556    6.0  0.0  0.0  rnd-1_family-360#LTR/Gypsy                1   480     (0) + Gypsy-24_DBp-I   LTR/Gypsy            2011   2490 (2519)  231  
+ 3772    7.8  0.6  2.1  rnd-1_family-362#LINE/R1                  1   539     (5) + R1-3_DEu         LINE/R1              2344   2874    (2)  232  
+ 3218   12.4  0.7  0.0  rnd-1_family-364#LTR/Gypsy                1   542     (0) + Gypsy-6_DBp-I    LTR/Gypsy            1263   1808 (2755)  233  
+  843   29.0  4.2  6.2  rnd-1_family-366#LTR/Gypsy                1   453    (52) + Gypsy-7_DBi-LTR  LTR/Gypsy               1    266   (93)  234  
+ 7339   12.1  1.2  5.4  rnd-1_family-367#LTR/Copia                1  1774     (0) + Copia-1_DBp-I    LTR/Copia            1928   3648  (369)  235  
+ 3011    8.1  0.9  4.4  rnd-1_family-372#LTR/Pao                  1   552   (163) + BEL-8_DBp-I      LTR/Pao              4854   5393   (51)  236  
+ 1416    0.6  0.6  0.0  rnd-1_family-372#LTR/Pao                553   713     (2) + BEL-7_DBp-LTR    LTR/Pao                 1    162  (136)  237  
+ 1288   26.8  1.6  1.1  rnd-1_family-374#DNA/TcMar-Tc1            6   436    (51) + Mariner-11_DBp   DNA/TcMar-Tc1         897   1329  (314)  238  
+  816   27.4  0.9  4.2  rnd-1_family-374#DNA/TcMar-Tc1          164   483     (4) C Mariner-15_DF    DNA/TcMar-Tc1      (1061)    589    280  239 *
+ 2653   14.5  0.4  0.2  rnd-1_family-377#LTR/Gypsy                1   457     (0) + Gypsy-13_DTa-I   LTR/Gypsy            1288   1745 (2710)  240  
+  573    1.6  0.0  0.0  rnd-1_family-378#LTR/Pao                  1    63     (0) + BEL-1_DBp-I      LTR/Pao              4501   4563 (1132)  241  
+ 6540    9.5  0.1  0.3  rnd-1_family-379#DNA/TcMar-Tc1            1   929     (3) + Mariner-5_DBp    DNA/TcMar-Tc1         712   1638    (0)  242  
+ 1179   10.3  0.0  2.2  rnd-1_family-380#LTR/Pao                  1   189     (0) + BEL-1_DBp-I      LTR/Pao              5066   5250  (445)  243  
+ 1967   14.8  4.2  1.2  rnd-1_family-381#LINE/I-Jockey            1   410     (0) + Jockey-1_DBp     LINE/I-Jockey        2668   3089  (717)  244  
+  632    2.4 14.1  0.0  rnd-1_family-383#LTR/Pao                  3    87     (0) + BEL-8_DBp-LTR    LTR/Pao               176    272  (106)  245  
+ 2660    4.1 15.3  0.0  rnd-1_family-385#LINE/Jockey              1   366   (206) + Outcast-1_DBp    LINE/I-Jockey        1749   2170    (5)  246  
+  617   21.1  0.6  6.8  rnd-1_family-385#LINE/Jockey            342   514    (58) + Outcast-1_DBi    LINE/I-Jockey        1320   1482 (1390)  247 *
+ 3726   13.9  0.6  0.2  rnd-1_family-386#DNA/TcMar-Tc1            6   635     (0) + Mariner-5_DEu    DNA/TcMar-Tc1         645   1302  (337)  248  
+  993    2.6  0.0  0.0  rnd-1_family-389#LINE/CR1                 3   118     (0) C CR1-1_DBp        LINE/CR1           (3365)   1091    976  249  
+  871   15.1 25.4  6.5  rnd-1_family-392#LTR/Gypsy                1   327   (152) + Gypsy-39_DAn-I   LTR/Gypsy            4843   5233  (399)  250  
+  359   11.3  0.0  7.0  rnd-1_family-392#LTR/Gypsy              331   406    (73) + Gypsy-39_DAn-I   LTR/Gypsy            5179   5249  (383)  250 *
+  405    5.2  0.0  0.0  rnd-1_family-392#LTR/Gypsy              401   458    (21) + Gypsy-39_DAn-I   LTR/Gypsy            5179   5236  (396)  250  
+ 4790    2.1  0.0  0.0  rnd-1_family-393#LTR/Copia                1   535   (145) + Copia-1_DBp-I    LTR/Copia            3386   3920    (0)  251  
+ 1251    2.1  0.0  0.0  rnd-1_family-393#LTR/Copia              536   680     (0) + Copia-1_DBp-LTR  LTR/Copia               1    145    (7)  251  
+ 5944   13.4  1.3  1.5  rnd-1_family-394#LTR/Copia                1  1030     (2) + Copia-2_DAn-I    LTR/Copia            1039   2066 (1912)  252  
+  521    7.9  0.0  1.3  rnd-1_family-4#RC/Helitron                1    77   (966) + Helitron-N1_DBp  RC/Helitron           295    370 (1109)  253  
+  387    7.0 10.7  5.1  rnd-1_family-4#RC/Helitron               87   161   (882) + Helitron-N1_DBp  RC/Helitron           277    355 (1124)  254  
+ 5070    1.8  2.1  0.0  rnd-1_family-4#RC/Helitron              473  1043     (0) + Helitron-N1_DBp  RC/Helitron           674   1256  (223)  254  
+  226   16.3  0.0  0.0  rnd-1_family-40#RC/Helitron             112   160   (153) + XDMR             Unknown               308    356    (5)  255 *
+  242   12.3  5.0  5.0  rnd-1_family-40#RC/Helitron             127   186   (127) C SAR_DM           Satellite          (1079)    393    334  256  
+ 4501    0.2  0.0  0.0  rnd-1_family-400#LTR/Gypsy                2   497     (0) + Gypsy-10_DBp-I   LTR/Gypsy            1008   1503 (4654)  257  
+ 1154    3.6  0.0  0.0  rnd-1_family-401#RC/Helitron              1   138     (0) + Helitron-1_DBp   RC/Helitron           922   1059 (3996)  258  
+ 6327   14.5  0.2  0.4  rnd-1_family-402#LTR/Gypsy                1  1110   (218) + Gypsy-1_DBp-I    LTR/Gypsy            3505   4611   (81)  259  
+ 1934    0.9  0.0  0.0  rnd-1_family-402#LTR/Gypsy             1111  1327     (1) + Gypsy-1_DBp-LTR  LTR/Gypsy               1    217    (0)  260  
+ 2147    9.9  0.3  0.0  rnd-1_family-403#LTR/Gypsy                1   333     (0) + Gypsy-17_DBp-I   LTR/Gypsy            1264   1597 (1568)  261  
+ 2188    9.1  0.3  1.2  rnd-1_family-404#DNA/CMC-Transib          1   334     (0) + Transib-1_DEl    DNA/CMC-Transib         8    338 (1146)  262  
+ 6650    0.3  0.0  0.0  rnd-1_family-405#DNA/TcMar-Mariner        1   713     (0) + Mariner-13_DBp   DNA/TcMar-Mariner     511   1223   (67)  263  
+ 1034    0.9  0.0  0.0  rnd-1_family-408#LINE/Jockey              1   115     (0) + Jockey-3_DBp     LINE/I-Jockey        1995   2109 (2095)  264  
+  784   27.1  1.6  1.6  rnd-1_family-409#DNA/TcMar-Mariner      410   679     (0) + Mariner_DMA      DNA/TcMar-Mariner     610    840  (446)  265  
+ 2228   20.9  0.6  1.3  rnd-1_family-410#LTR/Gypsy               10   483    (20) + Gypsy-39_DAn-LTR LTR/Gypsy               1    471  (236)  266  
+ 5082    7.3  3.8  0.0  rnd-1_family-411#LTR/Gypsy                1   712    (84) + Gypsy-8_DBi-I    LTR/Gypsy            2017   2755 (1665)  267  
+  536    6.1  0.0  0.0  rnd-1_family-411#LTR/Gypsy              730   795     (1) + Gypsy-8_DBi-I    LTR/Gypsy            2823   2888 (1532)  267  
+ 2321    6.0  0.0  0.9  rnd-1_family-412#LINE/R1                  1   336     (8) + R1-2_DBp         LINE/R1              2314   2646 (2968)  268  
+  313   14.8  3.2  1.6  rnd-1_family-415#LINE/Jockey            755   816  (1249) + Jockey-3_DAn     LINE/I-Jockey        7453   7515  (161)  269  
+ 1819    0.0  0.0  0.0  rnd-1_family-415#LINE/Jockey           1822  2020    (45) + Jockey-3_DBp     LINE/I-Jockey         923   1121 (3083)  270  
+ 2547    4.2  0.8  5.9  rnd-1_family-416#LTR/Gypsy                1   357     (0) + Gypsy-13_DBp-I   LTR/Gypsy            2410   2749  (912)  271  
+ 6393    2.0  0.3  0.1  rnd-1_family-417#LTR/Gypsy                2   738     (0) + Gypsy-23_DBp-I   LTR/Gypsy               2    739 (4737)  272  
+  225   15.4  7.5  1.8  rnd-1_family-419#LTR/Gypsy              411   463   (151) + Gypsy-31_DEl-I   LTR/Gypsy            2686   2741 (4085)  273  
+ 3787    6.5  0.0  0.4  rnd-1_family-42#DNA/CMC-Transib           1   492   (724) + Transib-6_DBp    DNA/CMC-Transib       207    696 (2311)  274  
+ 4475   10.4  3.4  1.8  rnd-1_family-42#DNA/CMC-Transib         502  1214     (2) + Transib-6_DBp    DNA/CMC-Transib      2284   3007    (0)  275  
+ 6765   11.6  0.3  2.1  rnd-1_family-420#LTR/Gypsy                3  1147     (0) + Gypsy-17_DAn-I   LTR/Gypsy             643   1767 (3789)  276  
+ 3555    8.0  0.2  0.0  rnd-1_family-421#LTR/Gypsy                3   489     (2) + Gypsy-8_DBi-I    LTR/Gypsy            1144   1631 (2789)  277  
+ 1777    7.5  0.5  1.1  rnd-1_family-424#LTR/Gypsy                1   263     (0) + Gypsy-17_DBp-LTR LTR/Gypsy            1638   2052    (0)  278  
+ 2159    3.3  1.8  0.4  rnd-1_family-425#LTR/Gypsy               12   287     (0) + Gypsy-11_DBp-I   LTR/Gypsy             441    720 (5338)  279  
+ 5909   18.6  2.7  2.0  rnd-1_family-426#LINE/R1                 56  1447    (81) + R1B_DAn          LINE/R1               476   1888 (3917)  280  
+  379   15.6  0.0  0.0  rnd-1_family-426#LINE/R1               1447  1510    (18) + R1B_DAn          LINE/R1              4876   4939  (866)  280 *
+ 3121    0.0  0.0  0.0  rnd-1_family-434#LTR/Pao                  1   331     (0) + BEL-11_DBp-I     LTR/Pao              3610   3940 (1961)  281  
+  254   18.9  1.9  0.0  rnd-1_family-436#LTR/Gypsy                1    53  (1022) + Gypsy-31_DAn-I   LTR/Gypsy             435    488 (4862)  282  
+ 4412   20.4  0.9  3.2  rnd-1_family-436#LTR/Gypsy              101  1075     (0) + Gypsy-31_DAn-I   LTR/Gypsy             500   1452 (3898)  282  
+ 4683   21.7  7.2  0.3  rnd-1_family-438#LTR/Gypsy               20  1033    (45) + Gypsy-7_DBi-I    LTR/Gypsy            5704   6787    (0)  283  
+  256   20.3  5.9  5.9  rnd-1_family-438#LTR/Gypsy             1011  1078     (0) + Gypsy-31_DEl-LTR LTR/Gypsy               2     69  (284)  283 *
+ 1238    0.0  0.0  0.0  rnd-1_family-439#LTR/Copia                1   134  (1505) + Copia-2_DBp-LTR  LTR/Copia             105    238    (0)  284  
+13753    1.2  0.0  0.0  rnd-1_family-439#LTR/Copia              135  1639     (0) + Copia-2_DBp-I    LTR/Copia               1   1505 (2232)  284  
+  259   16.1  6.2  4.5  rnd-1_family-44#Unknown                 133   197   (209) + SAR_DM           Satellite             335    400 (1072)  285  
+  920   16.1  4.4  5.9  rnd-1_family-440#LTR/Gypsy              170   507     (0) + Gypsy-17_DBp-LTR LTR/Gypsy            1697   2052    (0)  286  
+ 1653    8.1  7.7  0.4  rnd-1_family-445#LTR/Pao                  1   261    (88) C BEL-5_DEu-LTR    LTR/Pao              (56)    280      1  287  
+  548   10.3  0.0  1.1  rnd-1_family-445#LTR/Pao                262   349     (0) C BEL-5_DEu-I      LTR/Pao               (0)   5000   4914  287  
+ 2208    5.7  1.5  2.5  rnd-1_family-446#LTR/Pao                  1   322    (16) + BEL-11_DBp-I     LTR/Pao               182    462 (5642)  288  
+ 4596   16.8  2.5  2.1  rnd-1_family-447#LTR/Pao                  1   933     (0) + BEL-7_DBp-I      LTR/Pao              2298   3233 (2148)  289  
+ 3301    5.3  0.5  0.9  rnd-1_family-448#LINE/R1                  1   437     (0) + R1-3_DBp         LINE/R1              4282   4716   (15)  290  
+ 2586    9.9  0.0  0.5  rnd-1_family-449#LINE/I                   1   427     (0) + I-6_DBp          LINE/I                750   1174 (2002)  291  
+  681    8.6  0.0  0.0  rnd-1_family-45#RC/Helitron               2    94     (0) + Helitron-N1_DAn  RC/Helitron            37    129  (724)  292  
+ 5285    8.0  0.2  0.1  rnd-1_family-450#LINE/I                   1   840     (0) + I-6_DBp          LINE/I               1165   2005 (1171)  293  
+ 1285   10.8  0.1  0.5  rnd-1_family-452#LTR/Gypsy                1   241   (131) + Gypsy-24_DBp-I   LTR/Gypsy            2043   2248 (2761)  294  
+ 2587   14.3  0.4  1.0  rnd-1_family-453#LTR/Gypsy                1   494     (0) + Gypsy-8_DBi-I    LTR/Gypsy            1816   2306 (2114)  295  
+ 4199    0.4  2.3  0.0  rnd-1_family-454#LTR/Gypsy                1   475   (157) + Gypsy-24_DBp-I   LTR/Gypsy            4524   5009    (0)  296  
+ 5573    1.6  0.0  1.4  rnd-1_family-458#LINE/I-Jockey            1   655     (0) + Jockey-3_DBp     LINE/I-Jockey          17    662 (3542)  297  
+  295    0.0  0.0  0.0  rnd-1_family-459#LTR/Copia                1    34  (1689) + Copia-1_DBp-LTR  LTR/Copia             119    152    (0)  298  
+  279   13.1  0.0  2.2  rnd-1_family-459#LTR/Copia                4    50  (1673) + Copia-4_DWil-LTR LTR/Copia             155    200    (1)  299 *
+15119    1.0  0.0  0.4  rnd-1_family-459#LTR/Copia               35  1723     (0) + Copia-1_DBp-I    LTR/Copia               1   1683 (2237)  299  
+  303    4.2  2.1  0.0  rnd-1_family-46#Satellite                 6    53     (0) + MSAT-1_DBp       Satellite              34     82   (61)  300  
+  689   27.0  3.5  3.7  rnd-1_family-461#DNA/P                   27   430     (0) + P_DB             DNA/P                2332   2734  (201)  301  
+  584    4.1  0.0  0.0  rnd-1_family-462#LTR/Pao                  1    73   (343) + BEL-7_DBp-LTR    LTR/Pao               226    298    (0)  302  
+ 3034    1.5  0.0  0.0  rnd-1_family-462#LTR/Pao                 74   416     (0) + BEL-7_DBp-I      LTR/Pao                 1    343 (5038)  302  
+  353   29.2  4.2  2.3  rnd-1_family-465#DNA/CMC-Transib        320   499   (425) + Transib-3_DBp    DNA/CMC-Transib       318    501 (2305)  303  
+  303    2.4  0.0  2.4  rnd-1_family-465#DNA/CMC-Transib        500   541   (383) + Transib-5_DBp    DNA/CMC-Transib         3     43 (2258)  304  
+ 1655   13.1  3.2  5.2  rnd-1_family-465#DNA/CMC-Transib        543   923     (1) + Transib-5_DBp    DNA/CMC-Transib      2009   2301    (0)  305  
+ 3931    9.3  0.0  0.2  rnd-1_family-466#DNA/TcMar-Mariner        1   550     (3) + Mariner-14_DBp   DNA/TcMar-Mariner     739   1287    (0)  306  
+ 1819    0.0  0.0  0.0  rnd-1_family-468#LINE/I-Jockey          470   668  (1281) + Jockey-3_DBp     LINE/I-Jockey         923   1121 (3083)  307  
+ 4152   16.0  0.0  0.5  rnd-1_family-469#LTR/Pao                  1   784     (0) + NINJA_I-int      LTR/Pao              2238   3017 (2994)  308  
+ 2416    4.2  1.0  1.6  rnd-1_family-47#LTR/Gypsy                 1   311  (1128) + Gypsy-7_DBp-LTR  LTR/Gypsy             346    654    (7)  309  
+ 1346    8.5  1.0  1.5  rnd-1_family-47#LTR/Gypsy               317   520   (919) + Gypsy-7_DBp-LTR  LTR/Gypsy             459    661    (0)  310  
+ 3853    5.1  1.9  7.7  rnd-1_family-47#LTR/Gypsy               521  1439     (0) + Gypsy-7_DBp-I    LTR/Gypsy               1    807 (5794)  310  
+ 2985    6.9  0.2  0.2  rnd-1_family-470#LTR/Gypsy                1   405     (0) + Gypsy-23_DBp-I   LTR/Gypsy            2633   3037 (2439)  311  
+ 1487    6.0  0.5  0.0  rnd-1_family-472#LINE/R1                  1   200     (0) + R1-4_DBp         LINE/R1              4082   4282  (710)  312  
+ 5175    5.1  0.0  0.1  rnd-1_family-474#LINE/I                   1   690     (0) + I-6_DBp          LINE/I               2260   2948  (228)  313  
+ 1423   14.0  0.4  0.4  rnd-1_family-475#LTR/Gypsy                3   253     (2) + Gypsy-9_DFi-I    LTR/Gypsy            3063   3313 (1334)  314  
+  694   11.7  0.0  0.0  rnd-1_family-476#LTR/Gypsy                2   104   (371) + Gypsy-13_DTa-I   LTR/Gypsy            3645   3747  (708)  315 *
+ 2039   11.6  1.3  5.4  rnd-1_family-476#LTR/Gypsy               92   475     (0) + Gypsy-13_DTa-I   LTR/Gypsy            3690   4058  (397)  315  
+ 5617    0.5  0.0  0.0  rnd-1_family-477#LINE/I-Jockey            1   606     (0) + Jockey-4_DBp     LINE/I-Jockey        3268   3873    (5)  316  
+ 1201   20.5  2.3  2.9  rnd-1_family-479#LTR/Gypsy                1   347     (2) + Gypsy-3_DAn-LTR  LTR/Gypsy            1707   2051    (0)  317  
+ 4923   13.4  1.2  3.7  rnd-1_family-481#LTR/Pao                  1   982     (0) + BEL-5_DAn-LTR    LTR/Pao                58   1111   (81)  318  
+ 2686   12.2  1.9  3.2  rnd-1_family-482#LINE/R1                  1   567     (0) + R1-3_DBp         LINE/R1              1017   1576 (3155)  319  
+  887   28.5  2.8  3.1  rnd-1_family-483#LTR/Pao                  1   387    (13) + BEL-6_DBp-I      LTR/Pao              5076   5461  (150)  320  
+ 9693    0.8  0.0  0.0  rnd-1_family-485#DNA/TcMar-Tc1            3  1046     (0) + Mariner-2_DBp    DNA/TcMar-Tc1           1   1044  (240)  321  
+ 5656    1.3  0.0  0.0  rnd-1_family-486#LTR/Copia                1   627     (0) + Copia-1_DBp-I    LTR/Copia            1610   2236 (1684)  322  
+ 5089   11.0  0.0  2.0  rnd-1_family-487#LTR/Gypsy                1   817     (0) + Gypsy-17_DAn-I   LTR/Gypsy            2134   2934 (2622)  323  
+ 3965    7.5  0.2  0.0  rnd-1_family-489#LTR/Gypsy                1   537     (0) + Gypsy-5_DBp-I    LTR/Gypsy            3041   3578  (991)  324  
+ 3522    0.7  0.9  1.4  rnd-1_family-490#LTR/Gypsy                1   431     (0) + Gypsy-10_DBp-I   LTR/Gypsy             760   1188 (4969)  325  
+ 4805    6.3  0.0  1.0  rnd-1_family-492#LTR/Pao                  1   629     (0) + BEL-2_DBp-I      LTR/Pao              2832   3454 (1922)  326  
+ 1586    0.0  0.0  0.0  rnd-1_family-493#LTR/Pao                  1   168     (8) + BEL-11_DBp-I     LTR/Pao              4018   4185 (1716)  327  
+ 2243   12.7  1.0  0.8  rnd-1_family-494#LINE/R1                  2   408     (0) + R1-4_DBp         LINE/R1              1832   2306 (2882)  328  
+ 6076    9.3  5.0  2.9  rnd-1_family-496#LTR/Gypsy                1  1055     (0) + Gypsy-41_DAn-LTR LTR/Gypsy             236   1312  (737)  329  
+  297   21.9  1.4  0.0  rnd-1_family-497#LINE/R1                 90   162     (1) + R1A_DAn          LINE/R1                36    109 (5501)  330  
+ 5682    6.9  0.1  0.7  rnd-1_family-498#LINE/Jockey              1   756     (0) + Jockey-2_DBp     LINE/I-Jockey        2167   2918  (150)  331  
+  786    0.0  0.0  0.0  rnd-1_family-499#LTR/Pao                  4    87    (68) + BEL-8_DBp-I      LTR/Pao              3636   3719 (1725)  332  
+  576    0.0  0.0  0.0  rnd-1_family-499#LTR/Pao                 93   155     (0) + BEL-8_DBp-I      LTR/Pao              3879   3941 (1503)  332  
+ 4593    8.9  0.3  0.0  rnd-1_family-500#LINE/I                   1   718     (0) + I-1_DBi          LINE/I                273    992 (2576)  333  
+  242   16.9 16.9  0.0  rnd-1_family-501#DNA                      6    64   (505) + DNA2-1_DAn       DNA                     6     74  (952)  334  
+ 3576   17.3  0.5  1.6  rnd-1_family-502#LTR/Gypsy                1   652     (2) + Gypsy-20_DAn-I   LTR/Gypsy            5289   5933   (80)  335  
+ 1516   11.2  1.1  1.1  rnd-1_family-503#LTR/Gypsy                1   263     (0) + Gypsy-8_DBi-I    LTR/Gypsy             142    404 (4016)  336  
+ 3592    9.8  5.0  3.6  rnd-1_family-504#LTR/Gypsy                1   626     (0) + Gypsy-17_DAn-LTR LTR/Gypsy            1290   1923    (0)  337  
+ 2240    7.8  0.3  0.0  rnd-1_family-505#DNA/CMC-Transib          1   308     (0) + Transib-6_DBi    DNA/CMC-Transib      2028   2336  (322)  338  
+ 4592    0.2  0.0  0.8  rnd-1_family-506#DNA/Maverick             1   513     (0) + Polinton-1_DBp   DNA/Maverick          757   1265 (5784)  339  
+ 2404    8.0  0.8  0.0  rnd-1_family-508#LINE/I                   1   375     (0) + I-4_DBp          LINE/I               1795   2172 (3227)  340  
+  283   11.9  0.0  0.0  rnd-1_family-51#LTR/Pao                  79   120   (746) + BEL-1_DBp-LTR    LTR/Pao                57     98  (200)  341  
+  418    3.5  1.7  5.2  rnd-1_family-51#LTR/Pao                 358   417   (449) + BEL-1_DBp-I      LTR/Pao                 1     58 (5637)  342  
+  767   13.5  1.5  3.1  rnd-1_family-51#LTR/Pao                 460   589   (277) + BEL-1_DBp-I      LTR/Pao               283    410 (5285)  342  
+  317   17.0  0.0  1.7  rnd-1_family-51#LTR/Pao                 607   666   (200) + BEL-1_DBp-I      LTR/Pao              1339   1397 (4298)  342  
+ 2482    9.7  1.9  5.9  rnd-1_family-510#LTR/Pao                 28   488     (0) + BEL-7_DBp-I      LTR/Pao              4057   4500  (881)  343  
+ 1056   26.1  1.8  1.2  rnd-1_family-511#DNA/CMC-Transib          1   338    (64) + Transib-4_DAn    DNA/CMC-Transib       683   1022 (1764)  344  
+  528    4.0  0.0  2.7  rnd-1_family-512#DNA/TcMar-Mariner        4    80     (0) + Mariner-13_DBp   DNA/TcMar-Mariner       1     75 (1215)  345  
+ 1128   14.8  0.0  1.6  rnd-1_family-513#LTR/Gypsy                1   185     (0) + Gypsy-20_DAn-I   LTR/Gypsy            3511   3692 (2321)  346  
+ 2469   15.8  0.8  0.2  rnd-1_family-514#LTR/Gypsy                1   493     (8) + Gypsy-22_DAn-I   LTR/Gypsy            1779   2274 (2129)  347  
+ 3144    7.2  8.7  0.0  rnd-1_family-515#LTR/Gypsy                1   458     (0) + Gypsy-8_DBi-I    LTR/Gypsy            1821   2318 (2102)  348  
+ 8722    1.1  0.0  0.0  rnd-1_family-516#DNA/TcMar-Tc1            1   947     (3) + Mariner-5_DK     DNA/TcMar-Tc1         346   1292    (0)  349  
+ 4368    8.0  0.0  0.3  rnd-1_family-517#LTR/Pao                  1   643     (2) + BEL-5_DEu-I      LTR/Pao              1006   1646 (3354)  350  
+ 4241    9.5  0.5  3.4  rnd-1_family-519#LTR/Copia                1   720     (0) + Copia-2_DBp-I    LTR/Copia            1456   2459 (1278)  351  
+  229   25.7  2.6  4.0  rnd-1_family-52#Unknown                   1    77  (1373) + DNA-1_DPe        DNA                     4     79  (653)  352  
+ 1161   13.3  1.6  6.3  rnd-1_family-521#LTR/Gypsy                5   357     (2) + Gypsy-11_DBp-I   LTR/Gypsy             758   1359 (4699)  353  
+ 1952   12.4  0.8  0.8  rnd-1_family-522#LINE/I                   1   357     (0) + I-5_DBp          LINE/I                892   1248 (1727)  354  
+  843   17.9  0.0 13.9  rnd-1_family-523#DNA                      1   221   (153) + DNA3-1_DF        DNA                    16    209  (731)  355  
+  254   22.4  0.8 10.5  rnd-1_family-523#DNA                    250   374     (0) + DNA3-1_DF        DNA                   360    473  (467)  356  
+  250    0.0  2.9  0.0  rnd-1_family-528#LTR/Pao                  1    34   (101) + BEL-11_DBp-LTR   LTR/Pao               300    334    (0)  357  
+  632    6.8  2.3  0.0  rnd-1_family-528#LTR/Pao                 35   122    (13) + BEL-11_DBp-I     LTR/Pao                 1     90 (5811)  357  
+ 2070   21.5  1.1  4.2  rnd-1_family-530#DNA                     13   576     (7) + DNA3-1_DF        DNA                   360    906   (34)  358  
+  880   22.8  3.2  3.5  rnd-1_family-531#LTR/Gypsy               18   363     (0) + Gypsy-9_DBp-I    LTR/Gypsy            1897   2241 (3782)  359  
+ 2261   17.8  1.4  5.1  rnd-1_family-534#LTR/Pao                  1   646     (0) + NINJA_I-int      LTR/Pao              1815   2437 (3574)  360  
+  477    1.4  0.0  4.1  rnd-1_family-537#RC/Helitron            328   403    (13) + Helitron-N1_DBp  RC/Helitron           485    557  (922)  361  
+  349   18.5  0.0  0.0  rnd-1_family-539#DNA/hAT-hobo             1    65   (305) + Gypsy19-I_Dya    LTR/Gypsy            6185   6249  (472)  362  
+  572   20.3  1.2 17.5  rnd-1_family-539#DNA/hAT-hobo            81   325    (45) + Howilli4         DNA/hAT-hobo         2148   2332  (299)  363  
+  339    8.2  8.1  1.3  rnd-1_family-539#DNA/hAT-hobo           297   370     (0) + Gypsy19-I_Dya    LTR/Gypsy            6460   6538  (183)  362 *
+  616    8.8  0.0  0.0  rnd-1_family-540#LTR/Gypsy                1    91     (0) + Gypsy-41_DAn-I   LTR/Gypsy            3360   3450 (2522)  364  
+ 1014    3.2  0.0  0.0  rnd-1_family-541#LTR/Gypsy               16   140     (0) + Gypsy-17_DBp-I   LTR/Gypsy             468    592 (2573)  365  
+ 2019    0.9  0.0  0.0  rnd-1_family-543#DNA/TcMar-Mariner        1   220     (0) + Mariner-1_DBi    DNA/TcMar-Mariner    1013   1232   (95)  366  
+ 1032    5.3  0.0  0.0  rnd-1_family-544#LINE/I                   1   131     (0) + I-4_DBp          LINE/I               3195   3325 (2074)  367  
+ 4035    7.9  0.0  0.2  rnd-1_family-545#LTR/Gypsy                1   555     (0) + Gypsy-6_DBp-I    LTR/Gypsy              90    643 (3920)  368  
+ 2299    8.6  0.7  8.2  rnd-1_family-546#LTR/Pao                  1   404     (0) + BEL-2_DBp-I      LTR/Pao              4479   4854  (522)  369  
+  236   16.8  4.3  3.2  rnd-1_family-55#Satellite               143   234    (99) C DNA4-1_DK        RC/Helitron         (100)    237    145  370 *
+  251   14.0  5.0  5.0  rnd-1_family-55#Satellite               177   236    (97) + SAR_DM           Satellite             334    393 (1079)  371  
+ 3500   18.9  0.0  0.7  rnd-1_family-550#LTR/Gypsy                3   605     (0) + Gypsy-7_DFi-I    LTR/Gypsy            5608   6206  (677)  372  
+ 1444    1.8  0.0  0.0  rnd-1_family-552#LTR/Gypsy                5   171     (0) + Gypsy-10_DBp-I   LTR/Gypsy            2258   2424 (3733)  373  
+ 2986    9.4  0.6  0.8  rnd-1_family-553#LTR/Gypsy                1   516     (0) + Gypsy-7_DBp-I    LTR/Gypsy            5370   5884  (717)  374  
+ 3496   14.1  6.0  0.3  rnd-1_family-554#LTR/Pao                 95   755     (0) + BEL-19_DAn-I     LTR/Pao               423   1121 (4592)  375  
+ 1155    0.0  0.0  0.0  rnd-1_family-555#LTR/Gypsy                1   132     (0) + Gypsy-10_DBp-I   LTR/Gypsy            5790   5921  (236)  376  
+ 1621    5.4  0.0  0.5  rnd-1_family-557#RC/Helitron              1   205     (0) + Helitron-1_DAna  RC/Helitron           728    931  (908)  377  
+  883   16.7  0.6  0.0  rnd-1_family-558#LTR/Gypsy                1   162     (0) + Gypsy-34_DEl-I   LTR/Gypsy             132    294 (4430)  378  
+ 6313    8.0  1.0  0.6  rnd-1_family-559#LTR/Gypsy                1   933     (0) + Gypsy-5_DBp-I    LTR/Gypsy            1113   2048 (2521)  379  
+  397   28.9  0.3  0.3  rnd-1_family-560#DNA/CMC-Transib         13   196     (2) + Transib-11_DAn   DNA/CMC-Transib       390    573  (621)  380  
+  701   27.9  6.4  2.5  rnd-1_family-561#LTR/Gypsy                1   312    (17) + Gypsy-13_DTa-LTR LTR/Gypsy               1    324   (43)  381  
+ 4141    5.6  2.5  0.2  rnd-1_family-562#LTR/Gypsy                1   551     (0) + Gypsy-5_DBp-I    LTR/Gypsy             563   1126 (3443)  382  
+ 3097    6.1  1.5  0.0  rnd-1_family-564#LTR/Gypsy                1   412     (0) + Gypsy-27_DBp-I   LTR/Gypsy            3860   4277 (2251)  383  
+ 2954    4.6  0.8  0.0  rnd-1_family-568#LTR/Gypsy                1   393     (0) + Gypsy-24_DBp-I   LTR/Gypsy            1484   1879 (3130)  384  
+ 2616   10.9  1.1  3.9  rnd-1_family-569#LTR/Gypsy                1   447     (0) + Gypsy-15_DBp-I   LTR/Gypsy            1655   2089 (2996)  385  
+  243    0.0  0.0  0.0  rnd-1_family-571#LTR/Gypsy                1    27   (423) + Gypsy-2_DBp-I    LTR/Gypsy            6248   6274    (0)  386  
+ 3663    1.4  0.0  0.7  rnd-1_family-571#LTR/Gypsy               28   450     (0) + Gypsy-2_DBp-LTR  LTR/Gypsy               1    420   (93)  386  
+  396    3.6  0.0  0.0  rnd-1_family-572#LTR/Gypsy               33    87     (0) + Gypsy-39_DAn-I   LTR/Gypsy            5179   5233  (399)  387  
+ 1884   14.8  0.0  0.0  rnd-1_family-574#LTR/Gypsy                1   337     (0) + Gypsy-38_DAn-I   LTR/Gypsy            3186   3522 (1018)  388  
+ 9174    0.0  0.0  0.0  rnd-1_family-576#LINE/RTE-BovB            6   989     (0) + RTE-1_DBp        LINE/RTE-BovB          11    994 (2238)  389  
+  529   13.4  0.0  0.0  rnd-1_family-579#DNA/CMC-Transib         35   116   (185) + Transib-7_DAn    DNA/CMC-Transib      2990   3071   (68)  390  
+ 2949    8.1  0.2  0.0  rnd-1_family-581#LTR/Gypsy                1   421     (0) + Gypsy-5_DBp-I    LTR/Gypsy            4027   4448  (121)  391  
+  815    3.2  0.0  0.0  rnd-1_family-582#LTR/Pao                  1    95   (207) + BEL-6_DBp-LTR    LTR/Pao               258    352    (0)  392  
+ 1814    1.9  0.0  0.0  rnd-1_family-582#LTR/Pao                 96   302     (0) + BEL-6_DBp-I      LTR/Pao                 1    207 (5404)  392  
+ 1438   22.0  0.0  0.0  rnd-1_family-584#LTR/Gypsy                7   356     (0) + TRANSPAC_I-int   LTR/Gypsy            2464   2813 (1777)  393  
+  818   11.6  0.0  0.0  rnd-1_family-587#LTR/Gypsy               10   130     (0) + Gypsy-6_DBp-I    LTR/Gypsy            2805   2925 (1638)  394  
+  809   14.9  0.0  0.0  rnd-1_family-589#LTR/Gypsy                1   141     (1) + Gypsy-3_DAn-LTR  LTR/Gypsy            1911   2051    (0)  395  
+15305    0.4  0.0  0.0  rnd-1_family-591#LINE/RTE-BovB            1  1643     (0) + RTE-2_DBp        LINE/RTE-BovB        1603   3245    (9)  396  
+  340   15.8 23.5  2.6  rnd-1_family-592#LTR/Gypsy                3   164    (68) + Gypsy-7_DBi-I    LTR/Gypsy             258    452 (6335)  397  
+ 1159   22.0  0.0  0.0  rnd-1_family-594#LTR/Pao                  1   259    (36) + BEL-6_DBp-I      LTR/Pao              5352   5610    (1)  398  
+  298    0.0  0.0  0.0  rnd-1_family-594#LTR/Pao                261   295     (0) + BEL-6_DBp-LTR    LTR/Pao                 1     35  (317)  398  
+ 2368    0.4  0.0  0.0  rnd-1_family-596#LTR/Pao                  1   254     (0) + BEL-6_DBp-I      LTR/Pao              2566   2819 (2792)  399  
+ 5469    2.0  0.0  0.0  rnd-1_family-597#LTR/Pao                  1   613     (0) + BEL-6_DBp-I      LTR/Pao              2737   3349 (2262)  400  
+ 1234    5.2  0.0  0.0  rnd-1_family-599#LTR/Gypsy                1   153     (0) + Gypsy-6_DBp-I    LTR/Gypsy            2733   2885 (1678)  401  
+ 3393    4.0  0.0  0.0  rnd-1_family-600#LTR/Pao                  1   398     (0) + BEL-6_DBp-I      LTR/Pao              3422   3819 (1792)  402  
+ 2071    2.8  0.0  0.4  rnd-1_family-601#DNA/Maverick             1   249    (23) + Polinton-1_DBp   DNA/Maverick          187    434 (6615)  403  
+  271   24.3  0.0  0.0  rnd-1_family-603#DNA/MULE-NOF            64   137   (177) + MuDR-1_DK        DNA/MULE-NOF         1341   1414 (6666)  404  
+ 2412    8.4  0.3  2.8  rnd-1_family-604#LTR/Copia                1   367     (0) + Copia-2_DAn-I    LTR/Copia            1809   2166 (1812)  405  
+ 1316    2.0  0.0  0.0  rnd-1_family-605#LTR/Gypsy                1   151    (52) + Gypsy-15_DBp-LTR LTR/Gypsy              97    247 (1923)  406  
+ 1608    2.2  0.0  0.6  rnd-1_family-606#LTR/Pao                  1   184     (0) + BEL-6_DBp-LTR    LTR/Pao                 1    183  (169)  407  
+ 4088    3.1  0.4  0.2  rnd-1_family-608#LTR/Gypsy                1   477     (0) + Gypsy-17_DBp-LTR LTR/Gypsy            1186   1663  (179)  408  
+ 6280    1.1  3.1  0.0  rnd-1_family-609#LTR/Pao                  1   705     (0) + BEL-6_DBp-I      LTR/Pao              1783   2509 (3102)  409  
+ 1910    7.0  1.4  1.1  rnd-1_family-61#LTR/Pao                   1   276   (873) + BEL-5_DBp-LTR    LTR/Pao                24    300    (0)  410  
+ 4858    7.6  3.0 11.2  rnd-1_family-61#LTR/Pao                 281  1149     (0) + BEL-5_DBp-I      LTR/Pao                 5    809 (7480)  410  
+ 2493    1.4  2.8  0.3  rnd-1_family-616#LTR/Pao                  1   291    (53) + BEL-7_DBp-LTR    LTR/Pao                 1    298    (0)  411  
+  482    0.0  0.0  0.0  rnd-1_family-616#LTR/Pao                292   344     (0) + BEL-7_DBp-I      LTR/Pao                 1     53 (5328)  411  
+ 1235    5.5  3.8  1.1  rnd-1_family-617#LTR/Gypsy               15   198   (444) + Gypsy-41_DAn-I   LTR/Gypsy            5784   5972    (0)  412  
+ 3068    7.2  0.7  3.0  rnd-1_family-617#LTR/Gypsy              199   642     (0) + Gypsy-41_DAn-LTR LTR/Gypsy               1    434 (1615)  412  
+19126    3.7  0.4  0.5  rnd-1_family-62#LTR/Pao                   1  2297   (978) + BEL-5_DBp-I      LTR/Pao              1417   3711 (4578)  413  
+  779    7.0  0.0  0.0  rnd-1_family-62#LTR/Pao                2325  2424   (851) + BEL-5_DBp-I      LTR/Pao              5868   5967 (2322)  413 *
+ 3791    9.7  8.8  5.6  rnd-1_family-62#LTR/Pao                2424  3164   (111) + BEL-5_DBp-I      LTR/Pao              7133   7895  (394)  413  
+  339    8.2  0.0  0.0  rnd-1_family-62#LTR/Pao                3157  3205    (70) + BEL-1_Deu-I      LTR/Pao              4134   4182    (0)  414 *
+  492    5.8  0.0  1.4  rnd-1_family-62#LTR/Pao                3206  3275     (0) + BEL-5_DBp-LTR    LTR/Pao                 1     69  (231)  414  
+  727    9.3  0.0  0.0  rnd-1_family-621#LTR/Gypsy                1    97     (0) + Gypsy-39_DAn-I   LTR/Gypsy            3197   3293 (2339)  415  
+ 3761    0.5  0.0  0.0  rnd-1_family-623#LTR/Gypsy                1   434     (0) + Gypsy-24_DBp-I   LTR/Gypsy            4190   4623  (386)  416  
+  982   11.5  0.0  0.0  rnd-1_family-624#LTR/Pao                  1   157     (0) + BEL-19_DAn-I     LTR/Pao              5444   5600  (113)  417  
+ 5583    0.6  0.0  0.5  rnd-1_family-625#DNA/Maverick             1   623     (0) + Polinton-1_DBp   DNA/Maverick         1001   1620 (5429)  418  
+ 2913   16.3  2.6  1.5  rnd-1_family-627#LTR/Gypsy               52   654     (0) + Gypsy-4_DAn-LTR  LTR/Gypsy            1354   1963    (0)  419  
+  468   14.9 15.9  0.0  rnd-1_family-631#RC/Helitron            301   407    (82) + hAT-N1_DF        DNA/hAT?              111    234  (915)  420 *
+  630    1.4  0.0  0.0  rnd-1_family-631#RC/Helitron            338   407    (82) + Helitron-N1_DAn  RC/Helitron             3     72  (781)  421  
+ 2832    0.7  0.0  0.0  rnd-1_family-632#DNA/TcMar-Mariner        1   304     (0) + Mariner-1_DBi    DNA/TcMar-Mariner     353    656  (671)  422  
+ 1531    0.6  0.0  0.0  rnd-1_family-633#DNA/TcMar-Mariner        1   166     (0) + Mariner-13_DBp   DNA/TcMar-Mariner     452    617  (673)  423  
+  542    1.6  0.0  0.0  rnd-1_family-638#RC/Helitron             95   156     (0) + Helitron-2_DBp   RC/Helitron           259    320 (3556)  424  
+ 3382    0.8  0.0  0.0  rnd-1_family-639#LINE/RTE-BovB            1   380     (0) + RTE-1_DBp        LINE/RTE-BovB        2851   3230    (2)  425  
+ 1003   25.9  7.3  9.4  rnd-1_family-64#DNA/Kolobok-Hydra         5   744     (4) + Kolobok-N1_DF    DNA/Kolobok-Hydra       1    726    (0)  426  
+ 1066    1.7  0.0  0.0  rnd-1_family-640#DNA/TcMar-Mariner        1   116     (0) + Mariner-1_DEl    DNA/TcMar-Mariner     215    330  (916)  427  
+  578   19.1  1.3  7.5  rnd-1_family-641#LINE/R1                181   406   (109) + R1-2_DBp         LINE/R1               180    392 (5222)  428  
+ 2099    8.9  6.3  0.0  rnd-1_family-642#LTR/Pao                  2   317     (1) + BEL-5_DEu-LTR    LTR/Pao                 1    336    (0)  429  
+  331    6.7  0.0  0.0  rnd-1_family-644#DNA/CMC-Transib          1    45   (174) + Transib-2_DBi    DNA/CMC-Transib       579    623 (5970)  430  
+  245   16.2  7.1  4.7  rnd-1_family-644#DNA/CMC-Transib        132   215     (4) + Transib-4_DK     DNA/CMC-Transib      1360   1445   (93)  431  
+ 1477    0.5 12.9  0.0  rnd-1_family-645#DNA/hAT-Pegasus         68   260    (29) + hAT-9_DBp        DNA/hAT-Pegasus      2235   2452  (375)  432  
+ 2932    4.1  0.0  1.4  rnd-1_family-646#LTR/Pao                  1   369     (0) + BEL-9_DBp-I      LTR/Pao              1559   1922 (2976)  433  
+  852   10.2  0.0  0.0  rnd-1_family-647#LTR/Gypsy                1   137     (0) + Gypsy-6_DBp-I    LTR/Gypsy            3708   3844  (719)  434  
+ 2266    3.4  0.0  0.0  rnd-1_family-648#LTR/Gypsy                1   265   (147) + Gypsy-2_DBi-I    LTR/Gypsy            3977   4241    (0)  435  
+ 1113    3.5  0.0  4.3  rnd-1_family-648#LTR/Gypsy              266   412     (0) + Gypsy-2_DBi-LTR  LTR/Gypsy               1    141    (0)  435  
+ 5761    0.8  0.0  0.0  rnd-1_family-650#RC/Helitron              1   621    (10) + Helitron-2_DBp   RC/Helitron          1540   2160 (1716)  436  
+ 1859   11.3  1.4  0.0  rnd-1_family-651#LTR/Gypsy                1   291     (0) + Gypsy-1_DBp-I    LTR/Gypsy            1534   1828 (2783)  437  
+ 2680   19.3  3.5  3.0  rnd-1_family-653#LTR/Gypsy               48  1112    (22) + Gypsy-20_DAn-LTR LTR/Gypsy               1   2017    (8)  438  
+ 1751    5.9  0.5  0.0  rnd-1_family-654#LTR/Gypsy                1   222     (0) + Gypsy-11_DBp-I   LTR/Gypsy            5620   5842  (216)  439  
+ 2446    9.4  0.0  0.6  rnd-1_family-655#LTR/Gypsy                1   343     (0) + Gypsy-1_DBp-I    LTR/Gypsy            1626   1966 (2645)  440  
+ 2663   20.0  7.9  6.8  rnd-1_family-656#LTR/Gypsy                1   849    (78) + Gypsy-4_DAn-LTR  LTR/Gypsy              25    882 (1081)  441  
+ 3455    0.8  0.0  0.3  rnd-1_family-657#LTR/Pao                  1   388     (0) + BEL-7_DBp-I      LTR/Pao               217    603 (4778)  442  
+  749    6.7  0.0  0.0  rnd-1_family-658#LTR/Gypsy                6   109     (0) + Gypsy-6_DBp-I    LTR/Gypsy               1    104 (4459)  443  
+11105    3.3  0.0  0.7  rnd-1_family-66#LINE/CR1                  1  1328     (2) + CR1-2_DBp        LINE/CR1             3037   4355    (1)  444  
+  569    3.2  0.6  0.6  rnd-1_family-660#DNA/CMC-Transib          1    88    (11) + Transib-1_DEl    DNA/CMC-Transib       451    538 (2004)  445  
+ 2325   15.2  0.0  0.0  rnd-1_family-661#DNA/CMC-Transib          9   376     (0) + Transib-5_DRh    DNA/CMC-Transib       271    638  (805)  446  
+  788    4.6 10.1  0.0  rnd-1_family-664#LTR/Pao                  1   109    (58) + BEL-8_DBp-I      LTR/Pao              3258   3377 (2067)  447  
+  880    3.9  0.0  0.0  rnd-1_family-665#LTR/Gypsy                1   102     (0) + Gypsy-12_DBp-LTR LTR/Gypsy             108    209   (10)  448  
+  540   30.3  1.6  1.6  rnd-1_family-666#Unknown                625   869    (16) + TRANSPAC_I-int   LTR/Gypsy             335    579 (4011)  449  
+ 1430    2.4  0.0  0.0  rnd-1_family-667#DNA/Sola-1               4   172     (0) + Sola-1_DK        DNA/Sola-1              1    169 (2827)  450  
+ 4230   13.0  0.3  1.7  rnd-1_family-668#DNA/TcMar-Tc1            3   674     (0) C Mariner-27_DF    DNA/TcMar-Tc1       (852)    784    122  451  
+ 2547   16.8  0.6  3.1  rnd-1_family-669#LTR/Pao                  2   493     (0) + BEL-19_DAn-I     LTR/Pao              1403   1882 (3831)  452  
+  283   11.9  0.0  0.0  rnd-1_family-67#LTR/Pao                 847   888   (160) + BEL-1_DBp-LTR    LTR/Pao                57     98  (200)  453  
+  424    0.0  0.0  0.0  rnd-1_family-670#Unknown                  7    52     (0) C CR1-1_DBp        LINE/CR1           (2538)   1918   1873  454  
+ 3055    4.2  0.2  1.2  rnd-1_family-673#LINE/R1                  1   405     (0) + R1-2_DBp         LINE/R1                37    437 (5177)  455  
+ 5840    6.8  2.7  1.0  rnd-1_family-674#LTR/Gypsy                3   806     (0) + Gypsy-41_DAn-LTR LTR/Gypsy            1232   2049    (0)  456  
+ 1705    6.6  0.0  0.0  rnd-1_family-675#DNA/TcMar-Tc1            1   226     (2) C Mariner-27_DF    DNA/TcMar-Tc1      (1410)    226      1  457  
+  768   26.4  3.1  3.1  rnd-1_family-678#DNA/TcMar-Mariner        2   294    (16) + Mariner_DMA      DNA/TcMar-Mariner     685    977  (309)  458  
+ 1623   11.6  0.0  0.4  rnd-1_family-679#LTR/Gypsy               12   279     (0) + Gypsy-17_DAn-I   LTR/Gypsy            4422   4688  (868)  459  
+17375    1.0  0.0  0.1  rnd-1_family-68#LINE/CR1                  1  1928   (689) + CR1-2_DBp        LINE/CR1             1045   2971 (1385)  460  
+ 6297    0.7  0.0  0.0  rnd-1_family-68#LINE/CR1               1928  2617     (0) + CR1-2_DBp        LINE/CR1             2913   3602  (754)  460 *
+ 3290    3.3  0.0  0.0  rnd-1_family-680#DNA/TcMar-Tc1            1   392     (4) + Mariner-7_DBp    DNA/TcMar-Tc1         895   1286  (281)  461  
+ 2022   12.8  0.3  0.0  rnd-1_family-681#LTR/Gypsy                1   343     (0) + Gypsy-1_DBp-I    LTR/Gypsy            1066   1409 (3202)  462  
+  939    0.0  0.0  0.0  rnd-1_family-684#DNA/TcMar-Mariner        1   104     (0) + Mariner-1_DBi    DNA/TcMar-Mariner       1    104 (1223)  463  
+ 1064    0.0  0.0  0.0  rnd-1_family-685#DNA/TcMar-Mariner        1   115     (0) + Mariner-1_DBi    DNA/TcMar-Mariner     315    429  (898)  464  
+ 6164    0.5  0.0  0.0  rnd-1_family-686#LTR/Pao                  1   669     (0) + BEL-7_DBp-I      LTR/Pao               647   1315 (4066)  465  
+  401   24.5  0.9  0.9  rnd-1_family-687#DNA/Zator               15   125     (1) + Zator-2_DF       DNA/Zator              58    168    (0)  466  
+ 1054   14.4  0.0  0.0  rnd-1_family-688#LTR/Gypsy                1   194     (0) + Gypsy-1_DAn-I    LTR/Gypsy            3634   3827  (703)  467  
+  655    4.3  5.4  0.0  rnd-1_family-689#LTR/Pao                 18   110     (0) + BEL-11_DBp-I     LTR/Pao                91    188 (5713)  468  
+ 2162    6.2  2.5  0.4  rnd-1_family-69#LINE/CR1                  3   302   (144) + CR1-3_DBp        LINE/CR1             2578   2810 (1529)  469  
+  283   11.9  0.0  0.0  rnd-1_family-69#LINE/CR1                405   446     (0) + BEL-1_DBp-LTR    LTR/Pao                57     98  (200)  470  
+ 1068   16.7  0.0  0.0  rnd-1_family-691#LINE/I                   5   237     (0) + I-6_DY           LINE/I                370    602 (4798)  471  
+ 2052    2.2  0.0  0.0  rnd-1_family-692#LTR/Gypsy                1   229     (0) + Gypsy-17_DBp-LTR LTR/Gypsy             718    946  (896)  472  
+ 5001    0.6  0.0  0.0  rnd-1_family-693#LTR/Gypsy                1   546     (0) + Gypsy-12_DBp-I   LTR/Gypsy             675   1220 (2731)  473  
+ 1104    9.9  0.0  4.4  rnd-1_family-694#LTR/Gypsy                1   190     (0) + Gypsy-1_DAn-I    LTR/Gypsy            3467   3648  (882)  474  
+  245    8.8  0.0  0.0  rnd-1_family-695#LTR/Gypsy                8    41   (251) + Gypsy-17_DBp-LTR LTR/Gypsy             935    968  (874)  475  
+  721    0.0  0.0  2.4  rnd-1_family-695#LTR/Gypsy               67   153   (139) + Gypsy-17_DBp-LTR LTR/Gypsy            1034   1118  (724)  475  
+  331   33.0  3.4  3.4  rnd-1_family-696#DNA/CMC-Transib         98   395    (88) + TransibN1_DP     DNA/CMC-Transib       290    587  (607)  476  
+ 2553   12.9  1.2  0.5  rnd-1_family-697#LTR/Pao                  1   429     (0) + BEL-9_DBp-I      LTR/Pao              2261   2692 (2206)  477  
+ 2432   19.9  0.8  0.8  rnd-1_family-699#LTR/Gypsy                1   501     (1) + Gypsy-20_DAn-I   LTR/Gypsy            4651   5151  (862)  478  
+ 1803   17.7  0.5  5.0  rnd-1_family-7#RC/Helitron                1   374    (25) C hAT-N1B_DBp      DNA/hAT-Ac          (360)   1256    899  479 *
+ 2831    5.0  0.3  0.3  rnd-1_family-7#RC/Helitron               41   399     (0) + Helitron-N1_DBp  RC/Helitron          1081   1439   (40)  480  
+  235   25.0  2.5  3.9  rnd-1_family-70#LINE/CR1                776   854   (381) C DNA-1_DPe        DNA                 (653)     79      2  481  
+  411   31.0  5.4  0.0  rnd-1_family-70#LINE/CR1               1048  1176    (59) + CR1-1_DBp        LINE/CR1              251    386 (4070)  482  
+  529    1.7  0.0  0.0  rnd-1_family-700#Unknown                  1    58     (0) C Mariner-1_DEl    DNA/TcMar-Mariner   (919)    327    270  483  
+ 3643    2.5  2.0  0.2  rnd-1_family-701#LTR/Gypsy               25   468     (0) + Gypsy-17_DBp-LTR LTR/Gypsy               1    452 (1390)  484  
+ 1052   21.9  2.9  1.8  rnd-1_family-702#LTR/Gypsy               61   334     (0) + Gypsy-3_DAn-LTR  LTR/Gypsy            1532   1808  (243)  485  
+  589   16.8  0.0  0.9  rnd-1_family-703#DNA/CMC-Transib          1   114     (0) + Transib-5_DRh    DNA/CMC-Transib         1    113 (1330)  486  
+ 2371    7.1  0.1  0.9  rnd-1_family-704#DNA/TcMar-Tc1          112   443     (0) + Mariner-7_DBp    DNA/TcMar-Tc1         878   1232  (501)  487  
+ 1334   13.4  1.8  0.9  rnd-1_family-705#LTR/Gypsy                7   231     (4) + Gypsy-35_DAn-LTR LTR/Gypsy            1700   1926  (190)  488  
+ 5340    5.3  1.4  3.2  rnd-1_family-706#LTR/Gypsy                1   739    (12) + Gypsy-17_DAn-LTR LTR/Gypsy               1    726 (1197)  489  
+ 1044   23.5  0.8  0.0  rnd-1_family-708#DNA/hAT-hobo             1   238     (0) + Hoana8           DNA/hAT-hobo         2632   2871    (0)  490  
+ 3268   17.6  0.5  0.8  rnd-1_family-709#LTR/Pao                  3   619     (1) + BEL-13_DAn-I     LTR/Pao              3521   4135 (1379)  491  
+35711    0.7  0.1  0.1  rnd-1_family-71#LTR/Pao                   1  3890     (0) + BEL-1_DBp-I      LTR/Pao               276   4164 (1531)  492  
+  279    7.5  2.5  0.0  rnd-1_family-710#LTR/Pao                  2    41   (555) + BEL-19_DAn-LTR   LTR/Pao               307    347    (0)  493  
+ 3128   11.2  2.2  1.8  rnd-1_family-710#LTR/Pao                 44   596     (0) + BEL-19_DAn-I     LTR/Pao                 2    551 (5264)  493  
+ 8707    1.2  0.0  0.2  rnd-1_family-711#LTR/Pao                  1   974     (0) + BEL-7_DBp-I      LTR/Pao              1328   2299 (3082)  494  
+ 1752    0.5  0.0  0.0  rnd-1_family-712#DNA/TcMar-Mariner        1   196     (0) + Mariner-2_Dro    DNA/TcMar-Mariner    1120   1315   (13)  495  
+  917    3.7  0.0  0.0  rnd-1_family-714#DNA/TcMar-Mariner        1   107     (0) + Mariner-1_DEl    DNA/TcMar-Mariner     347    453  (793)  496  
+ 1219   17.3  0.1  0.5  rnd-1_family-715#LTR/Pao                  1   362     (0) + BEL-6_DBp-I      LTR/Pao               752   1209 (4673)  497  
+ 2805    0.3  0.0  0.7  rnd-1_family-716#DNA/TcMar-Mariner        1   310     (0) + Mariner-13_DBp   DNA/TcMar-Mariner      77    384  (906)  498  
+ 1206    6.1  0.0  0.0  rnd-1_family-717#LINE/I                   1   163     (0) + I-4_DBp          LINE/I                247    409 (4990)  499  
+  833   14.7  0.0  0.0  rnd-1_family-718#DNA/CMC-Transib          1   136     (1) + Transib-5_DRh    DNA/CMC-Transib      1055   1190  (253)  500  
+ 1481    1.2  0.0  0.0  rnd-1_family-719#LTR/Gypsy                1   165    (10) + Gypsy-2_DBp-LTR  LTR/Gypsy             349    513    (0)  501  
+12286    1.2  0.0  0.1  rnd-1_family-72#LINE/Jockey               1  1366     (0) + Jockey-14_DBp    LINE/I-Jockey        2465   3829  (813)  502  
+  688    0.0  0.0  0.0  rnd-1_family-722#LTR/Pao                  1    75    (14) + BEL-8_DBp-I      LTR/Pao              3458   3532 (1912)  503  
+ 5812    5.6  6.1  1.4  rnd-1_family-723#LTR/Gypsy                3   851     (0) + Gypsy-17_DAn-LTR LTR/Gypsy             772   1660  (263)  504  
+ 1274   30.1  1.2  1.2  rnd-1_family-726#LTR/Gypsy                2   602   (137) + TRANSPAC_I-int   LTR/Gypsy            3892   4492   (98)  505  
+  614   16.7 13.6  3.7  rnd-1_family-728#LTR/Pao                 12   210     (0) + BEL-19_DAn-LTR   LTR/Pao               130    347    (0)  506  
+  722    2.3  0.0  1.2  rnd-1_family-731#LTR/Gypsy                1    87   (268) + Gypsy-2_DBi-LTR  LTR/Gypsy              56    141    (0)  507  
+ 2369    2.2  0.0  0.0  rnd-1_family-731#LTR/Gypsy               88   355     (0) + Gypsy-2_DBi-I    LTR/Gypsy               1    268 (3973)  507  
+ 1345    8.9  0.0  0.0  rnd-1_family-732#LTR/Gypsy                1   191     (0) + Gypsy-4_DBp-I    LTR/Gypsy            2996   3186 (1344)  508  
+ 1599   16.1  4.5  6.5  rnd-1_family-733#LTR/Gypsy              106   463     (0) + Gypsy-8_DAn-LTR  LTR/Gypsy            1418   1768    (0)  509  
+ 1538    3.7  0.0  4.7  rnd-1_family-734#LTR/Pao                  1   200     (0) + BEL-6_DBp-I      LTR/Pao              3848   4038 (1573)  510  
+ 3821    8.6  0.0  0.6  rnd-1_family-736#LTR/Gypsy                1   536     (0) + Gypsy-1_DBi-I    LTR/Gypsy            1655   2187 (3264)  511  
+  659   21.6  1.9  1.9  rnd-1_family-737#DNA/TcMar-Tc1            1   164     (2) + Mariner-3_DEl    DNA/TcMar-Tc1         399    541  (244)  512  
+  805    6.2 43.6  0.0  rnd-1_family-738#LTR/Gypsy                1   197     (0) + Gypsy-8_DBi-I    LTR/Gypsy            1627   1910 (2510)  513  
+  278   11.7  0.0  0.0  rnd-1_family-739#LTR/Gypsy                1    38    (75) + Gypsy-5_DBp-I    LTR/Gypsy            4532   4611   (81)  514  
+  686    1.3  0.0  0.0  rnd-1_family-739#LTR/Gypsy               39   113     (0) + Gypsy-5_DBp-LTR  LTR/Gypsy               1     75  (129)  515  
+ 1508   10.8  1.1  0.7  rnd-1_family-740#LTR/Gypsy                1   271     (0) + Gypsy-7_DBp-I    LTR/Gypsy            6109   6380  (221)  516  
+ 1918    4.0  1.7  5.7  rnd-1_family-741#LTR/Gypsy                1   292     (0) + Gypsy-15_DBp-LTR LTR/Gypsy             278    558 (1612)  517  
+ 1152    4.3  0.0  0.0  rnd-1_family-742#LTR/Gypsy                1   140     (0) + Gypsy-17_DBp-I   LTR/Gypsy            2864   3003  (162)  518  
+  831   14.4  3.6  2.6  rnd-1_family-743#LINE/R1                247   438     (0) + R1-4_DAn         LINE/R1                 1    194 (4895)  519  
+ 2458    4.7  0.0  0.0  rnd-1_family-744#LTR/Gypsy                1   296     (0) + Gypsy-15_DBp-LTR LTR/Gypsy            1660   1955  (215)  520  
+ 6549    1.1  0.1  0.5  rnd-1_family-745#LINE/Jockey              1   742     (0) + Jockey-4_DBp     LINE/I-Jockey        1301   2039 (1839)  521  
+ 2655    2.7  0.0  0.6  rnd-1_family-747#LINE/R1                  1   332     (4) + R1-4_DBp         LINE/R1              1350   1679 (3313)  522  
+ 1380   17.9  1.4  1.7  rnd-1_family-748#LTR/Gypsy                1   394     (0) + Gypsy-24_DBp-I   LTR/Gypsy            1580   1888 (3121)  523  
+ 2936    0.9  0.0  0.0  rnd-1_family-750#LTR/Pao                  1   321     (0) + BEL-6_DBp-I      LTR/Pao              1596   1916 (3695)  524  
+ 1957    4.4  0.1  0.1  rnd-1_family-8#RC/Helitron                1   260   (233) C hAT-N1B_DBp      DNA/hAT-Ac          (400)   1216    854  525  
+  549   18.4  0.0  7.0  rnd-1_family-8#RC/Helitron              182   304   (189) + Helitron-N1_DBp  RC/Helitron           939   1053  (426)  526 *
+  800   13.4  0.3  2.7  rnd-1_family-8#RC/Helitron              255   487     (6) C Transib-1_DEl    DNA/CMC-Transib    (2007)    535    198  527  
+  438   14.4  8.5  8.1  rnd-1_family-81#LTR/Gypsy                32   302   (369) + Gypsy-7_DBp-I    LTR/Gypsy             241    413 (6188)  528  
+ 1336    5.7  0.6  0.6  rnd-1_family-81#LTR/Gypsy               495   671     (0) + Gypsy-7_DBp-I    LTR/Gypsy             631    807 (5794)  528  
+  575   20.8  7.6  5.9  rnd-1_family-84#LTR/Gypsy               437   620   (406) + Gypsy-7_DBp-LTR  LTR/Gypsy               5    191  (470)  529 *
+ 3279    2.7  1.7  0.7  rnd-1_family-84#LTR/Gypsy               616  1026     (0) + Gypsy-7_DBp-LTR  LTR/Gypsy             139    553  (108)  530  
+32895    0.9  0.0  0.1  rnd-1_family-88#LTR/Pao                   1  3634     (0) + BEL-5_DBp-I      LTR/Pao              3161   6791 (1498)  531  
+  439    2.0  0.0  0.0  rnd-1_family-90#LTR/Gypsy                 1    50   (109) + Gypsy-8_DBi-I    LTR/Gypsy            4087   4136  (284)  532  
+13172    3.9  0.2  2.6  rnd-1_family-91#LTR/Pao                   1  1714   (142) + BEL-5_DBp-I      LTR/Pao              6615   8289    (0)  533  
+  995    4.2 12.7  0.0  rnd-1_family-91#LTR/Pao                1715  1856     (0) + BEL-5_DBp-LTR    LTR/Pao                 1    160  (140)  533  
+ 3612    7.1  2.2 10.2  rnd-1_family-95#LTR/Gypsy                14   688     (0) + Gypsy-7_DBp-I    LTR/Gypsy             251    808 (5793)  534  
+11788   11.3  1.0  4.0  rnd-2_family-59#LINE/Jockey              11  2069     (0) + Jockey-8_DAn     LINE/I-Jockey         510   2507 (2034)  535  
+ 3619    9.6  3.0 12.3  rnd-3_family-140#LTR/Pao                  1   813  (2871) + BEL-5_DBp-I      LTR/Pao               190   1117 (3065)  536  
+19611    6.7  1.2  1.4  rnd-3_family-140#LTR/Pao                847  3684     (0) + BEL-5_DBp-I      LTR/Pao               787   3561 (4728)  537  
+37614    2.1  0.3  0.7  rnd-3_family-156#LINE/CR1                 1  4347     (0) + CR1-3_DBp        LINE/CR1                8   4336    (3)  538  
+ 6883    3.2  0.0  0.5  rnd-3_family-184#RC/Helitron             57   866    (21) + Helitron-N1_DBp  RC/Helitron           674   1479    (0)  539  
+  423    3.0  2.9  4.3  rnd-3_family-184#RC/Helitron            809   878     (9) + piggyBac-3B_DAn  DNA/PiggyBac         1065   1133  (435)  540 *
+  628   23.0  6.3  4.1  rnd-3_family-51#LINE/I-Jockey            38    55   (690) + TART_DV          LINE/I-Jockey        2748   2805 (1908)  541  
+  557   26.1  0.0  7.3  rnd-3_family-51#LINE/I-Jockey            56   245   (500) + (CAG)n           Simple_repeat           3    179    (0)  542  
+  628   23.0  6.3  4.1  rnd-3_family-51#LINE/I-Jockey           246   434   (311) + TART_DV          LINE/I-Jockey        2806   3451 (1262)  541  
+  226   26.5  4.0  0.6  rnd-3_family-51#LINE/I-Jockey           564   715    (30) + (CAG)n           Simple_repeat           1    157    (0)  543  
+ 7036    8.7  0.1  0.4  rnd-4_family-135#LTR/Pao                  1   976     (0) + BEL-2_DBp-I      LTR/Pao              3481   4453  (923)  544  
+15465   13.1  1.7  1.0  rnd-4_family-137#LINE/Jockey              1  3579     (0) + Jockey-11_DBp    LINE/I-Jockey         653   4203    (1)  545  
+ 3244   14.3  0.5  0.2  rnd-4_family-1376#LINE/R1                 1   572   (561) + R1B_DAn          LINE/R1              2159   2797 (3008)  546  
+ 2229   11.1 29.6  1.0  rnd-4_family-1376#LINE/R1               558  1132     (1) + R1B_DAn          LINE/R1              2917   3656 (2149)  546 *
+ 4667    6.6  0.8  0.6  rnd-4_family-169#DNA/P                    1   625     (0) + P-1N1_DBp        DNA/P                   3    628  (803)  547  
+  810    0.0  0.0  0.0  rnd-4_family-186#RC/Helitron             32   120  (1680) C hAT-N1B_DBp      DNA/hAT-Ac          (150)   1466   1378  548 *
+ 2966    4.4  0.8  1.8  rnd-4_family-186#RC/Helitron            116   503  (1297) + Helitron-N1_DBp  RC/Helitron           278    661  (818)  549  
+ 2177    7.0  3.6  1.2  rnd-4_family-186#RC/Helitron            504  1086   (714) + BEL-10_DBp-LTR   LTR/Pao                 1    651 (5620)  550  
+  771   12.6  4.8  1.3  rnd-4_family-186#RC/Helitron           1143  1287   (513) + BEL-22_DAn-I     LTR/Pao                97    246 (3439)  551  
+  237    8.6  0.0  0.0  rnd-4_family-203#LTR/Pao                 48    82   (311) + BEL-15_DAn-I     LTR/Pao                 3     37 (5510)  552  
+  617   15.3  0.0 10.3  rnd-4_family-203#LTR/Pao                233   392     (1) + BEL-15_DAn-I     LTR/Pao                72    216 (5331)  552  
+  529   17.4  1.3  0.0  rnd-4_family-218#LINE/R1                 44   192   (302) + (CAG)n           Simple_repeat           1    151    (0)  553  
+  498   17.6  1.7 16.5  rnd-4_family-218#LINE/R1                193   204   (290) + TART_DV          LINE/I-Jockey        2999   3451 (1262)  554  
+  232   27.4  2.8  5.7  rnd-4_family-218#LINE/R1                205   494     (0) + Gypsy-23_DEl-I   LTR/Gypsy            6814   7095  (876)  555  
+  510    6.3  0.0  0.7  rnd-4_family-236#LTR/Gypsy                2    69  (3582) + Gypsy-39_DAn-I   LTR/Gypsy            3236   3293 (2339)  556 *
+ 1340    9.2  0.0  0.0  rnd-4_family-236#LTR/Gypsy               57   229  (3422) + Gypsy-39_DAn-I   LTR/Gypsy            3400   3572 (2060)  556  
+ 2797   12.2 18.6  0.2  rnd-4_family-236#LTR/Gypsy              235   745  (2906) + Gypsy-39_DAn-I   LTR/Gypsy            3890   4494 (1138)  556  
+  241    3.1  6.2  0.0  rnd-4_family-236#LTR/Gypsy              757   788  (2863) + Gypsy-39_DAn-I   LTR/Gypsy            5153   5186  (446)  556  
+  303   24.0  3.0  0.0  rnd-4_family-236#LTR/Gypsy             2368  2467  (1184) C Mariner-3_DT     DNA/TcMar-Mariner   (257)   1373   1271  557  
+ 1184   12.0  1.0  1.0  rnd-4_family-236#LTR/Gypsy             3389  3590    (61) C Transib-3_DF     DNA/CMC-Transib       (0)   1029    859  558  
+  821   18.5  1.1  2.7  rnd-4_family-236#LTR/Gypsy             3450  3638    (13) C hAT-N1B_DBp      DNA/hAT-Ac          (340)   1276   1091  559 *
+ 2294    5.1  1.0  0.3  rnd-4_family-24#LINE/CR1                 38   333  (3261) C BEL-1_DBp-LTR    LTR/Pao               (0)    298      1  560  
+  461   11.5  5.1  1.2  rnd-4_family-24#LINE/CR1                406   484  (3110) + CR1-3_DBp        LINE/CR1              389    470 (3869)  561 *
+14891    6.7  1.7  0.1  rnd-4_family-24#LINE/CR1                482  2413  (1181) + CR1-3_DBp        LINE/CR1              837   2798 (1541)  561  
+ 1195   10.3  0.4 17.4  rnd-4_family-310#DNA/TcMar-Mariner        1   248     (0) + Mariner-1_DEl    DNA/TcMar-Mariner       1    212 (1034)  562  
+21887   10.6  1.3  0.3  rnd-4_family-4#LINE/LOA                   1  4471     (4) + Loa-1_DBp        LINE/R1-LOA           187   4683  (869)  563  
+21826    0.7  2.4  0.0  rnd-4_family-54#LTR/Gypsy                 1  2449     (0) + Gypsy-12_DBp-I   LTR/Gypsy            1253   3760  (191)  564  
+  545   18.8  1.4  1.1  rnd-4_family-559#RC/Helitron             44   176   (253) + Helitron-N1_DBi  RC/Helitron           117    257 (7879)  565  
+  227   26.3  3.1  1.0  rnd-4_family-559#RC/Helitron            182   277   (152) C Helitron-5_DRh   RC/Helitron        (4462)    150     53  566  
+34287    6.0  0.3  0.9  rnd-4_family-68#RC/Helitron               2  5573     (0) + Helitron-1_DBp   RC/Helitron             3   5536  (324)  567  
+ 2202   22.0  5.1  1.4  rnd-4_family-72#LINE/I                    4   820    (13) + I-2_DEu          LINE/I                647   1493 (3973)  568  
+  313    0.0  0.0  0.0  rnd-4_family-72#LINE/I                  799   833     (0) + I-1_DBi          LINE/I                229    263 (3305)  569 *
+  357   13.0  0.0  0.0  rnd-4_family-817#buffer                  20    73     (2) + (CAGC)n          Simple_repeat           1     54    (0)  570  
+ 8236   19.8  1.9  1.5  rnd-4_family-942#DNA/P                    1  2018    (41) + P_DG             DNA/P                 381   2235  (700)  571  
+17030    0.2  0.0  0.0  rnd-4_family-964#Unknown                  1  1854     (0) C RTE-1_DBp        LINE/RTE-BovB       (383)   2849    996  572  
+ 5217    7.0  0.0  0.0  rnd-5_family-10077#DNA/TcMar-Tc1          1   681     (0) + Mariner-5_DBp    DNA/TcMar-Tc1           7    687  (951)  573  
+ 1211   20.5  2.6  3.8  rnd-5_family-10165#DNA/TcMar-Mariner    572   916     (0) + Mariner_DMA      DNA/TcMar-Mariner     945   1285    (1)  574  
+ 2210    2.2  2.5  0.7  rnd-5_family-1020#DNA/Maverick            1   279 (13016) + Polinton-1_DBp   DNA/Maverick         1622   1905 (5144)  575  
+51034    7.0  0.4  1.4  rnd-5_family-1020#DNA/Maverick          388 12032  (1263) + Polinton-1_DAn   DNA/Maverick         1888  14340 (3560)  576  
+ 1758   18.2  2.6  0.8  rnd-5_family-1020#DNA/Maverick        12201 12583   (712) + Polinton-1_DAn   DNA/Maverick        14428  14817 (3083)  577  
+11491    7.7  2.7  0.9  rnd-5_family-1021#LINE/Jockey             2  2120     (0) + Jockey-4_DBp     LINE/I-Jockey           1   2198 (2593)  578  
+  801   20.1  0.0 11.7  rnd-5_family-1022#LTR/Gypsy              21   240  (1449) + Gypsy-9_DAn-LTR  LTR/Gypsy              26    222 (1870)  579  
+  512   21.9  4.6 10.1  rnd-5_family-1022#LTR/Gypsy             328   545  (1144) + Gypsy-9_DAn-LTR  LTR/Gypsy             371    577 (1515)  579  
+  871   24.5  3.1  8.5  rnd-5_family-1022#LTR/Gypsy             933  1413   (276) + Gypsy-9_DAn-LTR  LTR/Gypsy             909   1365  (727)  579  
+14818    0.3  0.0  0.1  rnd-5_family-1024#LINE/RTE-BovB           1  1599     (0) + RTE-2_DBp        LINE/RTE-BovB           4   1601 (1653)  580  
+ 2054   13.6  4.6  1.6  rnd-5_family-1027#LTR/Gypsy               3   369     (0) + Gypsy-39_DAn-I   LTR/Gypsy            5245   5622   (10)  581  
+  264   30.8  0.8  0.8  rnd-5_family-1030#RC/Helitron            43   163  (1045) + Helitron-N1_DBi  RC/Helitron           160    280  (308)  582  
+ 5616    4.2  7.2  1.2  rnd-5_family-1030#RC/Helitron           183   943   (265) + Helitron-N1_DBp  RC/Helitron           674   1479    (0)  583  
+  370   10.3  0.0  4.4  rnd-5_family-1030#RC/Helitron           889   959   (249) C Gypsy-2_DEl-I    LTR/Gypsy           (156)   4873   4806  584 *
+ 1766   17.6  3.5  0.8  rnd-5_family-1031#LTR/Pao                 1   344  (1151) + BEL-16_DAn-I     LTR/Pao              4834   5186 (2337)  585  
+ 2954   17.8  2.8  1.6  rnd-5_family-1031#LTR/Pao               388  1025   (470) + BEL-16_DAn-I     LTR/Pao              5265   5910 (1613)  585  
+ 2036   19.2  9.4  1.0  rnd-5_family-1031#LTR/Pao              1045  1492     (3) + BEL-16_DAn-I     LTR/Pao              6034   6518 (1005)  585  
+ 1851   14.1  0.3  0.0  rnd-5_family-1036#DNA/TcMar-Tc1           1   326    (91) + Mariner-5_DEu    DNA/TcMar-Tc1        1305   1631    (8)  586  
+  477   14.0  0.0  1.0  rnd-5_family-1036#DNA/TcMar-Tc1         317   417     (0) C Mariner-5_DEu    DNA/TcMar-Tc1        (88)   1551   1452  587 *
+  391   25.0  7.4  6.4  rnd-5_family-1037#DNA/Kolobok-Hydra       5   235   (351) C Kolobok-N1_DAn   DNA/Kolobok-Hydra     (0)    726    494  588  
+  354   25.2 11.0  0.7  rnd-5_family-1037#DNA/Kolobok-Hydra     175   310   (276) + Transib-5_DK     DNA/CMC-Transib      1094   1243  (712)  589 *
+  240   28.8 13.4  0.6  rnd-5_family-1037#DNA/Kolobok-Hydra     311   331   (255) + Kolobok-N1_DF    DNA/Kolobok-Hydra     174    350  (376)  590  
+ 1604   24.7  3.0  2.8  rnd-5_family-1042#DNA/CMC-Transib         1   533    (37) + Transib-5_DAn    DNA/CMC-Transib         5    538 (2314)  591  
+13365    5.3  1.4  0.6  rnd-5_family-1043#LTR/Gypsy               3  2597     (0) + Gypsy-41_DAn-I   LTR/Gypsy               6   2718 (3254)  592  
+17992    0.5  0.0  0.7  rnd-5_family-1046#DNA/hAT-Pegasus         1  1995     (0) + hAT-9_DBp        DNA/hAT-Pegasus       251   2232  (595)  593  
+ 2989    8.5  1.8  1.7  rnd-5_family-107#DNA/CMC-Transib          1   641     (0) + Transib-1_DK     DNA/CMC-Transib       553   1020  (285)  594  
+  752   19.3  1.6  2.0  rnd-5_family-110#LINE/I                   1   234     (0) + I-2_DEu          LINE/I                  6    238 (5162)  595  
+ 6640    3.0  0.4  0.0  rnd-5_family-111#LINE/R1                  1   826     (1) + R1-4_DBp         LINE/R1               516   1344 (3648)  596  
+ 5826    7.0  0.2  1.5  rnd-5_family-11118#DNA/PIF-Harbinger      1   789    (32) + Harbinger-1_DF   DNA/PIF-Harbinger      36    814 (1252)  597  
+  276   24.6  4.2  7.4  rnd-5_family-1115#LTR/Gypsy              23   189  (4605) + Jockey-3_DGri    LINE/I-Jockey        3208   3369 (1344)  598  
+22930   17.4  1.1  2.2  rnd-5_family-1115#LTR/Gypsy             220  4514   (280) + Gypsy1-I_Dya     LTR/Gypsy               2   4257    (0)  599  
+  264   22.9  3.0 13.9  rnd-5_family-1115#LTR/Gypsy            4533  4699    (95) + Jockey-3_DGri    LINE/I-Jockey        3216   3366 (1347)  600  
+21488    1.7  0.4  0.0  rnd-5_family-1135#LINE/Jockey             1  2436   (147) + Jockey-14_DBp    LINE/I-Jockey         675   3120 (1522)  601  
+ 1322    3.0  0.3  0.2  rnd-5_family-1135#LINE/Jockey          2423  2583     (0) + Jockey-14_DBp    LINE/I-Jockey        3283   3449 (1193)  602 *
+ 3070   10.7  1.4  0.0  rnd-5_family-1138#LINE/Jockey             1   441   (221) + Jockey-9_DBp     LINE/I-Jockey         222    668  (308)  603  
+ 1490    9.8  0.4  0.4  rnd-5_family-1138#LINE/Jockey           428   662     (0) + Jockey-1_DAn     LINE/I-Jockey        3794   4028   (10)  604 *
+  372   13.2  1.3  3.9  rnd-5_family-1139#LTR/Gypsy               1    79   (392) + Gypsy-17_DBi-LTR LTR/Gypsy              40    116  (469)  605  
+ 1420   16.4  3.5  4.2  rnd-5_family-1139#LTR/Gypsy             110   447    (24) + Gypsy-17_DBi-LTR LTR/Gypsy             249    584    (1)  605  
+ 1711   25.5  2.3  1.5  rnd-5_family-1141#DNA/CMC-Transib         3   624    (86) + Transib-11_DAn   DNA/CMC-Transib       580   1337    (3)  606  
+  574    0.0  0.0  0.0  rnd-5_family-1144#DNA/TcMar-Mariner       1    63     (0) + Mariner-13_DBp   DNA/TcMar-Mariner     387    449  (841)  607  
+22101    0.3  0.1  0.1  rnd-5_family-1176#LTR/Gypsy               1  2400   (231) + Gypsy-3_DBp-I    LTR/Gypsy            2597   4985    (0)  608  
+ 1924    2.9  7.4  0.0  rnd-5_family-1176#LTR/Gypsy            2390  2631     (0) + Gypsy-3_DBp-LTR  LTR/Gypsy               1    260    (6)  609 *
+  955   29.0  1.5  2.3  rnd-5_family-1181#LTR/Gypsy               1   526     (5) + TRANSPAC_I-int   LTR/Gypsy            3363   3884  (706)  610  
+  244   26.5 10.4  8.2  rnd-5_family-1183#Unknown                65   315   (205) + REP-2_DTa        Unknown               102    357 (1400)  611  
+ 4278    0.0  0.0  0.0  rnd-5_family-1195#LTR/Pao                 1   460     (0) + BEL-3_DBp-I      LTR/Pao              4246   4705 (1249)  612  
+  238   21.5  0.0  4.3  rnd-5_family-1197#DNA/PiggyBac         1807  1879  (2446) + VEGE_DW          DNA/hAT-Tip100        422    491  (393)  613  
+  707   14.5  1.5  4.5  rnd-5_family-1197#DNA/PiggyBac         2058  2194  (2131) + VEGE_DW          DNA/hAT-Tip100        752    884    (0)  614  
+ 4007   23.2  1.9  2.3  rnd-5_family-1197#DNA/PiggyBac         2195  3328   (997) + LOOPER1_DM       DNA/PiggyBac          376   1505  (376)  615  
+  854   21.8  7.1  1.5  rnd-5_family-1197#DNA/PiggyBac         3968  4219   (106) + LOOPER1_DM       DNA/PiggyBac         1518   1783   (98)  616  
+  330   21.9  6.5 11.5  rnd-5_family-1207#LTR/Gypsy            1814  2014  (1189) + Gypsy7-I_Dpse    LTR/Gypsy            1473   1664 (5375)  617  
+  712   25.4  1.6  1.0  rnd-5_family-1215#DNA/TcMar-Tc1         323   513   (399) + Mariner-5_DEl    DNA/TcMar-Tc1         464    655  (399)  618  
+  448   14.5  4.8  0.0  rnd-5_family-1216#DNA/CMC-Transib        14    96  (1732) C hAT-2_DK         DNA/hAT-Ac            (0)   2474   2388  619  
+  901   15.8  0.0  2.2  rnd-5_family-1216#DNA/CMC-Transib       291   505  (1323) C hAT-6_DRh        DNA/hAT-Ac          (226)    517    332  619  
+  701    8.9 11.4  0.0  rnd-5_family-1216#DNA/CMC-Transib       526   648  (1180) C hAT-6_DRh        DNA/hAT-Ac          (606)    137      1  619  
+  234   19.1  0.0  0.0  rnd-5_family-1216#DNA/CMC-Transib       967  1008   (820) + Transib5         DNA/CMC-Transib       452    493 (2508)  620  
+  377   29.0  0.8  0.0  rnd-5_family-1216#DNA/CMC-Transib      1137  1267   (561) + Transib-4_DBi    DNA/CMC-Transib      1015   1146  (318)  621  
+  609    1.3  1.3  0.0  rnd-5_family-1216#DNA/CMC-Transib      1270  1348   (480) C Transib-4_DBp    DNA/CMC-Transib    (2963)     83      4  622  
+  453   29.1  1.5  1.5  rnd-5_family-1216#DNA/CMC-Transib      1384  1589   (239) + Transib-5_DAn    DNA/CMC-Transib      1883   2088  (764)  623  
+  380   23.8  1.0  1.0  rnd-5_family-1216#DNA/CMC-Transib      1588  1689   (139) + Transib-5_DAn    DNA/CMC-Transib      2295   2396  (456)  624 *
+  312   24.0  8.0  0.0  rnd-5_family-1216#DNA/CMC-Transib      1729  1828     (0) + Transib-4_DRh    DNA/CMC-Transib      1080   1187  (178)  625  
+ 2308   18.9  4.9  4.5  rnd-5_family-1217#LTR/Gypsy               1   593   (249) + Gypsy-1_DAn-I    LTR/Gypsy            3951   4530    (0)  626  
+  817   21.1  2.4  8.4  rnd-5_family-1217#LTR/Gypsy             594   821    (21) + Gypsy-1_DAn-LTR  LTR/Gypsy              70    283   (66)  627  
+ 9621    1.7  3.7  0.6  rnd-5_family-1221#LTR/Gypsy              24  1202     (0) + Gypsy-28_DBp-I   LTR/Gypsy               1   1157 (4957)  628  
+  343   22.7  0.0  0.0  rnd-5_family-12372#DNA/hAT-Ac             1    75   (397) + hAT-N1_DEl       DNA/hAT-Ac              1     75  (438)  629  
+  311   16.0  3.8  5.1  rnd-5_family-12372#DNA/hAT-Ac           391   469     (3) + hAT-1_DSi        DNA/hAT-Ac           2483   2560    (6)  630  
+ 7484   18.2  0.5  1.1  rnd-5_family-1245#LINE/I                  1  1527     (0) + I-1_DEu          LINE/I               3742   5259    (8)  631  
+ 1888    2.6  0.4  0.4  rnd-5_family-1281#LINE/I                  1   250   (192) + I-4_DBp          LINE/I               5178   5399    (0)  632  
+  884    1.9  0.0  0.0  rnd-5_family-1283#LINE/I                  1   106     (0) + I-4_DBp          LINE/I               1438   1543 (3856)  633  
+ 1119   13.5  2.5 12.6  rnd-5_family-1285#LTR/Gypsy              71   392   (867) + Gypsy-40_DAn-I   LTR/Gypsy            5174   5466  (121)  634  
+  610   22.6  4.5  8.7  rnd-5_family-1285#LTR/Gypsy             519   897   (362) + Gypsy-40_DAn-I   LTR/Gypsy            5466   5860    (0)  634  
+ 1102    8.9  0.0 11.5  rnd-5_family-1285#LTR/Gypsy             898  1083   (176) + EnSpm-1_DF       DNA/CMC-Chapaev-3     570    734 (2473)  635 *
+ 1557   14.0  6.8  2.7  rnd-5_family-1285#LTR/Gypsy             937  1258     (1) + Gypsy-40_DAn-LTR LTR/Gypsy              13    347   (71)  634  
+  249   11.6  1.9  3.8  rnd-5_family-12924#DNA/hAT-Ac           232   285   (927) C hAT-6_DRh        DNA/hAT-Ac            (0)    743    691  636 *
+ 4472   15.9  2.2  5.1  rnd-5_family-12924#DNA/hAT-Ac           242  1212     (0) + hAT-3_DK         DNA/hAT-Ac              7    906 (1653)  637  
+ 2132   12.8  0.3  2.6  rnd-5_family-1299#LTR/Pao                 1   353     (0) + BEL-15_DAn-I     LTR/Pao              1276   1620 (3927)  638  
+ 1266   14.7  2.8  7.6  rnd-5_family-1301#LTR/Pao                19   335     (0) + BEL-15_DAn-LTR   LTR/Pao                 1    303    (0)  639  
+ 3309    1.3  0.3  0.3  rnd-5_family-13286#DNA/hAT-Blackjack      1   372    (82) + hAT-1_DBp        DNA/hAT-Blackjack       7    378 (2109)  640  
+  372    0.0  0.0  0.0  rnd-5_family-13286#DNA/hAT-Blackjack    376   418    (36) + hAT-1_DBp        DNA/hAT-Blackjack     335    377 (2110)  641  
+  704   31.6  9.6  2.6  rnd-5_family-1343#LINE/Jockey             3   652  (2347) + Outcast-1_DBi    LINE/I-Jockey        1508   2202  (670)  642  
+ 2294   27.4  5.2  5.0  rnd-5_family-1345#LINE/I                184  1292     (0) + I-1_DBp          LINE/I               1169   2279 (1937)  643  
+  347   18.7  4.0  6.5  rnd-5_family-1354#DNA/hAT-Ac              1   126  (2929) + Homo8            DNA/hAT-Ac            291    413 (2388)  644  
+  455   35.5  3.6  3.0  rnd-5_family-1354#DNA/hAT-Ac            409   876  (2179) + hAT-2_DK         DNA/hAT-Ac            415    885 (1589)  645  
+ 1035   32.6  3.6  4.4  rnd-5_family-1354#DNA/hAT-Ac            907  2101   (954) + Hoana6           DNA/hAT-Ac            960   2239  (212)  646  
+  412   20.9  8.6  0.0  rnd-5_family-1354#DNA/hAT-Ac           2293  2397   (658) + Hoana7           DNA/hAT-Ac           2406   2519    (0)  647  
+  562   11.9  0.0  0.0  rnd-5_family-1354#DNA/hAT-Ac           2400  2483   (572) C Helitron-N1_DBp  RC/Helitron        (1394)     85      2  648  
+17926   15.3  0.8  1.0  rnd-5_family-1358#LTR/Gypsy               1  2992     (0) + Gypsy-20_DAn-I   LTR/Gypsy             374   3357 (2656)  649  
+  288    0.0  0.0  0.0  rnd-5_family-1359#LTR/Gypsy               1    32     (0) + Gypsy-7_DAn-I    LTR/Gypsy            1233   1264 (2698)  650  
+ 3900    0.5  0.0  0.0  rnd-5_family-1360#LTR/Gypsy               1   425     (0) + Gypsy-12_DBp-I   LTR/Gypsy             248    672 (3279)  651  
+ 4816    0.2  0.0  0.0  rnd-5_family-1363#LTR/Pao                 1   517    (52) + BEL-9_DBp-I      LTR/Pao              4382   4898    (0)  652  
+  471    0.0  0.0  0.0  rnd-5_family-1363#LTR/Pao               518   569     (0) + BEL-9_DBp-LTR    LTR/Pao                 1     52  (193)  652  
+ 7576    6.2  0.2  4.6  rnd-5_family-1364#LTR/Pao                 2  1290     (0) + BEL-9_DBp-I      LTR/Pao                 4   1557 (3341)  653  
+  403   24.1  5.4  3.5  rnd-5_family-13648#DNA/CMC-Transib        2   169   (130) + Transib-4_DK     DNA/CMC-Transib      1368   1538    (0)  654  
+  499   24.0  0.0  0.8  rnd-5_family-13648#DNA/CMC-Transib      170   299     (0) + Transib-4_DK     DNA/CMC-Transib      1408   1536    (2)  655  
+ 2735    4.5  7.4  0.2  rnd-5_family-1403#RC/Helitron           420   839  (1125) + Helitron-N1_DBp  RC/Helitron             1    450 (1029)  656  
+  790   16.7 22.5  0.7  rnd-5_family-1403#RC/Helitron           683   935  (1029) C hAT-N1B_DBp      DNA/hAT-Ac          (543)   1073    766  657 *
+ 1811    8.4  5.4  2.4  rnd-5_family-1403#RC/Helitron           866  1144   (820) + Helitron-N1_DBp  RC/Helitron          1193   1479    (0)  658  
+10721    1.7  2.8  0.2  rnd-5_family-1405#LTR/Gypsy             464  1712     (0) + Gypsy-26_DBp-I   LTR/Gypsy            2330   3610  (179)  659  
+  917   29.2  4.5  1.2  rnd-5_family-1416#LINE/Jockey           811  1208  (1412) + Jockey-1_DPer    LINE/I-Jockey         997   1407 (5654)  660  
+  275   28.0  4.7  2.3  rnd-5_family-143#LINE/I-Jockey          101   228   (131) + Jockey-3_DGri    LINE/I-Jockey        3294   3424 (1289)  661 *
+  300   31.5  0.9  0.9  rnd-5_family-143#LINE/I-Jockey          158   266    (93) + BEL-10_DBp-I     LTR/Pao               514    622 (3023)  662  
+ 7221    9.0  1.8  2.0  rnd-5_family-1447#LTR/Gypsy               2  1087     (2) + Gypsy-15_DBp-LTR LTR/Gypsy             571   1654  (516)  663  
+ 4045   14.9  0.8  2.0  rnd-5_family-1456#DNA/TcMar-Tc1          79   872     (6) + Mariner-3_DBi    DNA/TcMar-Tc1           1    784  (866)  664  
+ 3932   16.0  0.5  2.9  rnd-5_family-1459#DNA                    29   764  (1951) + Mariner-2_DEu    DNA/TcMar-Tc1         944   1662    (8)  665  
+  504   22.8  6.4  5.5  rnd-5_family-1459#DNA                   900  1242  (1473) + Mariner-16_DRh   DNA/TcMar-Tc1           1    346 (1317)  666  
+  647    4.3  9.8  0.0  rnd-5_family-1464#DNA/Sola-1              1    92    (83) + Sola-1_DK        DNA/Sola-1            175    275 (2721)  667  
+  329   12.7  1.3  5.6  rnd-5_family-1464#DNA/Sola-1            101   175     (0) + Sola-1_DK        DNA/Sola-1           2893   2964   (32)  668  
+ 1816   10.8  1.4  2.8  rnd-5_family-1467#LTR/Gypsy               1   295  (2197) + Gypsy-16_DBp-I   LTR/Gypsy            6801   7091  (229)  669  
+ 1318   12.8  0.8  7.9  rnd-5_family-1467#LTR/Gypsy             479   723  (1769) + Gypsy-16_DBp-I   LTR/Gypsy            7092   7320    (0)  669  
+ 9053    4.5  3.0  0.5  rnd-5_family-1467#LTR/Gypsy            1307  2491     (1) + Gypsy-16_DBp-I   LTR/Gypsy               1   1214 (6106)  670  
+21548    1.0  1.3  1.1  rnd-5_family-1468#LTR/Gypsy               1  2551     (0) + Gypsy-16_DBp-I   LTR/Gypsy            1365   3921 (3399)  671  
+14391    1.2  2.2  0.1  rnd-5_family-1478#DNA/TcMar-Tc1           1  1642     (0) + Mariner-6_DBp    DNA/TcMar-Tc1           1   1677    (2)  672  
+  367   31.6  3.9  5.2  rnd-5_family-1484#DNA/hAT-Ac            231   715   (220) + Hoana3           DNA/hAT-hobo         1816   2294  (248)  673  
+ 1713   10.6  2.7  2.0  rnd-5_family-1491#LTR/Pao                 1   298   (975) + BEL-5_DBp-LTR    LTR/Pao                 1    300    (0)  674  
+ 3400   10.0  3.9  7.0  rnd-5_family-1491#LTR/Pao               303  1165   (108) + BEL-1_Deu-I      LTR/Pao                 2   1086 (3096)  674  
+  499   15.8  1.0  1.0  rnd-5_family-1491#LTR/Pao              1136  1231    (42) + BEL-1_Deu-I      LTR/Pao              1014   1109 (3073)  674 *
+ 3204   13.6  3.3  0.7  rnd-5_family-1492#Unknown                 3   578  (1041) C Mariner-11_DAn   DNA/TcMar-Tc1         (0)   1650   1060  675  
+ 6308   11.1  2.5  1.5  rnd-5_family-1492#Unknown               580  1618     (1) + Mariner-11_DAn   DNA/TcMar-Tc1         602   1650    (0)  676  
+  308   20.8  2.2  9.6  rnd-5_family-15#buffer                15969 16086 (14786) + Jockey-3_DGri    LINE/I-Jockey        3197   3419 (1292)  677  
+  362   15.0  4.8  3.2  rnd-5_family-15#buffer                16087 16210 (14662) + (CAG)n           Simple_repeat           3    128    (0)  678  
+  344   15.6  0.0  5.6  rnd-5_family-15#buffer                16590 16684 (14188) + Gypsy8-I_Dpse    LTR/Gypsy            6535   6624  (569)  679  
+  254   25.4  0.0  0.0  rnd-5_family-15#buffer                16782 16836 (14036) + OSVALDO_I-int    LTR/Gypsy            1740   1794 (4859)  680  
+  394   22.2  2.0  5.6  rnd-5_family-15#buffer                16889 17036 (13836) + (CAG)n           Simple_repeat           1    143    (0)  681  
+  236   18.3  3.3  0.0  rnd-5_family-15#buffer                18385 18444 (12428) + Gypsy8-I_Dpse    LTR/Gypsy            6576   6637  (556)  679 *
+  370   22.1  7.8  0.7  rnd-5_family-15#buffer                18394 18534 (12338) + Jockey-3_DGri    LINE/I-Jockey        3274   3424 (1289)  677  
+  247   17.2  3.3  4.4  rnd-5_family-15#buffer                18821 18842 (12030) + Jockey-3_DGri    LINE/I-Jockey        3249   3335 (1375)  682  
+  268   13.3  1.8  0.0  rnd-5_family-15#buffer                18843 18908 (11964) + (CAG)n           Simple_repeat           1     67    (0)  683  
+  403   19.5  0.9  3.7  rnd-5_family-1532#Unknown                35   146     (0) C REP-2_DTa        Unknown             (132)   1625   1517  684  
+ 2145   25.0  3.5  3.5  rnd-5_family-1533#DNA/TcMar-Tc1           4   890     (4) + Mariner-9_DAn    DNA/TcMar-Tc1           1    887  (758)  685  
+ 1186    2.0  0.7  0.0  rnd-5_family-1535#LINE/I-Jockey           1   147     (0) + Jockey-2_DBp     LINE/I-Jockey        2920   3067    (1)  686  
+ 7805    6.0  0.0  0.1  rnd-5_family-1537#LINE/R1                 1  1037     (0) + R1-1_DEu         LINE/R1                69   1104 (3859)  687  
+ 1541    5.6  1.2  3.8  rnd-5_family-1545#LINE/I                  1   243     (0) + I-4_DBp          LINE/I                  6    242 (5157)  688  
+  400   14.6  3.7  3.7  rnd-5_family-1547#Unknown                68   202    (25) C REP-3_DF         Unknown             (100)    209     75  689  
+  385   27.7  1.6  1.1  rnd-5_family-1566#DNA/TcMar-Tc1         314   503  (1844) C Transib-6_DK     DNA/CMC-Transib    (1346)    459    269  690  
+  843   12.8  0.0  0.0  rnd-5_family-1566#DNA/TcMar-Tc1         762   886  (1461) + Mariner-3_DBi    DNA/TcMar-Tc1         379    503 (1147)  691  
+21306    1.4  0.3  0.8  rnd-5_family-15707#DNA/hAT-Blackjack      1  2424     (2) + hAT-1_DBp        DNA/hAT-Blackjack       4   2414   (73)  692  
+ 1490    6.5  2.0  1.5  rnd-5_family-1582#DNA/Zator            2340  2543    (11) + Zator-1_DF       DNA/Zator             233    437   (72)  693  
+  608   23.0  1.0 13.4  rnd-5_family-1628#LINE/R1                72   376   (468) + (CAG)n           Simple_repeat           1    267    (0)  694  
+  313   23.0  2.8  7.2  rnd-5_family-1628#LINE/R1               187   476   (368) + Gypsy-23_DEl-I   LTR/Gypsy            6838   7115  (856)  695 *
+  507   20.5  2.7 11.3  rnd-5_family-1628#LINE/R1               377   610   (234) + Jockey-3_DGri    LINE/I-Jockey        3180   3481 (1232)  696  
+  267   25.0  0.0  1.9  rnd-5_family-1628#LINE/R1               514   623   (221) + (CAG)n           Simple_repeat           3    110    (0)  697 *
+  330   21.7  2.0  3.4  rnd-5_family-1628#LINE/R1               703   825    (19) + Jockey-3_DGri    LINE/I-Jockey       11372  11470 (3629)  696  
+ 3166   11.4  2.7  2.8  rnd-5_family-1658#LTR/Gypsy               5   685     (2) + Gypsy-22_DAn-I   LTR/Gypsy            3985   4664   (60)  698  
+ 3680   22.6  3.7  3.0  rnd-5_family-1661#DNA/CMC-Transib         3  2044    (44) + Transib-4_DK     DNA/CMC-Transib       431   1061  (477)  699  
+ 1842    1.4  0.0  0.0  rnd-5_family-1664#DNA/TcMar-Mariner       1   207     (0) + Mariner-1_DBi    DNA/TcMar-Mariner     107    313 (1014)  700  
+ 4786    4.8  2.3  1.4  rnd-5_family-1665#LTR/Gypsy              21   667  (1008) + Gypsy-7_DBp-LTR  LTR/Gypsy               1    653    (8)  701  
+ 1937   15.5  4.9  9.3  rnd-5_family-1665#LTR/Gypsy             668  1634    (41) + Gypsy-7_DBp-I    LTR/Gypsy               1    807 (5794)  701  
+  227    7.5 12.5  0.0  rnd-5_family-1665#LTR/Gypsy            1635  1674     (1) + Gypsy-23_DAn-I   LTR/Gypsy               1     45 (5026)  702  
+  292   26.2  0.0  6.5  rnd-5_family-1668#DNA/hAT-Ac              2    99   (600) + hAT-3_DF         DNA/hAT-Ac              1     92  (687)  703  
+ 1480    3.4  0.0  0.6  rnd-5_family-1671#DNA/PIF-Harbinger       6   182  (2209) C Gypsy-11_DBp-I   LTR/Gypsy             (0)   6058   5883  704  
+  356   28.1  2.4  2.7  rnd-5_family-1671#DNA/PIF-Harbinger    1191  1371  (1020) + Harbinger-1_DF   DNA/PIF-Harbinger    1533   1688  (378)  705  
+  355   30.8  2.3  0.2  rnd-5_family-1671#DNA/PIF-Harbinger    1501  1658   (733) + Harbinger-1_DRh  DNA/PIF-Harbinger    1139   1337 (1294)  706  
+  284   29.0  2.4  0.0  rnd-5_family-1672#DNA/hAT-Ac            371   494  (1877) + Homo10           DNA/hAT-Ac           1062   1188 (2734)  707  
+ 1002   31.6  2.3  3.9  rnd-5_family-1672#DNA/hAT-Ac            579  2158   (213) + Homo8            DNA/hAT-Ac            205   2480  (321)  708  
+31390    0.5  0.4  0.1  rnd-5_family-1673#DNA/P                   1  3567     (0) + P-1_DBp          DNA/P                 779   4355  (774)  709  
+ 1592    1.1  0.0  0.0  rnd-5_family-1676#LTR/Copia               2   178  (1618) + Copia-3_DBp-I    LTR/Copia            3591   3767    (0)  710  
+  311    6.8  2.2  3.8  rnd-5_family-1676#LTR/Copia             174   237  (1559) + Copia-3_DBp-I    LTR/Copia               1     59 (4199)  711 *
+ 8790    9.3  0.7  0.4  rnd-5_family-1676#LTR/Copia             448  1796     (0) + Copia-3_DBp-I    LTR/Copia               1   1616 (2642)  711  
+13158    0.6  0.0  0.0  rnd-5_family-1677#LTR/Copia               1  1441     (0) + Copia-3_DBp-I    LTR/Copia            1665   3105  (662)  712  
+  230   17.2  0.0  0.0  rnd-5_family-169#LTR/Gypsy               67   130    (19) + Gypsy-6_DEu-I    LTR/Gypsy             494    557 (6397)  713  
+  347   16.2  0.7  3.1  rnd-5_family-1706#LINE/I-Jockey         392   518    (12) + Jockey-3_DGri    LINE/I-Jockey        3242   3464 (1249)  714  
+ 1536   32.5  5.7  1.9  rnd-5_family-1795#LINE/Jockey             1   931    (74) + Jockey-8_DVi     LINE/I-Jockey        3450   4415  (159)  715  
+ 1573    7.2  0.0  0.0  rnd-5_family-181#RC/Helitron              1   221   (261) + Helitron-3_DRh   RC/Helitron          3903   4123    (1)  716  
+  321    7.0  0.0  0.0  rnd-5_family-181#RC/Helitron            221   263   (219) + Helitron-3_DRh   RC/Helitron          4081   4123    (1)  717 *
+20676   12.8  0.6  1.4  rnd-5_family-182#LINE/Jockey             54  3306     (1) + Jockey-5_DAn     LINE/I-Jockey         103   3384 (1589)  718  
+ 4211    5.8  0.2  0.2  rnd-5_family-1834#DNA/CMC-Transib         1   522   (461) + Transib-1_DK     DNA/CMC-Transib       552   1073 (2195)  719  
+ 2508    8.6  5.5  2.1  rnd-5_family-1834#DNA/CMC-Transib       530   981     (2) + Transib-9_DAn    DNA/CMC-Transib       839   1305    (0)  720  
+  226   17.7  5.9  7.1  rnd-5_family-1877#DNA/hAT-Ac            312   328   (697) C hAT-1_DRh        DNA/hAT-Ac         (1331)    120    105  721  
+  952   13.6  1.0  3.1  rnd-5_family-1877#DNA/hAT-Ac            329   525   (500) + hAT-3_DBp        DNA/hAT-Ac              1    193 (2165)  722  
+ 2473    6.4  3.2  4.5  rnd-5_family-1877#DNA/hAT-Ac            555   933    (92) + hAT-N1_DK        DNA/hAT-Ac            150    523    (0)  723  
+ 9754   22.4  3.8  1.6  rnd-5_family-1878#LTR/Gypsy              39  2487     (3) + Gypsy-7_DBi-I    LTR/Gypsy            2208   4709 (2078)  724  
+20847    5.7  0.4  0.4  rnd-5_family-1879#Unknown                 3  2790     (2) + piggyBac-3_DBp   DNA/PiggyBac            1   2308    (0)  725  
+31963    1.1  0.0  0.8  rnd-5_family-188#LINE/I-Jockey            1  3792   (317) + Jockey-10_DBp    LINE/I-Jockey           1   3679    (0)  726  
+ 4038   10.3  4.5  9.6  rnd-5_family-189#LTR/Gypsy                1  1469  (2968) + Gypsy-32_DAn-LTR LTR/Gypsy               2   1446    (0)  727  
+25046    3.7  0.8  0.3  rnd-5_family-189#LTR/Gypsy             1470  4437     (0) + Gypsy-32_DAn-I   LTR/Gypsy               1   2982 (2678)  727  
+11733    0.4  0.0  0.0  rnd-5_family-190#LTR/Pao                  1  1258     (0) + BEL-2_DBp-I      LTR/Pao               833   2090 (3286)  728  
+13355   11.5  2.8  2.4  rnd-5_family-1907#DNA/hAT-Ac              1  2445    (94) + hAT-4_DBp        DNA/hAT-Ac              7   2401    (0)  729  
+ 4330   18.9  1.0  0.3  rnd-5_family-192#DNA/CMC-Transib         29   897     (0) + Transib-4_DAn    DNA/CMC-Transib      1063   1937  (849)  730  
+ 2803   10.1  0.0  0.0  rnd-5_family-1927#LTR/Gypsy               1   387  (1449) + Gypsy-27_DAn-I   LTR/Gypsy            5059   5445    (0)  731  
+ 5481   18.1  4.8  6.0  rnd-5_family-1927#LTR/Gypsy             388  1836     (0) + Gypsy-27_DAn-LTR LTR/Gypsy               1   1432  (225)  731  
+20118    9.4  0.6  1.1  rnd-5_family-1928#LTR/Gypsy              16  2828     (0) + Gypsy-27_DAn-I   LTR/Gypsy               1   2799 (2646)  732  
+ 3712    3.0  0.0  0.0  rnd-5_family-194#LTR/Pao                  1   429   (207) + BEL-2_DBp-I      LTR/Pao              4948   5376    (0)  733  
+ 1637    2.0  0.5  2.5  rnd-5_family-194#LTR/Pao                430   636     (0) + BEL-2_DBp-LTR    LTR/Pao                 1    203    (9)  733  
+16695    8.2  0.1  0.0  rnd-5_family-1957#LTR/Pao                 1  2228     (0) + BEL-21_DAn-I     LTR/Pao              3070   5300 (3222)  734  
+ 3469   19.2  4.2  2.6  rnd-5_family-1964#RC/Helitron             3   951   (408) + Helitron-2_DBp   RC/Helitron          2172   3052  (824)  735  
+ 1054   27.5  1.9  2.5  rnd-5_family-1964#RC/Helitron          1032  1352     (7) + Helitron-5_DRh   RC/Helitron          3036   3354 (1258)  735  
+ 2908   11.0  0.0  0.0  rnd-5_family-1970#LTR/Gypsy               1   409     (0) + Gypsy-39_DAn-I   LTR/Gypsy            1315   1723 (3909)  736  
+ 1030   21.6  4.2  4.2  rnd-5_family-1973#RC/Helitron            81   412   (294) + Helitron-N1_DBi  RC/Helitron             1    368  (425)  737  
+  286   13.1  0.0  2.2  rnd-5_family-1973#RC/Helitron           622   668    (38) + DNAREP1_DYak     RC/Helitron           748    793    (0)  738  
+  240   11.1  0.0  2.8  rnd-5_family-1973#RC/Helitron           638   674    (32) C Hoyak2           DNA/hAT-Ac            (2)   2559   2524  739 *
+ 1013   10.8  6.9  4.9  rnd-5_family-1981#Satellite               1   353    (56) + MSAT-1_DBp       Satellite               1    359    (0)  740  
+  769   17.4  7.8  4.8  rnd-5_family-1982#Satellite              24   689    (30) + MSAT-1_DBp       Satellite               1    685    (1)  741  
+  229   20.0  5.0  0.0  rnd-5_family-1997#Simple_repeat        5041  5100  (6482) C TART_DV          LINE/I-Jockey     (12307)   2792   2730  742  
+  347   27.2  0.0  1.1  rnd-5_family-1997#Simple_repeat        7464  7556  (4026) + (CCCGAA)n        Simple_repeat           5     96    (0)  743  
+  263   25.9  0.0  0.0  rnd-5_family-1997#Simple_repeat        9726  9783  (1799) + Gypsy-27_DP-I    LTR/Gypsy             926    983 (3742)  744  
+  339   15.1  8.8  2.8  rnd-5_family-2023#LTR/Pao                17   118   (890) + BEL-11_DBp-LTR   LTR/Pao               187    294   (40)  745  
+10545   13.4  1.2  1.0  rnd-5_family-2074#LINE/Jockey             1  1762     (0) + Jockey-6_DBp     LINE/I-Jockey        1628   3394    (2)  746  
+  366    0.0  0.0  0.0  rnd-5_family-2076#DNA/TcMar-Mariner       1    40     (0) + Mariner-2_Dro    DNA/TcMar-Mariner     656    695  (633)  747  
+  370   19.2  2.8  4.8  rnd-5_family-2083#LTR/Gypsy            1204  1368   (432) + Gypsy-31_DYa-I   LTR/Gypsy            6860   7163  (405)  748  
+ 1665   13.2  5.6  8.5  rnd-5_family-2092#LTR/Gypsy               1   374   (311) + Gypsy-7_DVir-LTR LTR/Gypsy               6    369   (21)  749  
+ 2343   29.9  2.7  2.4  rnd-5_family-2103#LINE/Jockey           469  1472   (172) + Outcast-1_DBi    LINE/I-Jockey        1505   2511  (361)  750  
+  578   15.0  7.1  0.0  rnd-5_family-2103#LINE/Jockey          1532  1644     (0) + Outcast-1_DBi    LINE/I-Jockey        2745   2865    (7)  751  
+ 1463    0.0  0.0  0.0  rnd-5_family-2108#LTR/Gypsy               1   158   (771) + Gypsy-4_DBp-I    LTR/Gypsy            4373   4530    (0)  752  
+ 1862    0.5  0.0  0.0  rnd-5_family-2108#LTR/Gypsy             159   363   (566) + Gypsy-4_DBp-LTR  LTR/Gypsy               1    205    (0)  752  
+ 4879    0.9  0.7  0.5  rnd-5_family-2108#LTR/Gypsy             364   929     (0) + Gypsy-4_DBp-I    LTR/Gypsy               1    567 (3963)  752  
+ 1158    6.4  2.9  0.6  rnd-5_family-2120#LINE/Jockey             1   172  (1331) + Jockey-6_DBp     LINE/I-Jockey         370    545 (2851)  753  
+ 7478    5.7  0.2  1.5  rnd-5_family-2120#LINE/Jockey           518  1503     (0) + Jockey-6_DBp     LINE/I-Jockey         907   1879 (1517)  753  
+ 4213    5.2  0.3  0.5  rnd-5_family-2129#DNA/CMC-Transib         1   566     (0) + Transib-2_DBi    DNA/CMC-Transib        11    575 (6018)  754  
+  637    9.3  0.0  0.0  rnd-5_family-2136#DNA/TcMar-Tigger        1    86   (449) + DNA-TA-1_DF      DNA/TcMar-Tigger       10     95   (89)  755  
+  574    9.9  0.0  0.0  rnd-5_family-2136#DNA/TcMar-Tigger      455   535     (0) + DNA-TA-1_DF      DNA/TcMar-Tigger      104    184    (0)  756  
+  648   12.9  3.2  5.9  rnd-5_family-2168#LTR/Pao               106   262     (0) + BEL-3_DAn-LTR    LTR/Pao                71    223    (2)  757  
+ 2272   25.8  9.7  1.8  rnd-5_family-2190#DNA/TcMar-Tc1           4   996    (10) + Mariner-9_DRh    DNA/TcMar-Tc1          14   1083  (580)  758  
+ 1515   20.1  3.0  6.6  rnd-5_family-2213#LTR/Gypsy               1   451     (6) + Gypsy-31_DAn-I   LTR/Gypsy               2    424 (4926)  759  
+ 2608    7.8  0.7  3.1  rnd-5_family-2214#DNA/CMC-Transib         1   434  (2920) + Transib-4_DRh    DNA/CMC-Transib       268    691  (674)  760  
+ 2038   10.1  1.2  1.5  rnd-5_family-2214#DNA/CMC-Transib       729  1061  (2293) + Helitron-N1_DBp  RC/Helitron          1083   1414   (65)  761  
+  340    6.5  0.0  0.0  rnd-5_family-2214#DNA/CMC-Transib      1028  1073  (2281) + Helitron-N1_DBp  RC/Helitron           266    311 (1168)  762 *
+12876    9.6  3.5  0.9  rnd-5_family-2214#DNA/CMC-Transib      1294  3335    (19) + Transib-1_DBp    DNA/CMC-Transib         5   2100    (3)  763  
+  457   17.7  3.5 11.2  rnd-5_family-2217#LTR/Gypsy              40   211  (1933) + Gypsy-18_DAn-LTR LTR/Gypsy              58    217    (0)  764 *
+11316   14.1  1.3  1.8  rnd-5_family-2217#LTR/Gypsy             194  2144     (0) + Gypsy-18_DAn-I   LTR/Gypsy               1   1923 (2597)  764  
+ 1106    8.9  8.7  3.0  rnd-5_family-2218#Unknown                 9   227  (4404) C Copia-4_DAn-LTR  LTR/Copia             (6)    231      1  765  
+33433    3.6  0.0  1.2  rnd-5_family-2218#Unknown               247  4406   (225) C Copia-4_DAn-I    LTR/Copia            (47)   4111      1  766  
+ 1156    9.2  8.4  3.0  rnd-5_family-2218#Unknown              4407  4631     (0) C Copia-4_DAn-LTR  LTR/Copia             (0)    237      1  766  
+ 1222   19.5  2.0 10.7  rnd-5_family-2222#DNA/PiggyBac          716  1122  (1559) + Gypsy-24_DWil-I  LTR/Gypsy             573    947 (5131)  767 *
+ 1444   26.3  2.2  4.2  rnd-5_family-2222#DNA/PiggyBac          928  1566  (1115) + LOOPER1_DM       DNA/PiggyBac          881   1507  (374)  768  
+ 1602    9.7 12.2  0.6  rnd-5_family-2222#DNA/PiggyBac         2104  2405   (276) + Gypsy-24_DWil-I  LTR/Gypsy             947   1283 (4795)  767  
+  528   14.7  7.3  9.5  rnd-5_family-2222#DNA/PiggyBac         2499  2648    (33) + Gypsy-24_DWil-I  LTR/Gypsy            1339   1485 (4593)  767  
+ 1162    0.0  0.0  0.0  rnd-5_family-2251#LTR/Gypsy               1   128   (555) + Gypsy-5_DBp-LTR  LTR/Gypsy              77    204    (0)  769  
+ 4700    0.4  1.6  0.5  rnd-5_family-2251#LTR/Gypsy             129   683     (0) + Gypsy-5_DBp-I    LTR/Gypsy               1    561 (4008)  769  
+ 2089    4.7  3.5  0.0  rnd-5_family-2321#Unknown                 1   352     (0) + hAT-2_DRh        DNA/hAT-hobo         2223   2613    (0)  770  
+ 4772   20.4  0.7  0.7  rnd-5_family-2326#LTR/Pao                 1   970    (44) + BEL-6_DBp-I      LTR/Pao              4042   5011  (600)  771  
+  583    4.4  0.0  0.0  rnd-5_family-2328#LTR/Pao                 1    68     (0) + BEL-6_DBp-I      LTR/Pao              3353   3420 (2191)  772  
+  649   14.7  0.9  0.0  rnd-5_family-2340#LTR/Gypsy              55   170     (0) + Gypsy19-I_Dya    LTR/Gypsy            6068   6184  (537)  773  
+  341   12.3  4.1  8.5  rnd-5_family-2350#DNA/PIF-Harbinger      16   113   (701) + Harbinger1_DYa   DNA/PIF-Harbinger       1     94 (2230)  774 *
+ 1831   15.6  5.3  0.6  rnd-5_family-2350#DNA/PIF-Harbinger      86   427   (387) + Harbinger1_DYa   DNA/PIF-Harbinger       9    366 (1958)  775 *
+ 1863    8.8  0.4  0.8  rnd-5_family-2350#DNA/PIF-Harbinger     425   688   (126) + Harbinger1_DYa   DNA/PIF-Harbinger    2062   2324    (0)  776  
+  984   20.2  6.2  0.4  rnd-5_family-2360#DNA                     1   244     (1) + DNA2-1_DAn       DNA                     7    264  (762)  777  
+  659   26.6  1.4 15.7  rnd-5_family-2472#DNA/hAT-hobo            1   357   (541) + Hoana8           DNA/hAT-hobo           26    338 (2533)  778  
+  248   25.0  2.8  0.0  rnd-5_family-2474#Unknown               357   428   (123) + Homo8            DNA/hAT-Ac            305    378 (2423)  779  
+ 5461   14.9  4.5  2.6  rnd-5_family-2475#LTR/Gypsy               1  1123  (4358) + Gypsy-25_DAn-I   LTR/Gypsy             986   2129 (4999)  780  
+ 8513   13.5  0.9  0.2  rnd-5_family-2475#LTR/Gypsy            1304  2623  (2858) + Gypsy-25_DAn-I   LTR/Gypsy            2179   3507 (3621)  780  
+ 1034   20.4  0.0  0.0  rnd-5_family-2475#LTR/Gypsy            3266  3451  (2030) + Gypsy-25_DAn-I   LTR/Gypsy            4153   4338 (2790)  780  
+  875   11.5  2.6  4.0  rnd-5_family-2475#LTR/Gypsy            3460  3613  (1868) + Gypsy-25_DAn-I   LTR/Gypsy            6977   7128    (0)  780  
+ 1086   20.0  2.4 12.7  rnd-5_family-2475#LTR/Gypsy            3614  4037  (1444) + Gypsy-25_DAn-LTR LTR/Gypsy               1    385    (9)  780  
+  565   16.8  2.8  0.9  rnd-5_family-2475#LTR/Gypsy            4047  4154  (1327) + Gypsy-25_DAn-I   LTR/Gypsy               1    110 (7018)  780  
+ 3484   16.3  6.2  4.3  rnd-5_family-2475#LTR/Gypsy            4258  5481     (0) + Gypsy-25_DAn-I   LTR/Gypsy             260   1555 (5573)  780  
+ 2590    2.4  0.0  1.0  rnd-5_family-2477#LTR/Gypsy               1   299  (2244) + Gypsy-22_DBp-LTR LTR/Gypsy               5    300    (0)  781  
+15406    5.0  0.7  0.9  rnd-5_family-2477#LTR/Gypsy             300  2543     (0) + Gypsy-22_DBp-I   LTR/Gypsy               1   2145 (2546)  781  
+ 1818    4.9  2.5  5.8  rnd-5_family-2482#LTR/Gypsy               1   284  (3867) + Gypsy-27_DBp-I   LTR/Gypsy            5486   5760  (768)  782  
+ 5544    2.3  7.1  0.9  rnd-5_family-2482#LTR/Gypsy             323  1064  (3087) + Gypsy-27_DBp-I   LTR/Gypsy            5741   6528    (0)  782  
+24290    2.0  0.1  0.2  rnd-5_family-2482#LTR/Gypsy            1324  4151     (0) + Gypsy-27_DBp-I   LTR/Gypsy               1   2825 (3703)  783  
+  478   27.7  5.8  7.7  rnd-5_family-2485#DNA/P                1374  1874   (819) + Galileo_DW       DNA/P                2313   2804 (1582)  784  
+  229   25.9  4.7  4.7  rnd-5_family-2485#DNA/P                1957  2041   (652) + P-1_DY           DNA/P                2960   3044 (1331)  785  
+ 1447    6.7  0.3  0.9  rnd-5_family-2487#LTR/Gypsy               1   246  (3714) + Gypsy-20_DBp-LTR LTR/Gypsy               7    305    (0)  786 *
+ 3556    0.3  0.0  0.3  rnd-5_family-2487#LTR/Gypsy             241   632  (3328) + Gypsy-20_DBp-I   LTR/Gypsy               1    391 (6741)  786 *
+29190    1.1  0.4  0.8  rnd-5_family-2487#LTR/Gypsy             631  3959     (1) + Gypsy-20_DBp-I   LTR/Gypsy             534   3850 (3282)  786  
+ 1276   16.0  7.6 11.3  rnd-5_family-2490#LTR/Gypsy              22   416     (3) + Gypsy-4_DAn-LTR  LTR/Gypsy             966   1347  (616)  787  
+ 1413   17.7  1.9  7.5  rnd-5_family-2496#LTR/Gypsy              15   393  (1272) + Gypsy-35_DAn-LTR LTR/Gypsy             108    466 (1650)  788  
+ 5226   13.4  4.3  5.2  rnd-5_family-2496#LTR/Gypsy             534  1664     (1) + Gypsy-35_DAn-LTR LTR/Gypsy             570   1691  (425)  788  
+ 2489    1.2  0.0  2.5  rnd-5_family-2515#DNA/Maverick            1   327     (0) + Polinton-1_DBp   DNA/Maverick          433    751 (6298)  789  
+ 2203    0.0  0.0  0.0  rnd-5_family-2560#LINE/Jockey             1   236     (0) + Jockey-4_DBp     LINE/I-Jockey        2041   2276 (1602)  790  
+  841   28.8  4.5  3.3  rnd-5_family-2587#LTR/Pao                29   846    (20) + BEL1_LTR_Dpse    LTR/Pao                 6    297    (3)  791  
+  369   31.6  3.4  2.4  rnd-5_family-2588#LTR/Pao               455   658    (36) + BEL1-I_DV        LTR/Pao               752    957 (4618)  792  
+ 4408   20.3  3.8  1.8  rnd-5_family-2596#LTR/Pao                 1   968    (20) + BEL-16_DAn-I     LTR/Pao              5014   6000 (1523)  793  
+ 1792    0.9  0.0  0.0  rnd-5_family-2601#LINE/I-Jockey           1   223     (0) + Jockey-1_DBp     LINE/I-Jockey        3584   3806    (0)  794  
+  281   38.1  0.0  5.5  rnd-5_family-266#Simple_repeat          316   517  (4807) + (CCA)n           Simple_repeat           1    190    (0)  795  
+  248   25.2  1.0  1.0  rnd-5_family-266#Simple_repeat          582   685  (4639) + Gypsy-24_DEl-I   LTR/Gypsy            2723   2826 (3322)  796  
+  250   34.1  0.0  2.3  rnd-5_family-266#Simple_repeat          944  1120  (4204) + (CAA)n           Simple_repeat           3    175    (0)  797 *
+  332   32.5  0.0  0.0  rnd-5_family-266#Simple_repeat         1021  1136  (4188) + Gypsy-31_DEl-I   LTR/Gypsy             421    546 (6408)  798 *
+  343   31.1  1.5  1.5  rnd-5_family-266#Simple_repeat         1129  1262  (4062) + (CACCAT)n        Simple_repeat           4    137    (0)  799 *
+  344   24.3  2.4  9.2  rnd-5_family-266#Simple_repeat         1246  1261  (4063) + TART_DV          LINE/I-Jockey        6962   6966 (8133)  800  
+  600   23.6  0.0 11.9  rnd-5_family-266#Simple_repeat         1262  1458  (3866) + (CAA)n           Simple_repeat           3    178    (0)  801  
+  344   24.3  2.4  9.2  rnd-5_family-266#Simple_repeat         1459  1975  (3349) + TART_DV          LINE/I-Jockey        6967   7126 (7973)  800  
+ 5796   20.1  0.4  0.4  rnd-5_family-2680#DNA/TcMar-Mariner      60  1232    (19) + Mariner-1_DPe    DNA/TcMar-Mariner      76   1248   (47)  802  
+ 1232    9.1  0.5  4.5  rnd-5_family-2738#LTR/Pao                 5   211  (1765) + Gypsy-11_DBp-I   LTR/Gypsy            5828   6026   (32)  803  
+  414   18.2 34.4  2.5  rnd-5_family-2738#LTR/Pao               246   402  (1574) C BEL-10_DAn-I     LTR/Pao            (4055)   1294   1088  804  
+  303   24.7  2.4  0.0  rnd-5_family-2738#LTR/Pao              1590  1674   (302) C BEL1_I_Dpse-int  LTR/Pao            (1924)   3515   3429  805  
+  961   21.5  5.1  2.7  rnd-5_family-277#LINE/LOA                 1   292     (0) + LOA-1_DYa        LINE/R1-LOA          3883   4181  (861)  806  
+ 8536   17.8  2.1  2.3  rnd-5_family-2778#LINE/Jockey           424  2637     (0) + Outcast-1_DBp    LINE/I-Jockey           1   2561 (2875)  807  
+  364    3.8  1.8  3.7  rnd-5_family-2783#LTR/Gypsy              27    81   (711) + Gypsy-20_DAn-I   LTR/Gypsy            5960   6013    (0)  808  
+ 1421   24.0  4.7 11.1  rnd-5_family-2783#LTR/Gypsy             124   783     (9) + Gypsy-20_DAn-LTR LTR/Gypsy              60    681  (878)  809  
+14707    2.0  0.1  1.1  rnd-5_family-2785#DNA/hAT-hobo            1  1738     (0) + hAT-8_DBp        DNA/hAT-hobo            5   1724  (889)  810  
+  286   34.0  0.0  0.0  rnd-5_family-2791#DNA/TcMar-Tc1           3   102   (240) C Mariner-5_DY     DNA/TcMar-Tc1       (636)   1013    914  811  
+  297   30.5  0.0  0.0  rnd-5_family-2791#DNA/TcMar-Tc1         226   334     (8) + Mariner-5_DY     DNA/TcMar-Tc1         876   1008  (641)  812  
+  361   19.3  3.9  3.5  rnd-5_family-2829#DNA/PiggyBac            1   189   (322) + piggyBac-1_DAn   DNA/PiggyBac            5    194 (2550)  813  
+  282   20.6  2.5  5.2  rnd-5_family-2829#DNA/PiggyBac          394   511     (0) + piggyBac-1_DAn   DNA/PiggyBac         2626   2740    (4)  814  
+  235   24.2  1.5  1.5  rnd-5_family-2864#LTR/Pao                 4    70   (710) + Kolobok-N1_DAn   DNA/Kolobok-Hydra     458    524  (202)  815  
+ 4100    7.2  0.0  1.7  rnd-5_family-2864#LTR/Pao               247   780     (0) + BEL-2_DBp-I      LTR/Pao              2190   2714 (2662)  816  
+ 1178   16.5  3.6  4.0  rnd-5_family-2882#LTR/Gypsy             170   422  (1243) + Gypsy-3_DAn-LTR  LTR/Gypsy              27    278 (1773)  817  
+ 1332   23.2  8.3  8.4  rnd-5_family-2882#LTR/Gypsy             556  1388   (277) + Gypsy-3_DAn-LTR  LTR/Gypsy             418   1249  (802)  817  
+28331    2.5  1.4  0.3  rnd-5_family-2946#LINE/Jockey             1  3825   (367) + Jockey-1_Dro     LINE/I-Jockey          11   3906    (0)  818  
+ 4084    1.7  0.2 11.2  rnd-5_family-2975#LTR/Gypsy               1   614   (270) + Gypsy-38_DAn-I   LTR/Gypsy            3988   4540    (0)  819  
+ 1683    7.0 19.2  0.0  rnd-5_family-2975#LTR/Gypsy             615   872    (12) + Gypsy-38_DAn-LTR LTR/Gypsy              22    331   (13)  819  
+  270   21.1  1.9  1.3  rnd-5_family-2983#Simple_repeat         183   336   (122) + (CGG)n           Simple_repeat           1    155    (0)  820  
+  259   23.2 12.3  4.0  rnd-5_family-2992#buffer                  2   212    (35) + Gypsy-38_DWil-I  LTR/Gypsy            2799   3026   (36)  821 *
+  947   15.6  0.0  0.4  rnd-5_family-2992#buffer                  4   246     (1) + (CGA)n           Simple_repeat           1    241    (0)  822  
+  278   15.6  6.1  2.9  rnd-5_family-3014#DNA/hAT-hobo          193   258   (127) + Hoana1           DNA/hAT-hobo         2962   3029  (491)  823  
+11491    0.6  0.1  0.1  rnd-5_family-3015#LINE/I                  1  1332     (0) + I-5_DBp          LINE/I               1642   2973    (2)  824  
+ 1793   27.4  3.2  8.7  rnd-5_family-3018#DNA/CMC-Transib         5  1213    (20) + Transib-4_DK     DNA/CMC-Transib       337   1527 (1083)  825  
+ 2371   19.9  3.8  4.1  rnd-5_family-3060#DNA/CMC-Transib        64   949     (0) + Transib-5_DBi    DNA/CMC-Transib       113    995 (1336)  826  
+  323   12.2  2.4  0.0  rnd-5_family-3121#LINE/I-Jockey          49   130   (224) + (CAG)n           Simple_repeat           1     84    (0)  827  
+  230   26.5  1.0  1.0  rnd-5_family-3121#LINE/I-Jockey          51   149   (205) C R1_DYa           LINE/R1            (4768)    745    647  828 *
+ 5769   19.0  6.9  3.9  rnd-5_family-3147#LTR/Pao                 1  1396   (311) + BEL-16_DAn-I     LTR/Pao               825   2260 (5263)  829  
+ 1099   23.9  1.0  4.2  rnd-5_family-3147#LTR/Pao              1399  1691    (16) + BEL-16_DAn-I     LTR/Pao              2425   2708 (4815)  829  
+  407   21.3  1.0  2.9  rnd-5_family-3172#LINE/I-Jockey         124   346   (468) + Jockey-3_DGri    LINE/I-Jockey        3199   3444 (1269)  830 *
+  461   17.5  0.7  1.4  rnd-5_family-3172#LINE/I-Jockey         208   346   (468) + (CAG)n           Simple_repeat           1    138    (0)  831  
+  237   18.9  3.3  8.0  rnd-5_family-3172#LINE/I-Jockey         347   390   (424) + Gypsy8-I_Dpse    LTR/Gypsy            6527   6701  (492)  832  
+  260   14.4  1.9  8.0  rnd-5_family-3172#LINE/I-Jockey         630   735    (79) + Jockey-3_DGri    LINE/I-Jockey        3173   3272 (1441)  833  
+28737    4.3  0.7  0.3  rnd-5_family-3277#LINE/Jockey             5  3773     (1) + Jockey-13_DBp    LINE/I-Jockey           1   3329   (16)  834  
+ 6307   26.5  1.3  1.1  rnd-5_family-347#LTR/Gypsy                1  2176     (0) + QUASIMODO_I-int  LTR/Gypsy            3465   5645  (415)  835  
+ 2573   25.8  0.8  1.8  rnd-5_family-3474#DNA/TcMar-Tc1         182   908     (1) + Mariner-5_DEl    DNA/TcMar-Tc1         324   1043   (11)  836  
+ 5049    0.6  0.0  0.0  rnd-5_family-3477#LTR/Pao                 1   541     (0) + BEL-3_DBp-I      LTR/Pao              3288   3828 (2126)  837  
+ 2095    7.2  0.0  0.0  rnd-5_family-3481#RC/Helitron           313   575     (0) + Helitron-1_DEl   RC/Helitron             1    263 (1015)  838  
+18577   11.3  1.3  0.5  rnd-5_family-349#LINE/I                   1  2810     (2) + I-2_DEl          LINE/I                  1   2832 (2527)  839  
+ 1307   31.8  4.9  1.7  rnd-5_family-35#DNA/TcMar-Tc1           182   814   (202) + Mariner-7_DRh    DNA/TcMar-Tc1         569   1221  (438)  840  
+16097    9.0  0.1  0.2  rnd-5_family-3548#Unknown                 2  2166     (0) + BEL-21_DAn-I     LTR/Pao              5793   7954  (568)  841  
+  388   30.1  2.9  4.8  rnd-5_family-3555#LINE/I                932  1207  (2214) + I-2_DYa          LINE/I               1630   1900 (3579)  842  
+  310   26.0  6.3  5.4  rnd-5_family-3555#LINE/I               1285  1512  (1909) + I-2_DYa          LINE/I               2182   2559 (2920)  842  
+  797   23.6  3.0  2.6  rnd-5_family-3555#LINE/I               1527  1757  (1664) + Gypsy-33_DAn-LTR LTR/Gypsy               1    232 (1645)  843  
+  547   23.7  5.6  5.6  rnd-5_family-3555#LINE/I               2964  3213   (208) + Gypsy-33_DAn-LTR LTR/Gypsy            1448   1697  (180)  843  
+  252   18.1  1.2  0.0  rnd-5_family-3581#LINE/I-Jockey         111   193   (803) + (CAG)n           Simple_repeat           1     84    (0)  844  
+  333   21.4  4.5  6.5  rnd-5_family-3581#LINE/I-Jockey         672   760   (236) + Jockey-3_DGri    LINE/I-Jockey        3205   3411 (1302)  845  
+  631   17.3  1.1 18.5  rnd-5_family-3581#LINE/I-Jockey         761   944    (52) + Gypsy8-I_Dpse    LTR/Gypsy            6491   6647  (546)  846  
+  333   21.4  4.5  6.5  rnd-5_family-3581#LINE/I-Jockey         945   968    (28) + Jockey-3_DGri    LINE/I-Jockey        3412   3471 (1242)  845  
+  438   17.1  2.8  2.8  rnd-5_family-3612#LTR/Pao                56   163   (310) + BEL-2_DVir-I     LTR/Pao              5361   5468    (0)  847  
+ 2410    7.7  1.2  1.2  rnd-5_family-3633#DNA/CMC-Transib         9   351     (1) + Transib-4_DAn    DNA/CMC-Transib       410    752 (2034)  848  
+ 4984    0.2  0.0  0.0  rnd-5_family-3667#LTR/Pao                 1   538     (0) + BEL-6_DBp-I      LTR/Pao               211    748 (4863)  849  
+  519   20.7 10.8  3.9  rnd-5_family-3697#LTR/Pao               104   364     (0) + BEL-2_Deu-LTR    LTR/Pao               107    341    (0)  850  
+  254   24.2  4.0  5.0  rnd-5_family-3700#DNA/CMC-Transib       165   264   (388) + Transib-5_DK     DNA/CMC-Transib      1090   1188  (767)  851  
+ 4743    2.8  0.1  0.6  rnd-5_family-371#DNA/TcMar-Mariner        1   678     (0) + Mariner-14_DBp   DNA/TcMar-Mariner      43    717  (570)  852  
+ 3704   26.4  2.3  3.5  rnd-5_family-376#DNA/CMC-Transib         17  1529     (0) + Transib-1_DK     DNA/CMC-Transib       576   2084  (905)  853  
+24239    0.5  0.1  0.3  rnd-5_family-378#DNA/hAT-hobo             1  2732     (0) + hAT-7_DBp        DNA/hAT-hobo            1   2647   (34)  854  
+  491   31.6  0.9  0.9  rnd-5_family-3789#LTR/Gypsy             210   442    (79) + Gypsy-28_DAn-I   LTR/Gypsy              93    325 (5371)  855  
+  310   19.1  0.0  2.9  rnd-5_family-380#DNA/hAT-hobo           364   433   (157) + Hoana1           DNA/hAT-hobo         2962   3029  (491)  856  
+  814   34.5  2.3  3.7  rnd-5_family-3804#DNA/TcMar-Tc1         345  1030     (1) + Mariner-5_DF     DNA/TcMar-Tc1         366   1042  (581)  857  
+  245   14.3  0.0  0.0  rnd-5_family-383#Unknown                112   153   (956) C hAT-1_DP         DNA/hAT-Ac         (1330)   1369   1328  858  
+  543   25.6  2.3  1.0  rnd-5_family-383#Unknown                802  1109     (0) + REP-2_DF         DNA?/hAT?             400    711    (2)  859  
+  280   18.0 10.0  1.0  rnd-5_family-3839#DNA/CMC-EnSpm          77   166    (42) + Gypsy-22_DWil-I  LTR/Gypsy             876    973 (5244)  860  
+  250   26.6  2.6  6.1  rnd-5_family-386#DNA                     97   248     (0) + Tetris_Dvir      DNA                  4413   4559    (2)  861  
+  532   22.0  9.5  1.0  rnd-5_family-3861#DNA/CMC-Transib        23   201   (322) + Transib-8_DRh    DNA/CMC-Transib       410    603  (457)  862  
+  422   21.9 14.1  3.9  rnd-5_family-387#DNA/PIF-Harbinger      419   603    (78) + Harbinger-2_DRh  DNA/PIF-Harbinger     492    694  (747)  863  
+  431   17.4 11.6  0.0  rnd-5_family-3914#LTR/Pao              1992  2077   (434) + BEL-10_DAn-I     LTR/Pao              4003   4098 (1251)  864  
+  252   20.6  8.8  0.0  rnd-5_family-3914#LTR/Pao              2419  2486    (25) + HelitronN-1_DPe  RC/Helitron            91    164  (991)  865  
+ 2724   20.5 10.5  0.5  rnd-5_family-3953#LTR/Pao                 4  1099   (405) + BEL-16_DAn-I     LTR/Pao              6328   7523    (0)  866  
+ 1743   14.7  6.4  1.3  rnd-5_family-3953#LTR/Pao              1126  1483    (21) + BEL-16_DAn-LTR   LTR/Pao                75    450   (24)  867  
+ 8311    9.7  2.2  2.3  rnd-5_family-397#LTR/Gypsy              329  1838     (0) + Gypsy-24_DBp-I   LTR/Gypsy               1   1927 (4133)  868  
+  263   17.0  0.0  1.9  rnd-5_family-3988#DNA/Sola-1            187   240     (5) + Sola-1_DK        DNA/Sola-1           2935   2987    (9)  869  
+11499    0.8  0.0  0.0  rnd-5_family-3994#LTR/Pao                 1  1245     (1) + BEL-3_DBp-I      LTR/Pao              1121   2365 (3589)  870  
+ 9294    8.5  2.0  3.5  rnd-5_family-3997#LTR/Gypsy               1  1586   (139) + Gypsy-8_DBp-I    LTR/Gypsy            5140   6187    (0)  871  
+  239   26.5  3.9  3.9  rnd-5_family-404#DNA/hAT-Charlie        895   996  (1215) + hAT-1_DAn        DNA/hAT-Charlie      1998   2099  (953)  872  
+  229   21.4  2.3  3.9  rnd-5_family-404#DNA/hAT-Charlie       1853  1983   (228) + DNA-2_DBp        DNA                   262    390  (108)  873  
+  306   12.7  0.0  0.0  rnd-5_family-4062#Simple_repeat         187   265    (18) + (CA)n            Simple_repeat           1     79    (0)  874  
+  238   17.2  8.5  1.6  rnd-5_family-4064#LTR/Gypsy              26    84   (128) + Gypsy-52_DEl-I   LTR/Gypsy            2884   2946 (3101)  875  
+ 5422    0.5  0.0  0.0  rnd-5_family-4067#LTR/Pao                 1   591     (0) + BEL-6_DBp-I      LTR/Pao               997   1587 (4024)  876  
+  292   19.7  8.3  8.3  rnd-5_family-4148#DNA/CMC-Transib       187   319   (713) + Transib-4_DRh    DNA/CMC-Transib       340    472  (893)  877  
+  784   26.1  3.7  2.3  rnd-5_family-4148#DNA/CMC-Transib       426   774   (258) + Transib-5_DAn    DNA/CMC-Transib      1735   2088  (764)  878  
+  343   24.8  1.0  1.0  rnd-5_family-4148#DNA/CMC-Transib       773   874   (158) + Transib-5_DAn    DNA/CMC-Transib      2295   2396  (456)  879 *
+  461   21.3  0.0  0.0  rnd-5_family-4148#DNA/CMC-Transib       914  1021    (11) + Transib-4_DRh    DNA/CMC-Transib      1080   1187  (178)  880  
+  227   15.6  2.2  0.0  rnd-5_family-4169#DNA/TcMar-Tc1           1    45   (679) + I-1_DAn          LINE/I                570    615 (4703)  881  
+  493   20.4  0.0  0.0  rnd-5_family-4169#DNA/TcMar-Tc1          48   140   (584) C Mariner-11_DAn   DNA/TcMar-Tc1       (969)    681    589  882 *
+ 3673   11.9  0.5  0.7  rnd-5_family-4169#DNA/TcMar-Tc1         129   720     (4) + Mariner-11_DAn   DNA/TcMar-Tc1        1060   1650    (0)  883  
+ 9097    2.5  0.0  0.0  rnd-5_family-421#DNA/TcMar-Tc1            3  1053     (0) + Mariner-3_DBp    DNA/TcMar-Tc1           1   1051  (569)  884  
+  293   28.5  1.3  6.3  rnd-5_family-4230#LINE/Jockey           661   810  (2212) + (ATG)n           Simple_repeat           1    143    (0)  885  
+  230   21.5  3.1  0.0  rnd-5_family-4230#LINE/Jockey           835   899  (2123) + ROO_I-int        LTR/Pao               692    758 (7498)  886  
+  231   28.9  0.0  1.6  rnd-5_family-4230#LINE/Jockey           942  1064  (1958) + (CAA)n           Simple_repeat           1    121    (0)  887  
+  238   34.9  1.5  3.7  rnd-5_family-4230#LINE/Jockey          1509  1645  (1377) + Jockey-3_DBp     LINE/I-Jockey         894   1027 (3177)  888  
+  377    0.0  0.0  0.0  rnd-5_family-4231#LTR/Pao                 1    42     (0) + BEL-7_DBp-I      LTR/Pao               605    646 (4735)  889  
+ 1506    3.5  0.0  0.0  rnd-5_family-4232#LTR/Pao                 1   173     (0) + BEL-7_DBp-I      LTR/Pao              3469   3641 (1740)  890  
+  423   28.7  0.7  0.7  rnd-5_family-4233#DNA/CMC-Transib         1   151   (370) + Transib4_DP      DNA/CMC-Transib      1046   1196  (138)  891  
+ 1942   12.4  9.0  7.1  rnd-5_family-425#LTR/Gypsy                1   691     (0) + Gypsy-39_DAn-I   LTR/Gypsy              10    716 (4916)  892  
+24448    2.3  0.3  0.7  rnd-5_family-426#LTR/Pao                  1  3120     (1) + BEL-10_DBp-I     LTR/Pao                99   3205  (440)  893  
+ 7869    1.5  3.3  0.9  rnd-5_family-4262#DNA/TcMar-Tc1         248  1175     (0) + Mariner-5_DEl    DNA/TcMar-Tc1           1    950  (104)  894  
+ 3514   14.8  0.9  4.2  rnd-5_family-429#LTR/Gypsy                1   662     (0) + Gypsy-1_DAn-I    LTR/Gypsy             639   1279 (3251)  895  
+ 1097    7.1  0.5  4.2  rnd-5_family-430#LTR/Gypsy               10   230     (0) + Gypsy-7_DBp-I    LTR/Gypsy            5894   6106  (495)  896  
+ 6911    7.1  0.1  4.9  rnd-5_family-4360#DNA/TcMar-Tc1           3  1004     (9) + Mariner-6_DK     DNA/TcMar-Tc1           8    963  (606)  897  
+  638   24.4  2.3  1.1  rnd-5_family-4363#Unknown                 1   174  (2649) + Hoana8           DNA/hAT-hobo            2    177 (2694)  898  
+  493   27.9  1.4  7.3  rnd-5_family-4363#Unknown               197   413  (2410) + Hoana8           DNA/hAT-hobo          134    338 (2533)  899  
+ 4931   24.0  1.7  2.2  rnd-5_family-4363#Unknown               813  2734    (89) + Hoana8           DNA/hAT-hobo          411   2560  (311)  900  
+  676   13.7  1.9  1.0  rnd-5_family-4364#LTR/Gypsy             263   426     (3) + Gypsy-7_DFi-I    LTR/Gypsy             460    586 (6297)  901  
+  385   29.0  5.4  7.3  rnd-5_family-4367#DNA/CMC-Transib       326   548   (200) + Transib4_DP      DNA/CMC-Transib      1079   1297   (37)  902  
+ 9764   11.1  1.4  2.4  rnd-5_family-4414#LINE/I                  6  1764     (0) + I-5_DBp          LINE/I                  1   1307 (1668)  903  
+ 5727   16.0  3.0  2.9  rnd-5_family-4417#LTR/Gypsy             195  1508     (0) + Gypsy-21_DBp-I   LTR/Gypsy            2107   3421 (2499)  904  
+  240   28.8  1.8  5.5  rnd-5_family-4429#LTR/Pao               726   839   (302) + BEL-6_DBp-I      LTR/Pao               349    458 (5153)  905  
+ 6375   10.7  1.6  0.1  rnd-5_family-4431#LTR/Pao                47  1069     (0) + BEL-6_DBp-I      LTR/Pao              4268   5289  (593)  906  
+  912   20.5  0.0  4.2  rnd-5_family-4480#LINE/I                  1   224     (0) + I-1_DAn          LINE/I                  5    219 (5099)  907  
+ 7019   13.3  0.3  0.3  rnd-5_family-4481#LINE/I                  1  1147     (0) + I-1_DAn          LINE/I                225   1370 (3948)  908  
+  254    8.6  0.0  0.0  rnd-5_family-4493#rRNA                  124   158  (8265) C Jockey-12_DAn    LINE/I-Jockey      (4755)     35      1  909  
+  273    5.7  0.0  0.0  rnd-5_family-4493#rRNA                  265   299  (8124) C Jockey-12_DAn    LINE/I-Jockey      (4755)     35      1  909  
+  232   17.2 23.6  1.7  rnd-5_family-4493#rRNA                  984  1131  (7292) C Jockey-3_DVi     LINE/I-Jockey      (5163)    180      1  910  
+  408   17.8 15.6  0.0  rnd-5_family-4544#LTR/Pao              1822  1911   (530) + BEL-10_DAn-I     LTR/Pao              3995   4098 (1251)  911  
+  393   21.0 17.5  2.5  rnd-5_family-4552#DNA/P                   1   137    (32) + P_DB             DNA/P                   1    157 (2778)  912  
+  945   14.6  1.2  1.8  rnd-5_family-4563#LTR/Gypsy               1   167    (39) + Gypsy19-I_Dya    LTR/Gypsy            6540   6705   (16)  913  
+ 1157   20.9  2.7  1.3  rnd-5_family-4577#DNA/hAT-hobo         1036  1427   (238) + Hoana4           DNA/hAT-hobo            2    458 (2074)  914  
+ 1465    0.0  0.0  0.0  rnd-5_family-4886#LTR/Pao                 2   159  (1108) + BEL-4_DBp-I      LTR/Pao              3334   3491 (1844)  915  
+ 8527    0.1  0.0  0.0  rnd-5_family-4886#LTR/Pao               362  1267     (0) + BEL-4_DBp-I      LTR/Pao              3704   4609  (726)  915  
+ 2803   14.2  0.4  0.9  rnd-5_family-4936#LTR/Pao                 7   466     (2) + BEL-10_DAn-I     LTR/Pao               951   1408 (3941)  916  
+  681   15.3  1.4  2.2  rnd-5_family-496#LTR/Pao                 27   166   (891) + BEL-10_DAn-LTR   LTR/Pao                63    201  (183)  917  
+  428   18.6 13.6  5.0  rnd-5_family-496#LTR/Pao                226   372   (685) + BEL-10_DAn-LTR   LTR/Pao               225    383    (1)  917  
+ 3962   13.3  6.0  0.8  rnd-5_family-496#LTR/Pao                374  1055     (2) + BEL-10_DAn-I     LTR/Pao                 1    717 (4632)  917  
+ 2309   11.1  2.8  9.7  rnd-5_family-506#RC/Helitron            689  1216    (79) + Helitron-1_DBp   RC/Helitron            40    534 (4521)  918  
+  231   22.5  4.4  1.1  rnd-5_family-506#RC/Helitron           1189  1278    (17) + Helitron-1_DBp   RC/Helitron           696    788 (4267)  919 *
+ 3576    0.0  0.0  0.0  rnd-5_family-5105#LTR/Pao                 1   383  (1116) + BEL-3_DBp-LTR    LTR/Pao                 4    386    (0)  920  
+10406    0.3  0.1  0.0  rnd-5_family-5105#LTR/Pao               384  1499     (0) + BEL-3_DBp-I      LTR/Pao                 1   1117 (4837)  920  
+ 5741    1.4  0.0  1.0  rnd-5_family-5117#LTR/Gypsy               1   685   (361) + Gypsy-6_DBp-I    LTR/Gypsy            3526   4762   (88)  921  
+ 3123    2.8  0.8  0.0  rnd-5_family-5117#LTR/Gypsy             686  1046     (0) + Gypsy-6_DBp-LTR  LTR/Gypsy               1    364    (8)  922  
+  359   15.9  4.3  0.0  rnd-5_family-5119#LTR/Pao                 1    69   (572) + BEL-10_DAn-LTR   LTR/Pao               134    205  (179)  923  
+  466   17.9 13.6  5.0  rnd-5_family-5119#LTR/Pao               130   276   (365) + BEL-10_DAn-LTR   LTR/Pao               225    383    (1)  923  
+ 1325   14.4  6.5  3.1  rnd-5_family-5119#LTR/Pao               280   638     (3) + BEL-10_DAn-I     LTR/Pao                 3    427 (4922)  923  
+  848   32.8  3.4  2.8  rnd-5_family-5169#LTR/Pao                 3   504   (479) + BEL-4_DBi-I      LTR/Pao              1214   1718 (4164)  924  
+  502   33.5  0.8  2.9  rnd-5_family-5169#LTR/Pao               615   968    (15) + BEL-4_DBi-I      LTR/Pao              1769   2115 (3767)  924  
+  324   24.8  3.5  3.5  rnd-5_family-532#DNA/hAT-hobo            71   183  (2197) + Hoana1           DNA/hAT-hobo          664    776 (2744)  925 *
+  435   28.0  3.1  3.1  rnd-5_family-532#DNA/hAT-hobo           180   341  (2039) + Hoana1           DNA/hAT-hobo          827    988 (2532)  926  
+ 1605   28.1 10.4  1.9  rnd-5_family-532#DNA/hAT-hobo           415  1312  (1068) + Hoana1           DNA/hAT-hobo         1009   1981 (1539)  927  
+  660   28.9  5.1  2.9  rnd-5_family-532#DNA/hAT-hobo          1429  1854   (526) + Hoana1           DNA/hAT-hobo         1818   2535  (985)  928  
+  284    3.0  0.0  0.0  rnd-5_family-532#DNA/hAT-hobo          1906  1938   (442) + Hoana1           DNA/hAT-hobo         3488   3520    (0)  929  
+  290   27.4  1.9  1.9  rnd-5_family-532#DNA/hAT-hobo          2170  2277   (103) + Mariner-5_DBi    DNA/TcMar-Mariner       1    108 (1007)  930 *
+  548   16.3  7.6  0.9  rnd-5_family-532#DNA/hAT-hobo          2275  2379     (1) + Mariner-5_DBi    DNA/TcMar-Mariner     344    455  (660)  931  
+  333   30.5 10.4  7.1  rnd-5_family-5377#LTR/Gypsy             308   702     (5) + Gypsy-31_DEl-I   LTR/Gypsy             811   1217 (5609)  932  
+ 7796   13.6  0.2  1.9  rnd-5_family-5416#LINE/R1                 1  1236     (0) + R1B_DAn          LINE/R1              3660   4874  (931)  933  
+  933    5.0  4.2  0.0  rnd-5_family-5449#DNA/Maverick            1   119     (0) + Polinton-1_DBp   DNA/Maverick           35    158 (6891)  934  
+ 2509   13.1  0.8  0.0  rnd-5_family-546#LTR/Gypsy                1   396     (1) + Gypsy-7_DEu-I    LTR/Gypsy            1576   1974 (4380)  935  
+ 7732    2.1  0.0  0.1  rnd-5_family-547#LTR/Gypsy                1   867     (0) + Gypsy-2_DBp-I    LTR/Gypsy            5381   6246   (28)  936  
+  237   21.1  7.0  0.0  rnd-5_family-5561#DNA/CMC-EnSpm         105   161   (306) + HeT-A3_DVi       LINE/I-Jockey        3354   3414  (933)  937  
+ 6611    4.6  7.7  0.2  rnd-5_family-5676#DNA/TcMar-Tc1           1   870    (17) + Mariner-4_DY     DNA/TcMar-Tc1         355   1289    (3)  938  
+  352   16.9  4.2  0.0  rnd-5_family-5750#LTR/Gypsy             481   566   (487) + Gypsy-39_DAn-I   LTR/Gypsy            5569   5632    (0)  939  
+  763   29.1  1.2  1.2  rnd-5_family-5751#LTR/Gypsy             585   841     (2) + Gypsy-39_DAn-I   LTR/Gypsy             541    797 (4835)  940  
+ 2860   28.9  4.3  3.0  rnd-5_family-5819#DNA/CMC-Transib         1  1549     (0) + Transib-6_DBp    DNA/CMC-Transib       687   2121  (886)  941  
+ 2356    0.0  0.0  0.0  rnd-5_family-59#DNA/TcMar-Tc1             1   272     (4) + Mariner-6_DBi    DNA/TcMar-Tc1        1366   1637    (0)  942  
+  589   23.4  0.7  1.3  rnd-5_family-5904#LTR/Pao                 2   184   (591) + BEL-6_DTa-I      LTR/Pao              3764   4045 (1336)  943  
+ 2729   13.1  5.1  0.4  rnd-5_family-5904#LTR/Pao               319   771     (4) + BEL-3_DAn-I      LTR/Pao              3276   3749  (900)  944  
+ 7824    2.6  0.1  0.1  rnd-5_family-60#DNA/TcMar-Tc1             3   914     (0) + Mariner-6_DBi    DNA/TcMar-Tc1           1    912  (725)  945  
+ 2695   23.0  6.7  0.4  rnd-5_family-6103#DNA/TcMar-Tc1         195   879    (80) + Mariner-3_DBi    DNA/TcMar-Tc1         722   1449  (201)  946  
+  433    7.0  0.0  0.0  rnd-5_family-6103#DNA/TcMar-Tc1         870   926    (33) C Mariner-3_DBi    DNA/TcMar-Tc1      (1592)     58      2  947 *
+  260   26.2  3.9  8.3  rnd-5_family-6108#LINE/Jockey           542   847   (986) + Jockey-2_DF      LINE/I-Jockey        3683   3911  (879)  948  
+21858    2.9  0.4  0.4  rnd-5_family-6116#DNA/hAT-hobo            2  2695     (0) + hAT-10_DBp       DNA/hAT-hobo            2   2816    (1)  949  
+17837    8.1  0.1  0.1  rnd-5_family-6133#Unknown                 1  2374     (9) C R1A_DAn          LINE/R1             (562)   5048   2675  950  
+ 2642   11.6  6.8  0.6  rnd-5_family-6144#LTR/Copia               1   458  (1994) + Copia_I-int      LTR/Copia            2450   2935 (1705)  951  
+ 6413   18.3  1.4  5.1  rnd-5_family-6144#LTR/Copia             678  2187   (265) + Copia_I-int      LTR/Copia            3165   4718   (43)  951  
+  249    8.3  0.0  0.0  rnd-5_family-6144#LTR/Copia            2414  2449     (3) C Gypsy-22_DAn-I   LTR/Gypsy          (3058)   1345   1310  952  
+ 3120    3.1  0.2  2.8  rnd-5_family-6248#RC/Helitron           180   578   (110) + Helitron-4_DRh   RC/Helitron          3574   3962  (936)  953  
+  268   10.8  0.0  0.0  rnd-5_family-6498#LTR/Pao               102   138   (911) + BEL-1_DBp-LTR    LTR/Pao                62     98  (200)  954  
+  900   12.3  2.6 11.0  rnd-5_family-6498#LTR/Pao               378   779   (270) + BEL-1_DBp-I      LTR/Pao                 1    415 (5280)  955  
+ 1708   32.0  2.6  2.6  rnd-5_family-6593#LTR/Gypsy             138  1336  (2088) + ZAM_I-int        LTR/Gypsy            4912   5871 (1619)  956  
+  397   29.9  5.2  5.3  rnd-5_family-6593#LTR/Gypsy            1587  2409  (1015) + ZAM_I-int        LTR/Gypsy            2940   3445  (790)  956  
+  263   32.0  2.2  5.7  rnd-5_family-6593#LTR/Gypsy            2536  2717   (707) + ZAM_I-int        LTR/Gypsy            3568   3743  (492)  956  
+  250   15.1  0.1  4.2  rnd-5_family-6593#LTR/Gypsy            2926  3049   (375) + Gypsy-26_DEl-I   LTR/Gypsy            2378   2419  (388)  957  
+ 1445    3.4  0.0 16.7  rnd-5_family-6774#LTR/Gypsy               2   252   (251) + Gypsy-8_DBi-I    LTR/Gypsy            3872   4086  (334)  958  
+ 1380   20.7  0.3  3.1  rnd-5_family-69#DNA/hAT-Pegasus           1   294   (908) C Hoyak3           DNA/hAT-Pegasus       (4)   3267   2982  959 *
+ 4306   18.2  3.9  2.3  rnd-5_family-69#DNA/hAT-Pegasus         228  1199     (3) + Hoyak3           DNA/hAT-Pegasus       417   1403 (1868)  960  
+19183    5.7  0.3  0.6  rnd-5_family-70#LINE/Jockey             349  3191     (0) + Jockey-1_DBp     LINE/I-Jockey           1   2814 (1655)  961  
+  740    4.6  0.0  4.6  rnd-5_family-7098#LTR/Pao                 2   115     (0) + BEL-10_DBp-I     LTR/Pao              3488   3596   (49)  962  
+  261   18.0  1.6  3.2  rnd-5_family-7100#DNA/Maverick           41   103   (357) + Galileo_DM       DNA/P                4725   4786 (1203)  963  
+ 6628    3.4  0.1  0.3  rnd-5_family-722#LINE/Jockey              1   768     (1) + Jockey-15_DBp    LINE/I-Jockey        2630   3396    (0)  964  
+  244   15.9  2.3  0.0  rnd-5_family-726#Unknown                378   421   (328) C BEL-1_DBp-I      LTR/Pao            (5648)     47      3  965  
+17487    7.8  1.1  0.6  rnd-5_family-728#DNA/hAT-Ac               2  2414     (0) + Hoana2           DNA/hAT-Ac              1   2425    (2)  966  
+10971    1.8  0.1  1.4  rnd-5_family-740#LINE/R1                  1  1336     (0) + R1-2_DBp         LINE/R1               440   1759 (3855)  967  
+36787    1.6  0.7  0.3  rnd-5_family-742#LINE/Jockey             27  4206     (0) + Jockey-3_DBp     LINE/I-Jockey           6   4201    (3)  968  
+ 1111   26.1  3.5  2.4  rnd-5_family-76#DNA/CMC-Transib           5   464   (449) + Transib-7_DRh    DNA/CMC-Transib         6    470  (612)  969  
+  513   24.2  2.7  0.7  rnd-5_family-76#DNA/CMC-Transib         507   656   (257) + Transib-7_DRh    DNA/CMC-Transib       447    599  (483)  970  
+  465   27.0  4.9  7.6  rnd-5_family-7609#DNA                    82   325   (706) + Mariner2_DM      DNA/TcMar-Tc1          82    319  (593)  971  
+  273   15.0  9.7  3.0  rnd-5_family-7774#LTR/Gypsy            1302  1363   (401) + Gypsy-10_DTa-I   LTR/Gypsy             884    949 (6483)  972  
+ 7859   12.6  2.8  2.2  rnd-5_family-796#DNA/CMC-Transib          1  1454     (0) + Transib-2_DEl    DNA/CMC-Transib         2   1464 (1222)  973  
+ 4670   10.3  0.8  5.2  rnd-5_family-799#LTR/Gypsy                4   863  (4165) + Gypsy-21_DBp-I   LTR/Gypsy            4243   4817 (1103)  974  
+ 9147    6.2  1.5  1.8  rnd-5_family-799#LTR/Gypsy              898  2184  (2844) + Gypsy-21_DBp-I   LTR/Gypsy            4798   5920    (0)  974  
+  236    5.3  5.0  5.0  rnd-5_family-799#LTR/Gypsy             2253  2292  (2736) + Gypsy-21_DBp-I   LTR/Gypsy               4     43 (6733)  975  
+10781   13.2  2.2  1.3  rnd-5_family-799#LTR/Gypsy             2491  5028     (0) + Gypsy-21_DBp-I   LTR/Gypsy               1   3032 (3324)  975  
+ 1005   15.1  9.2  4.2  rnd-5_family-80#LINE/LOA                 32   509   (760) + LOA-1B_DPer      LINE/R1-LOA           226    654 (4801)  976  
+  822   27.4  3.0  5.1  rnd-5_family-80#LINE/LOA                779  1216    (53) + Loa-2_DEl        LINE/R1-LOA           877   1305 (2674)  977  
+  311   29.2  0.0  1.1  rnd-5_family-806#LTR/Pao                744   833   (511) + BEL-11_DAn-I     LTR/Pao               949   1037 (1019)  978  
+  256   19.0  3.5  0.0  rnd-5_family-806#LTR/Pao               1249  1306    (38) + BEL-11_DAn-I     LTR/Pao              1793   1852 (3763)  978  
+  260   25.2  2.8  5.0  rnd-5_family-817#Unknown                 13   154  (1270) + REP-2_DTa        Unknown               102    240 (1517)  979  
+  332   13.7  5.2  8.6  rnd-5_family-817#Unknown                196   291  (1133) + REP-2_DTa        Unknown               332    424 (1333)  980  
+ 7404    4.0  0.2  1.5  rnd-5_family-82#DNA/TcMar-Tc1             2   922     (0) + Mariner-3_DAn    DNA/TcMar-Tc1           1    909  (733)  981  
+  742    2.1  0.0  0.0  rnd-5_family-8200#DNA/CMC-Transib         1    93   (633) + Transib-7_DBi    DNA/CMC-Transib       615    707  (589)  982  
+  253   27.3  4.4  3.6  rnd-5_family-8200#DNA/CMC-Transib       113   249   (477) + Transib-6_DRh    DNA/CMC-Transib       144    281 (1585)  983  
+ 3521    2.0  0.0  1.4  rnd-5_family-8200#DNA/CMC-Transib       281   726     (0) + Transib-7_DBi    DNA/CMC-Transib       855   1294    (2)  984  
+ 4596   17.4  1.3  0.4  rnd-5_family-823#LINE/I                   1  1186     (0) + I-2_DAn          LINE/I               4124   5351   (17)  985  
+19506    3.6  0.1  0.2  rnd-5_family-825#LTR/Gypsy                1  2502  (1202) + Gypsy-2_DBi-I    LTR/Gypsy             269   2857 (1512)  986  
+10842    1.8  0.0  0.0  rnd-5_family-825#LTR/Gypsy             2504  3704     (0) + Gypsy-2_DBi-I    LTR/Gypsy            2769   3969  (272)  986  
+  780    0.0  0.0  0.0  rnd-5_family-826#LINE/Jockey              1    86     (0) + Jockey-5_DBp     LINE/I-Jockey         539    624 (4081)  987  
+ 1880    1.4  0.0  0.0  rnd-5_family-828#LTR/Gypsy                1   209  (4340) + Gypsy-14_DBp-LTR LTR/Gypsy               3    211    (0)  988  
+  295   11.6  0.0  0.0  rnd-5_family-828#LTR/Gypsy              186   209  (4340) + Gypsy-43_DWil-I  LTR/Gypsy             787    810 (3094)  989 *
+35557    1.7  0.0  0.2  rnd-5_family-828#LTR/Gypsy              210  4425   (124) + Gypsy-14_DBp-I   LTR/Gypsy               1   4185    (0)  988  
+ 1343    0.7  0.0  0.0  rnd-5_family-828#LTR/Gypsy             4401  4549     (0) + Gypsy-14_DBp-LTR LTR/Gypsy               1    149   (62)  990 *
+ 1453   24.1 13.4  3.3  rnd-5_family-85#LINE/LOA                 19   849    (11) + LOA-1_DYa        LINE/R1-LOA          3876   4789  (253)  991  
+  622   10.2 20.5  2.8  rnd-5_family-87#LINE/CR1                  2   152     (3) + CR1-2_DAn        LINE/CR1             4324   4500    (0)  992  
+  479   24.9  5.6  9.2  rnd-5_family-876#DNA/CMC-Transib         17   321     (0) + Transib-4_DK     DNA/CMC-Transib      1408   1535    (3)  993  
+  815   25.0  4.6  5.2  rnd-5_family-877#DNA/CMC-Transib         85   563     (0) + Transib-2_DBi    DNA/CMC-Transib      3947   4251 (2342)  994  
+ 4514    0.0  0.2  0.6  rnd-5_family-8785#DNA                     3   502     (0) + DNA-2_DBp        DNA                     1    498    (0)  995  
+ 6987    4.3  2.0  5.6  rnd-5_family-879#LTR/Pao                  1  1013    (67) + BEL-5_DEu-I      LTR/Pao                 3    980 (4020)  996  
+ 1726   26.5  0.7  1.0  rnd-5_family-883#LTR/Gypsy               19  1185   (759) + ZAM_I-int        LTR/Gypsy            4791   6211  (270)  997  
+  275   24.2  9.4  1.0  rnd-5_family-883#LTR/Gypsy             1592  1687   (257) + TIRANT_I-int     LTR/Gypsy            7589   7692    (0)  998  
+ 3061    1.1  5.5  0.3  rnd-5_family-90#LTR/Pao                   3   368  (2922) + BEL-4_DBp-LTR    LTR/Pao                 1    385    (0)  999  
+27444    0.2  0.0  0.0  rnd-5_family-90#LTR/Pao                 369  3290     (0) + BEL-4_DBp-I      LTR/Pao                 1   2923 (2412)  999  
+ 2616    2.9  0.0  0.0  rnd-5_family-902#LTR/Gypsy                2   311     (0) + Gypsy-21_DAn-I   LTR/Gypsy            2092   2401 (3093) 1000  
+  227   19.6  0.0  4.3  rnd-5_family-92#DNA/Zisupton              5    52   (108) + BEL-1_DPer-I     LTR/Pao               394    439 (7349) 1001 *
+  238   21.3  0.0  1.6  rnd-5_family-92#DNA/Zisupton             18    79    (81) + Gypsy-22_DWil-I  LTR/Gypsy             921    981 (5236) 1002  
+  236    3.2  0.0  0.0  rnd-5_family-9282#Unknown               224   254     (1) C Helitron-1_DEl   RC/Helitron         (698)    580    550 1003  
+ 4403    1.8  0.0  0.2  rnd-5_family-955#LTR/Gypsy                1   478  (2909) + Gypsy-13_DBp-LTR LTR/Gypsy               1    477   (18) 1004  
+16988   11.3  3.7  1.1  rnd-5_family-955#LTR/Gypsy              479  3384     (3) + Gypsy-13_DAn-I   LTR/Gypsy               1   3010 (3016) 1005  
+ 2682    1.7  1.1  0.8  rnd-5_family-958#LTR/Gypsy                1   358     (0) + Gypsy-10_DBp-I   LTR/Gypsy             455    813 (5344) 1006  
+  489   21.3  1.5  2.3  rnd-5_family-959#DNA/CMC-Transib         12   141   (577) + Transib-5_DRh    DNA/CMC-Transib       651    779  (664) 1007  
+ 1334    9.3  4.8  6.2  rnd-5_family-959#DNA/CMC-Transib        193   718     (0) + Transib-5_DRh    DNA/CMC-Transib       917   1435    (8) 1008  
+  499   22.5  1.5  0.8  rnd-5_family-960#DNA/CMC-Transib         14   143     (3) + Transib-5_DRh    DNA/CMC-Transib       126    256 (1187) 1009  
+ 4165   25.0  1.7  0.8  rnd-5_family-968#LINE/Jockey              1  1451     (1) + Outcast-1_DAn    LINE/I-Jockey        4404   5429  (357) 1010  
+ 2325   18.7  7.4  4.0  rnd-5_family-969#LINE/Jockey            176   820  (1228) + Outcast-1_DAn    LINE/I-Jockey         194    859 (4927) 1011  
+  382    6.2  0.0  0.0  rnd-5_family-969#LINE/Jockey            816   863  (1185) + Outcast-2_DBp    LINE/I-Jockey         338    385  (442) 1012 *
+ 4379    0.6  0.0  0.2  rnd-5_family-969#LINE/Jockey            855  1334   (714) + Outcast-2_DBp    LINE/I-Jockey         123    601  (226) 1013  
+ 1246   17.8  0.3  3.1  rnd-5_family-969#LINE/Jockey           1331  1696   (352) + Outcast-1_DAn    LINE/I-Jockey         684    827    (0) 1011 *
+ 1205   26.6  1.9  0.5  rnd-5_family-969#LINE/Jockey           1686  2048     (0) + Outcast-1_DAn    LINE/I-Jockey        1848   2215 (3571) 1014 *
+  427    5.8  0.0  0.0  rnd-5_family-9817#DNA/hAT-Blackjack       1    52     (0) + hAT-1_DBp        DNA/hAT-Blackjack    2435   2486    (1) 1015  

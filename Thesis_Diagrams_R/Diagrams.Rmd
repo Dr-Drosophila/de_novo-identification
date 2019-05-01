@@ -1,0 +1,537 @@
+---
+title: "Diagrams"
+author: "Rele, Chinmay"
+date: "2/22/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Results
+
+Creating a Stacked barplot:
+More condensed
+```{r}
+# creating stacked barplot
+library("tibble")
+library(ggplot2)
+temp = read.table( "./more_condensed.tab", header=TRUE, sep="\t" )
+fly_data = as_tibble(temp)
+fly_data
+fly_data$species = factor(fly_data$species,levels = c( "dvir", "dmoj", "dwil", "dper", "dpse", "dana", "dbip", "dbia", "dtri", "deug", "dmel", "dsec", "dsim", "dmau", "dere", "dyak" ))
+p = ggplot(fly_data, aes(fill=class, y=percent, x=species)) + geom_bar( stat="identity", position="fill") + labs( x = "Species", y = "Percent composition of Repeat",
+          title = "Percent composition of each TE class within respective Nanopore assembly" )
+
+pdf( file="accounted_unknowns_small.pdf", width=9, height=7 )
+print( p )
+graphics.off()
+```
+
+## Following figures not added
+Creating a Stacked barplot:
+### More condensed -- RAW BASE-PAIRS
+```{r}
+# creating stacked barplot
+library("tibble")
+library(ggplot2)
+
+temp = read.table( "./more_condensed.tab", header=TRUE, sep="\t" )
+fly_data = as_tibble(temp)
+fly_data
+fly_data$species = factor(fly_data$species,levels = c( 'dyak', 'dere', 'dmau', 'dsim', 'dsec', 'dmel', 'deug', 'dtri', 'dbia', 'dbip', 'dana', 'dpse', 'dper', 'dwil', 'dmoj', 'dvir' ))
+
+p = ggplot( fly_data, aes(fill=class, y=bp, x=species) ) + geom_bar(stat = "identity") + labs( y = "Basepairs of Repeat"
+                                                                                               # , x = "Species", title = "Basepair composition of each TE class within respective Nanopore assembly" 
+          ) + theme_minimal(base_size = 15) + theme( axis.title.y=element_blank(), axis.ticks.y=element_blank(), axis.text.y=element_blank(), legend.position = c(0.8, 0.2) , legend.background = element_rect(fill="white",  size=0.5, linetype="solid")) + coord_flip() 
+
+p
+
+# pdf( file="accounted_unknowns_raw_bp.pdf", width=9, height=7 )
+# print( p )
+# graphics.off()
+
+ggsave( "accounted_unknowns_raw_bp.pdf", width = 12, height = 7)
+```
+
+
+### Genome Size and Relative Abundance of Repeats
+
+```{r}
+library("tibble")
+library(ggplot2)
+library("dplyr")
+
+temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
+simple_data = as_tibble( temp )
+simple_data
+p = ggplot( simple_data, aes( x = assembly,
+                              y = rmod_bp,
+                              color = Species ) ) %>% 
+    + theme(text = element_text(size=18) ) %>% 
+    + geom_point( size = 6 ) %>% 
+    + labs( x = "Assembly size (linear)",
+                         y = "TE BasePairs (linear)",
+                         color = "Species",
+                         caption = "Spearman's Correlation= 0.9088235")
+
+corr = cor.test(x=simple_data$assembly, y=simple_data$rmod_bp, method = 'spearman')
+corr
+
+simple_data %>% 
+    mutate( TE_percent = rmod_bp/assembly ) %>% 
+    select( Species, rmod_bp, TE_percent )
+
+pdf( file="assembly_vs_reps.pdf", width=12, height=7 )
+print( p )
+graphics.off()
+
+```
+
+### Assembly size vs. all sequences (except Sat/SR) (including unknowns)
+
+```{r}
+library("tibble")
+library(ggplot2)
+library(dplyr)
+
+temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
+simple_data = as_tibble( temp )
+simple_data
+
+temp = read.table( "./more_condensed.tab", header=TRUE, sep="\t" )
+fly_data = as_tibble(temp)
+fly_data
+colnames(fly_data)[colnames(fly_data)=="species"] <- "short"
+fly_data
+
+temp0 = merge( fly_data, simple_data, by=c("short") )
+temp0
+temp0 = temp0[!(temp0$class=="Satellite/Simple_Repeat"),]
+temp0
+
+keeps = c( "short", "assembly", "bp" )
+keeps
+total = temp0[ keeps ]
+total
+total$short = factor(total$short,levels = c( "dvir", "dmoj", "dwil", "dper", "dpse", "dana", "dbip", "dbia", "dtri", "deug", "dmel", "dsec", "dsim", "dmau", "dere", "dyak" ))
+total
+
+temp1 = group_by(total, short)
+temp1
+
+temp2 = aggregate(temp1$bp, by=list(short=temp1$short, assembly=temp1$assembly), FUN=sum)
+temp2
+
+# summed = summarise( temp1,  )
+# summed
+
+p = ggplot( temp2, aes( x = assembly,
+                              y = x,
+                              color = short ) ) + theme(text = element_text(size=18) ) + geom_point(size =  6) + labs( x = "Assembly size (linear)",
+                         y = "All sequences (except Sat/SR)(including unknowns)",
+                         color = "Species",
+                         caption = "Spearman's Correlation=0.8676471")
+
+corr = cor.test(x=temp2$x, y=temp2$assembly, method = 'spearman')
+corr
+
+pdf( file="assembly_vs_all_seq(except_SatSR).pdf", width=9, height=7 )
+print( p )
+graphics.off()
+```
+
+### Assembly size vs. Just Sat/SR
+
+```{r}
+library("tibble")
+library(ggplot2)
+library(dplyr)
+
+temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
+simple_data = as_tibble( temp )
+simple_data
+
+temp = read.table( "./more_condensed.tab", header=TRUE, sep="\t" )
+fly_data = as_tibble(temp)
+fly_data
+colnames(fly_data)[colnames(fly_data)=="species"] <- "short"
+fly_data
+
+temp0 = merge( fly_data, simple_data, by=c("short") )
+temp0
+temp0 = temp0[(temp0$class=="Satellite/Simple_Repeat"),]
+temp0
+
+keeps = c( "short", "assembly", "bp" )
+keeps
+total = temp0[ keeps ]
+total
+total$short = factor(total$short,levels = c( "dvir", "dmoj", "dwil", "dper", "dpse", "dana", "dbip", "dbia", "dtri", "deug", "dmel", "dsec", "dsim", "dmau", "dere", "dyak" ))
+total
+
+temp1 = group_by(total, short)
+temp1
+
+temp2 = aggregate(temp1$bp, by=list(short=temp1$short, assembly=temp1$assembly), FUN=sum)
+temp2
+
+# summed = summarise( temp1,  )
+# summed
+
+p = ggplot( temp2, aes( x = assembly,
+                              y = x,
+                              color = short ) ) + theme(text = element_text(size=18) ) + geom_point(size =  6) + labs( x = "Assembly size (linear)",
+                         y = "Only Satellites/Simple_Repeats",
+                         color = "Species",
+                         caption = "Spearman's Correlation=0.5764706",
+                         title = "Assembly size vs. Just Sat/SR")
+
+corr = cor.test(x=temp2$x, y=temp2$assembly, method = 'spearman')
+corr
+
+pdf( file="assembly_vs_SatSR.pdf", width=9, height=7 )
+print( p )
+graphics.off()
+```
+
+### Repeats vs. Genome Assembly
+
+```{r}
+library("tibble")
+library(ggplot2)
+
+temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
+simple_data = as_tibble( temp )
+simple_data
+
+p = ggplot( total, aes( x = assembly,
+                              y = rmod_bp + trf,
+                              color = Species ) ) + theme(text = element_text(size=18) )
+
+p + geom_point(size = 6) + labs( x = "Assembly size (linear)",
+                         y = "All Repeats BasePairs (linear)",
+                         caption = "Spearman's Correlation= 0.8617647")
+
+simple_data$sum = simple_data$trf + simple_data$rmod_bp
+
+corr = cor.test(x=simple_data$assembly, y=simple_data$sum , method = 'spearman')
+corr
+```
+
+### Simple Repeats vs. TEs
+
+```{r}
+library("tibble")
+library(ggplot2)
+temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
+simple_data = as_tibble( temp )
+simple_data
+
+simple_data$sum = simple_data$trf + simple_data$rmod_bp
+
+corr = cor.test(x=simple_data$trf, y=simple_data$rmod_bp , method = 'spearman')
+corr
+
+p = ggplot( simple_data, aes( x = trf,
+                              y = rmod_bp,
+                              color = Species ) ) + theme(text = element_text(size=18) )
+
+p + geom_point(size = 6) + labs( x = "Simple Repeats BasePairs (linear)",
+                         y = "TEs BasePairs (linear)",
+                         caption = "Spearman's Correlation = 0.3411765")
+
+```
+
+### (BARPLOT) percent of total unknown sequences of each species of all TE
+```{r}
+library("tibble")
+library(ggplot2)
+library(dplyr)
+
+temp = read.table( "./more_condensed.tab", header=TRUE, sep="\t" )
+fly_data = as_tibble(temp)
+fly_data
+colnames(fly_data)[colnames(fly_data)=="species"] <- "short"
+fly_data
+
+keeps = c( "short", "class", "bp" )
+total = fly_data[ keeps ]
+total$short = factor(total$short,levels = c( "dvir", "dmoj", "dwil", "dper", "dpse", "dana", "dbip", "dbia", "dtri", "deug", "dmel", "dsec", "dsim", "dmau", "dere", "dyak" ))
+total = total[ total$class == "Unknown", ]
+keep = c( "short", "bp" )
+total = total[ keep ]
+total
+
+temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
+simple_data = as_tibble( temp )
+ass_size = simple_data[ c("short", "assembly")  ]
+
+total = total %>% 
+    group_by( short ) %>% 
+    summarize( sum = sum(bp) )
+
+merged = merge( total , ass_size , by="short")
+merged
+
+order = c( "dvir", "dmoj", "dwil", "dper", "dpse", "dana", "dbip", "dbia", "dtri", "deug", "dmel", "dsec", "dsim", "dmau", "dere", "dyak" )
+unknown_percent_assembly = merged %>% 
+    slice( match ( order, short ) ) %>% 
+    mutate( percent_of_assembly = sum/assembly )
+unknown_percent_assembly
+
+unknown_percent_assembly$short = factor( unknown_percent_assembly$short, levels = unknown_percent_assembly$short[order(desc(unknown_percent_assembly$percent_of_assembly))])
+unknown_percent_assembly
+
+ggplot(data=unknown_percent_assembly, aes(x=short, y=percent_of_assembly)) + geom_bar(stat="identity", fill="steelblue") + theme_minimal() + labs( x = "Species",
+                         y = "Percent of Genome Size") + coord_flip()
+
+ggsave( "unknown_percent_assembly.pdf", width = 9, height = 12)
+
+```
+
+### Summaries of Assemblies
+```{r}
+library("tibble")
+library(ggplot2)
+library(dplyr)
+
+temp = read.table( "./assembly_summary.tab", header=TRUE, sep="\t" )
+ass_sum = as_tibble(temp)
+ass_sum
+
+p = ggplot(data=ass_sum, aes(x=assembly_size, y=contig_count, color=avg_contig_size, size=N_50)) + geom_point() + labs( x = "Assembly Size", y="Number of Contigs", color = "Average Contig Size", size = "N50", title = "Summaries of Assemblies") + geom_label(aes(label = species))
+# p
+
+pdf( file="assemblies_summary.pdf", width=9, height=7 )
+print( p )
+graphics.off()
+```
+
+
+### Faceted plot of correlation; facet along TE class
+
+```{r}
+library("tibble")
+library(Rmisc)
+library(ggplot2)
+library(dplyr)
+library(plyr)
+
+temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
+simple_data = as_tibble( temp )
+simple_data
+
+temp = read.table( "./more_condensed.tab", header=TRUE, sep="\t" )
+fly_data = as_tibble(temp)
+fly_data
+colnames(fly_data)[colnames(fly_data)=="species"] <- "short"
+fly_data
+
+temp0 = merge( fly_data, simple_data, by=c("short") )
+temp0 = temp0[!(temp0$class=="Other"),]
+temp0
+
+temp0 = aggregate( cbind(bp)~Species+class+assembly, temp0, sum )
+dna = temp0 %>% 
+    filter( class == "DNA" )
+line = temp0 %>% 
+    filter( class == "LINE" )
+ltr = temp0 %>% 
+    filter( class == "LTR" )
+rc = temp0 %>% 
+    filter( class == "RC" )
+sat_sr = temp0 %>% 
+        filter( class == "Satellite/Simple_Repeat" )
+unknown = temp0 %>% 
+    filter( class == "Unknown" )
+
+cor.test(x=dna$assembly, y=dna$bp , method = 'spearman')
+cor.test(x=line$assembly, y=line$bp , method = 'spearman')
+cor.test(x=ltr$assembly, y=ltr$bp , method = 'spearman')
+cor.test(x=rc$assembly, y=rc$bp , method = 'spearman')
+cor.test(x=sat_sr$assembly, y=sat_sr$bp , method = 'spearman')
+cor.test(x=unknown$assembly, y=unknown$bp , method = 'spearman')
+
+labels = c( "DNA", "LINE", "LTR", "RC", "Sat/SR", "Unknown" )
+
+p = ggplot( temp0 , aes( x=assembly, y=bp, color = Species ) ) %>% 
+    + geom_point() %>% 
+    + geom_smooth(aes( group = class), method = "lm", se = FALSE, size = 0.9, colour = "grey", stat="smooth") %>%
+    # + stat_smooth( method = 'lm' ) %>% 
+    + facet_wrap( ~class, scales="free", ncol = 2) %>% 
+    + labs( x = "Assembly_size",
+            y = "Basepairs",
+            color = "Species",
+            title = "BP Correlation with Assembly size per Class of Repeats") %>% 
+    + geom_text( data = temp0, mapping = aes( label = labels ) )
+
+p
+
+# pdf( file="faceted_class_correlation.pdf", width=9, height=7 )
+# print( p )
+# graphics.off()
+
+```
+---
+
+### RepeatModeler Summary (faceted per class)
+- How manys equences were identified as TEs?
+- How many sequences were identified as Sat/SR?
+- How many sequences were descriebd as Unknown?
+
+```{r}
+library("tibble")
+library(ggplot2)
+library(dplyr)
+library(magrittr)
+
+temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
+simple_data = as_tibble( temp )
+simple_data
+
+temp = read.table( "./more_condensed.tab", header=TRUE, sep="\t" )
+fly_data = as_tibble(temp)
+fly_data
+colnames(fly_data)[colnames(fly_data)=="species"] <- "short"
+fly_data
+
+more_data = merge( fly_data, simple_data, by=c("short") )
+more_data = more_data[!(temp0$class=="Other"),]
+more_data
+
+grouped_fly = more_data %>% 
+    dplyr::group_by( short, class ) %>% 
+    dplyr::summarise( count = n() )
+
+grouped_fly
+
+temp = grouped_fly
+grouped_fly = temp %>% 
+    filter( class != "Unknown" ) %>% 
+    filter( class != "Satellite/Simple_Repeat" ) %>%
+    filter( class != "Other" ) %>%
+    dplyr::group_by( short, class ) %>% 
+    dplyr::summarize( total = sum(count) )
+grouped_fly
+
+p = ggplot( data = grouped_fly, aes( x = class, y = total, fill = class ) ) %>% 
+    + geom_col() %>% 
+    + facet_wrap( ~short, nrow=4 ) %>% 
+    + labs( x = "Species",
+            y = "Counts of Repeat Identified",
+            fill = "Classes",
+            title = "Summary of number of sequences identified per class") 
+
+# p
+
+pdf( file="rmodeler_summary.pdf", width=9, height=7 )
+print( p )
+graphics.off()
+```
+
+
+### Percent composition of TEs of the whole genome
+
+```{r}
+library("tibble")
+library(ggplot2)
+library(dplyr)
+
+temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
+simple_data = as_tibble( temp )
+simple_data
+
+temp = read.table( "./more_condensed.tab", header=TRUE, sep="\t" )
+fly_data = as_tibble(temp)
+fly_data
+colnames(fly_data)[colnames(fly_data)=="species"] <- "short"
+fly_data
+
+more_data = merge( fly_data, simple_data, by=c("short") )
+more_data = more_data[!(temp0$class=="Other"),]
+more_data
+grouped_fly = more_data %>% 
+    group_by( Species ) %>% 
+    mutate( bp_percent = bp/assembly ) %>% 
+    select( Species, bp_percent, class ) 
+grouped_fly
+
+grouped_fly %>% 
+    group_by( Species, class ) %>% 
+    dplyr::summarize( total = sum(bp_percent) )
+
+grouped_fly = grouped_fly[!(grouped_fly$class=="Other"),]
+
+grouped_fly$Species = factor(grouped_fly$Species,levels = c( "Drosophila_yakuba", "Drosophila_erecta", "Drosophila_mauritiana", "Drosophila_simulans", "Drosophila_sechellia", "Drosophila_melanogaster", "Drosophila_eugracilis", "Drosophila_triauraria", "Drosophila_biarmipes", "Drosophila_bipectinata", "Drosophila_ananassae", "Drosophila_pseudoobscura", "Drosophila_persimilis", "Drosophila_willistoni", "Drosophila_mojavensis", "Drosophila_virilis" ))
+
+grouped_fly
+
+p = ggplot( grouped_fly , aes( y=bp_percent, fill=class, x = Species) ) + geom_bar(stat = "identity") + labs( fill = "Classes",  y = "Percent of Genome",
+          title = "Percent composition of repeats within Genome" )  + coord_flip() 
+    
+p
+
+# pdf( file="percent_composition_repeats_in_genome.pdf", width=9, height=7 )
+# print( p )
+# graphics.off()
+```
+
+
+### Plotting Unknown percent and BP
+
+```{r}
+library("tibble")
+library(ggplot2)
+library(dplyr)
+
+temp = read.table( "./unknown_bp_percent.tab", header=TRUE, sep="\t" )
+unknowns = as_tibble( temp )
+
+ggplot(unknowns, aes(x = species)) +
+  geom_col(aes( y = bp_mb, fill="redfill")) +
+  geom_text(aes(y = bp_mb, label = bp_mb), fontface = "bold", vjust = 0.5, hjust = 1.4, color = "black", size = 7) +
+  geom_line(aes(y = percent * 300, group = 1, color = 'blackline')) +
+  geom_text(aes(y = percent * 300, label = round(percent, 2)), hjust = 1, color = "black", size = 6) +
+  scale_y_continuous(sec.axis = sec_axis(trans = ~ . / 300)) +
+  scale_fill_manual('', labels = 'Repeats content (Mb)', values = "#b3bcff") +
+  scale_color_manual('', labels = 'Percent of Genome', values = 'black') +
+  theme_minimal(base_size = 20) + theme( legend.position = "bottom", axis.title.y=element_blank() ) + coord_flip()
+
+ggsave( "unknown_bp_percentp.pdf", width = 9, height = 12)
+
+```
+
+
+### BARPLOT -- Lengths of each class
+
+```{r}
+library("tibble")
+library(ggplot2)
+library(dplyr)
+
+temp = read.table( "./lengths.tab", header=TRUE, sep="\t" )
+lens = as_tibble( temp )
+
+lens
+
+ggplot( lens , aes(x=class, y=length)) + 
+    geom_boxplot() + 
+    scale_y_log10() +
+    ggtitle( "Lenght of each Class of Putative TE", subtitle = "in log_10" )    
+
+
+# ggplot(unknowns, aes(x = species)) +
+#   geom_col(aes( y = bp_mb, fill="redfill")) +
+#   geom_text(aes(y = bp_mb, label = bp_mb), fontface = "bold", vjust = 0.5, hjust = 1.4, color = "black", size = 7) +
+#   geom_line(aes(y = percent * 300, group = 1, color = 'blackline')) +
+#   geom_text(aes(y = percent * 300, label = round(percent, 2)), hjust = 1, color = "black", size = 6) +
+#   scale_y_continuous(sec.axis = sec_axis(trans = ~ . / 300)) +
+#   scale_fill_manual('', labels = 'Repeats content (Mb)', values = "#b3bcff") +
+#   scale_color_manual('', labels = 'Percent of Genome', values = 'black') +
+#   theme_minimal(base_size = 20) + theme( legend.position = "bottom", axis.title.y=element_blank() ) + coord_flip()
+# 
+# ggsave( "class_lengths.pdf", width = 9, height = 12)
+
+```

@@ -1,0 +1,59 @@
+==================================================
+file name: uclust_no_genes.fasta    
+sequences:          1042
+total length:    1124840 bp  (1111342 bp excl N/X-runs)
+GC level:         41.86 %
+bases masked:     763154 bp ( 67.85 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements          778       617726 bp   54.92 %
+   SINEs:                0            0 bp    0.00 %
+   Penelope              0            0 bp    0.00 %
+   LINEs:              230       164315 bp   14.61 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex         30        26322 bp    2.34 %
+     R1/LOA/Jockey      66        40479 bp    3.60 %
+     R2/R4/NeSL          0            0 bp    0.00 %
+     RTE/Bov-B           4         7274 bp    0.65 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:       548       453411 bp   40.31 %
+     BEL/Pao           197       138618 bp   12.32 %
+     Ty1/Copia          21        27874 bp    2.48 %
+     Gypsy/DIRS1       330       286919 bp   25.51 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons        223       101741 bp    9.04 %
+   hobo-Activator       64        23014 bp    2.05 %
+   Tc1-IS630-Pogo       61        30039 bp    2.67 %
+   En-Spm                0            0 bp    0.00 %
+   MuDR-IS905            0            0 bp    0.00 %
+   PiggyBac             19         4531 bp    0.40 %
+   Tourist/Harbinger     3          344 bp    0.03 %
+   Other (Mirage,        3         2997 bp    0.27 %
+    P-element, Transib)
+
+Rolling-circles          0            0 bp    0.00 %
+
+Unclassified:          104        40075 bp    3.56 %
+
+Total interspersed repeats:      759542 bp   67.52 %
+
+
+Small RNA:               0            0 bp    0.00 %
+
+Satellites:              2          120 bp    0.01 %
+Simple repeats:         16         3927 bp    0.35 %
+Low complexity:          0            0 bp    0.00 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be drosophila fruit fly genus
+RepeatMasker Combined Database: Dfam_Consensus-20170127, RepBase-20170127
+        
+run with rmblastn version 2.2.27+
+

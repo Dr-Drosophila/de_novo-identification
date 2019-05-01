@@ -1,0 +1,17 @@
+# Database: melanogaster-all-translation-r6.24.fasta
+# 0 hits found
+# BLASTX 2.5.0+
+# Query: dtri_175#RC/Helitron::Helitron-5_DRh
+# Database: melanogaster-all-translation-r6.24.fasta
+# Fields: query id, subject id, q. start, q. end, s. start, s. end, query length
+# 2 hits found
+edited_2_ron::Helitron-5_DRh	FBpp0309921	739	1191	219	392	1595
+dtri_175#RC/Helitron::Helitron-5_DRh	FBpp0077258	739	1191	219	370	1595
+dtri_175#RC/edited1n-5_DRh	FBpp0077258	739	1191	219	379	1595
+# BLASTX 2.5.0+
+# Query: dtri_433#LTR/Pao
+# Database: melanogaster-all-translation-r6.24.fasta
+# 0 hits found
+# BLASTX 2.5.0+
+# Query: dtri_12389#DNA/hAT-Blackjack
+# Database: melanogaster-all-translation-r6.24.fasta
