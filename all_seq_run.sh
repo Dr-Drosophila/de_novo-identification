@@ -1,0 +1,15 @@
+unzip dana_nanopore_2019_02_18.zip; cd dana_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1
+unzip dbia_nanopore_2019_02_18.zip; cd dbia_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1
+unzip dbip_nanopore_2019_02_18.zip; cd dbip_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1
+unzip dere_nanopore_2019_02_18.zip; cd dere_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1
+unzip deug_nanopore_2019_02_18.zip; cd deug_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1
+unzip dmau_nanopore_2019_02_18.zip; cd dmau_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1
+unzip dmoj_nanopore_2019_02_18.zip; cd dmoj_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1
+unzip dper_nanopore_2019_02_18.zip; cd dper_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1
+unzip dpse_nanopore_2019_02_18.zip; cd dpse_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1
+unzip dsec_nanopore_2019_02_18.zip; cd dsec_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1
+unzip dsim_nanopore_2019_02_18.zip; cd dsim_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1
+unzip dtri_nanopore_2019_02_18.zip; cd dtri_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1
+unzip dvir_nanopore_2019_02_18.zip; cd dvir_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1
+unzip dwil_nanopore_2019_02_18.zip; cd dwil_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1
+unzip dyak_nanopore_2019_02_18.zip; cd dyak_nanopore_2019_02_18; sbatch de_novo_repeat_shell.sh; cd ..; rm -r __MACOSX/; sleep 1

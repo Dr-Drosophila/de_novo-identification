@@ -1,0 +1,25 @@
+=== Species ====================================================
+Drosophila_ananassae
+Drosophila_biarmipes
+Drosophila_bipectinata
+Drosophila_erecta
+Drosophila_eugracilis
+Drosophila_triauraria
+Drosophila_mauritiana
+Drosophila_mojavensis
+Drosophila_melanogaster
+Drosophila_persimilis
+Drosophila_pseudoobscura
+Drosophila_sechellia
+Drosophila_simulans
+Drosophila_virilis
+Drosophila_willistoni
+Drosophila_yakuba
+
+
+=== NEWMAN FORMAT ================================================
+( ( ( ( ( ( ( ( ( Drosophila_sechellia, Drosophila_simulans), Drosophila_melanogaster), ( ( Drosophila_erecta, Drosophila_yakuba), Drosophila_mauritiana) ), ( ( Drosophila_triauraria, Drosophila_eugracilis), Drosophila_biarmipes) ), ( Drosophila_ananassae, Drosophila_bipectinata) ), ( Drosophila_persimilis, Drosophila_pseudoobscura) ), Drosophila_willistoni), Drosophila_mojavensis), Drosophila_virilis)
+
+=== R list ======================================================
+
+"dvir", "dmoj", "dwil", "dper", "dpse", "dana", "dbip", "dbia", "dtri", "deug", "dmel", "dsec", "dsim", "dmau", "dere", "dyak"

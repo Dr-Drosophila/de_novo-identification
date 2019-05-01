@@ -1,0 +1,44 @@
+tblastn -query nanopore_genes.fasta -db nanopore_dsim.fasta -evalue 1e-10 -out nanopore_tblastn -outfmt "7 qseqid sseqid qstart qend sstart send qlen"
+
+#SORTING AND GROUPING THAT OUTPUT
+awk '!/# /' nanopore_tblastn | sort > sorted_blastx.out
+# cat sorted_blastx.out | bedtools groupby -g 1,2 -c 3,4 -ops distinct,sum > grouped_blastx.out
+
+# STEP 5:
+# THIS BLASTX_PARSER.PY COMBINES THE NAME OF THE REPEAT AND THE NAME OF THE SEQUENCE IT ALIGNS TO.
+# IT THEN PRINTS OUT THE NAME; ALIGHNMENT LENGTH; QUERY START; QUERY END; QUERY LENGTH
+python3 ../blastx_parser.py sorted_blastx.out uclusted_dsim.fasta bedtools_input
+#SORTING AND THEN MERGING REPEATS THAT ALIGN TO THE SAME GENE MULTIPLE TIMES
+cat bedtools_input | sort -k1,1 -k2,2n | bedtools merge -c 4 -o distinct > merged_alignments
+#SUBTRACTING THE QSTART FROM QEND TO FIND THE LENGTH OF THE ALIGNMENT
+awk '{ print $1, $3-$2, $4 }' merged_alignments > shortened_merged
+# COMPARING THE QLENGTH AND THE CALCULATED Q LENGTH TO SEE WHICH OF THE GENES ARE REPEATS
+awk '{ print $1, $2/$3 }' shortened_merged > repeat_gene_alignments.bed
+
+# STEP 6:
+# PUT THIS repeat_gene_alignments.bed INTO ANOTHER PARSER THAT DOES THE FOLLOWING:
+# 1. GOES THROUGH EACH OF THE ITEMS
+# 2. SEPARATES THE NAME OF THE REPEAT AND THE NAME OF THE GENE
+# 3. IF THERE ARE MULTIPLE PAIRS, THEN ADDS THE ALIGHNMENT SCORES AND RETURNS ONLY 1 PAIRS
+# 4. RETURNS SEQUENCE OF REPEATS THAT ARE GENES AND NOT GENES (LIKELY)
+# 5. CONTAINS THE CUTOFF VALUE AS A VARIABLE. CAN BE CHANGED AT A LATER DATE IF NEED BE.
+python3 ../blastx_combined_name_separator.py 0.5 repeat_gene_alignments.bed uclusted_dsim.fasta no_genes genes
+
+FBpp0099851,FBpp0311784,FBpp0085818,FBpp0076700,FBpp0087223,FBpp0304631,FBpp0077360,FBpp0298306,FBpp0290271,FBpp0084425,FBpp0080202
+
+I only checked for completion.
+Please bring up the questions in class if you did not understand
+
+dana_nanopore_2019_02_15.zip    
+dmoj_nanopore_2019_02_15.zip    
+dvir_nanopore_2019_02_15.zip
+dbia_nanopore_2019_02_15.zip    
+dper_nanopore_2019_02_15.zip    
+dwil_nanopore_2019_02_15.zip
+dbip_nanopore_2019_02_15.zip    
+dpse_nanopore_2019_02_15.zip    
+deug_nanopore_2019_02_15.zip
+dmau_nanopore_2019_02_15.zip
+dere_nanopore_2019_02_15.zip    
+dsec_nanopore_2019_02_15.zip    
+dyak_nanopore_2019_02_15.zip
