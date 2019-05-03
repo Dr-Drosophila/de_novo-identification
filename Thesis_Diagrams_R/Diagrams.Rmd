@@ -21,17 +21,18 @@ temp = read.table( "./more_condensed.tab", header=TRUE, sep="\t" )
 fly_data = as_tibble(temp)
 fly_data
 fly_data$species = factor(fly_data$species,levels = c( "dvir", "dmoj", "dwil", "dper", "dpse", "dana", "dbip", "dbia", "dtri", "deug", "dmel", "dsec", "dsim", "dmau", "dere", "dyak" ))
-p = ggplot(fly_data, aes(fill=class, y=percent, x=species)) + geom_bar( stat="identity", position="fill") + labs( x = "Species", y = "Percent composition of Repeat",
+ggplot(fly_data, aes(fill=class, y=percent, x=species)) + geom_bar( stat="identity", position="fill") + labs( x = "Species", y = "Percent composition of Repeat",
           title = "Percent composition of each TE class within respective Nanopore assembly" )
 
-pdf( file="accounted_unknowns_small.pdf", width=9, height=7 )
-print( p )
-graphics.off()
+ggsave( "accounted_unknowns_small.pdf", width=9, height=7 )
+
+
 ```
 
-## Following figures not added
+
 Creating a Stacked barplot:
 ### More condensed -- RAW BASE-PAIRS
+
 ```{r}
 # creating stacked barplot
 library("tibble")
@@ -40,19 +41,11 @@ library(ggplot2)
 temp = read.table( "./more_condensed.tab", header=TRUE, sep="\t" )
 fly_data = as_tibble(temp)
 fly_data
-fly_data$species = factor(fly_data$species,levels = c( 'dyak', 'dere', 'dmau', 'dsim', 'dsec', 'dmel', 'deug', 'dtri', 'dbia', 'dbip', 'dana', 'dpse', 'dper', 'dwil', 'dmoj', 'dvir' ))
+fly_data$species = factor(fly_data$species,levels = c( 'dvir', 'dmoj', 'dwil', 'dper', 'dpse', 'dana', 'dbip', 'dbia', 'dtri', 'deug', 'dmel', 'dsec', 'dsim', 'dmau', 'dere', 'dyak' ))
 
-p = ggplot( fly_data, aes(fill=class, y=bp, x=species) ) + geom_bar(stat = "identity") + labs( y = "Basepairs of Repeat"
-                                                                                               # , x = "Species", title = "Basepair composition of each TE class within respective Nanopore assembly" 
-          ) + theme_minimal(base_size = 15) + theme( axis.title.y=element_blank(), axis.ticks.y=element_blank(), axis.text.y=element_blank(), legend.position = c(0.8, 0.2) , legend.background = element_rect(fill="white",  size=0.5, linetype="solid")) + coord_flip() 
+ggplot( fly_data, aes(fill=class, y=bp, x=species) ) + geom_bar(stat = "identity") + labs( y = "Basepairs of Repeat", x = "Species", title = "Basepair composition of each TE class within respective Nanopore assembly") + theme_minimal(base_size = 15) # + theme( axis.title.y=element_blank(),  axis.ticks.y=element_blank(), axis.text.y=element_blank(), legend.position = c(0.8, 0.2) , legend.background = element_rect(fill="white",  size=0.5, linetype="solid"))  + coord_flip()
 
-p
-
-# pdf( file="accounted_unknowns_raw_bp.pdf", width=9, height=7 )
-# print( p )
-# graphics.off()
-
-ggsave( "accounted_unknowns_raw_bp.pdf", width = 12, height = 7)
+ggsave( "accounted_unknowns_raw_bp.pdf", width =10, height = 12)
 ```
 
 
@@ -66,26 +59,26 @@ library("dplyr")
 temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
 simple_data = as_tibble( temp )
 simple_data
-p = ggplot( simple_data, aes( x = assembly,
+
+cor.test(x=simple_data$assembly, y=simple_data$rmod_bp, method = 'spearman')
+
+
+simple_data %>%
+    mutate( TE_percent = rmod_bp/assembly ) %>%
+    select( Species, rmod_bp, TE_percent )
+
+ggplot( simple_data, aes( x = assembly,
                               y = rmod_bp,
-                              color = Species ) ) %>% 
-    + theme(text = element_text(size=18) ) %>% 
-    + geom_point( size = 6 ) %>% 
+                              color = Species ) ) %>%
+    + theme(text = element_text(size=18) ) %>%
+    + geom_point( size = 6 ) %>%
     + labs( x = "Assembly size (linear)",
                          y = "TE BasePairs (linear)",
                          color = "Species",
                          caption = "Spearman's Correlation= 0.9088235")
 
-corr = cor.test(x=simple_data$assembly, y=simple_data$rmod_bp, method = 'spearman')
-corr
+ggsave( "assembly_vs_reps.pdf", width=12, height=7 )
 
-simple_data %>% 
-    mutate( TE_percent = rmod_bp/assembly ) %>% 
-    select( Species, rmod_bp, TE_percent )
-
-pdf( file="assembly_vs_reps.pdf", width=12, height=7 )
-print( p )
-graphics.off()
 
 ```
 
@@ -127,19 +120,18 @@ temp2
 # summed = summarise( temp1,  )
 # summed
 
-p = ggplot( temp2, aes( x = assembly,
+ggplot( temp2, aes( x = assembly,
                               y = x,
                               color = short ) ) + theme(text = element_text(size=18) ) + geom_point(size =  6) + labs( x = "Assembly size (linear)",
                          y = "All sequences (except Sat/SR)(including unknowns)",
                          color = "Species",
-                         caption = "Spearman's Correlation=0.8676471")
+                         caption = "Spearman's Correlation=0.5029412")
 
-corr = cor.test(x=temp2$x, y=temp2$assembly, method = 'spearman')
-corr
+cor.test(x=temp2$x, y=temp2$assembly, method = 'spearman')
 
-pdf( file="assembly_vs_all_seq(except_SatSR).pdf", width=9, height=7 )
-print( p )
-graphics.off()
+
+ggsave( "assembly_vs_all_seq(except_SatSR).pdf", width=9, height=7 )
+
 ```
 
 ### Assembly size vs. Just Sat/SR
@@ -180,7 +172,9 @@ temp2
 # summed = summarise( temp1,  )
 # summed
 
-p = ggplot( temp2, aes( x = assembly,
+cor.test(x=temp2$x, y=temp2$assembly, method = 'spearman')
+
+ggplot( temp2, aes( x = assembly,
                               y = x,
                               color = short ) ) + theme(text = element_text(size=18) ) + geom_point(size =  6) + labs( x = "Assembly size (linear)",
                          y = "Only Satellites/Simple_Repeats",
@@ -188,12 +182,10 @@ p = ggplot( temp2, aes( x = assembly,
                          caption = "Spearman's Correlation=0.5764706",
                          title = "Assembly size vs. Just Sat/SR")
 
-corr = cor.test(x=temp2$x, y=temp2$assembly, method = 'spearman')
-corr
 
-pdf( file="assembly_vs_SatSR.pdf", width=9, height=7 )
-print( p )
-graphics.off()
+
+ggsave( "assembly_vs_SatSR.pdf", width=9, height=7 )
+
 ```
 
 ### Repeats vs. Genome Assembly
@@ -206,16 +198,14 @@ temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
 simple_data = as_tibble( temp )
 simple_data
 
-p = ggplot( simple_data, aes( x = assembly, y = rmod_bp + trf, color = Species ) ) + theme(text = element_text(size=18) )
-
-p + geom_point(size = 6) + labs( x = "Assembly size (linear)",
-                         y = "All Repeats BasePairs (linear)",
-                         caption = "Spearman's Correlation= 0.8617647")
-
 simple_data$sum = simple_data$trf + simple_data$rmod_bp
 
-corr = cor.test(x=simple_data$assembly, y=simple_data$sum , method = 'spearman')
-corr
+cor.test(x=simple_data$assembly, y=simple_data$sum , method = 'spearman')
+
+ggplot( simple_data, aes( x = assembly, y = rmod_bp + trf, color = Species ) ) + theme(text = element_text(size=18) )  + geom_point(size = 6) + labs( x = "Assembly size (linear)",  y = "All Repeats BasePairs (linear)",  caption = "Spearman's Correlation= 0.8617647")
+
+ggsave( "assembly_size_vs_all_reps.pdf", width = 9, height = 7 )
+
 ```
 
 ### Simple Repeats vs. TEs
@@ -232,13 +222,13 @@ simple_data$sum = simple_data$trf + simple_data$rmod_bp
 corr = cor.test(x=simple_data$trf, y=simple_data$rmod_bp , method = 'spearman')
 corr
 
-p = ggplot( simple_data, aes( x = trf,
+ggplot( simple_data, aes( x = trf,
                               y = rmod_bp,
-                              color = Species ) ) + theme(text = element_text(size=18) )
-
-p + geom_point(size = 6) + labs( x = "Simple Repeats BasePairs (linear)",
+                              color = Species ) ) + theme(text = element_text(size=18) ) + geom_point(size = 6) + labs( x = "Simple Repeats BasePairs (linear)",
                          y = "TEs BasePairs (linear)",
                          caption = "Spearman's Correlation = 0.3411765")
+
+ggsave( "TE_vs_SR.pdf", width=9, height=7 )
 
 ```
 
@@ -266,16 +256,16 @@ temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
 simple_data = as_tibble( temp )
 ass_size = simple_data[ c("short", "assembly")  ]
 
-total = total %>% 
-    group_by( short ) %>% 
+total = total %>%
+    group_by( short ) %>%
     summarize( sum = sum(bp) )
 
 merged = merge( total , ass_size , by="short")
 merged
 
 order = c( "dvir", "dmoj", "dwil", "dper", "dpse", "dana", "dbip", "dbia", "dtri", "deug", "dmel", "dsec", "dsim", "dmau", "dere", "dyak" )
-unknown_percent_assembly = merged %>% 
-    slice( match ( order, short ) ) %>% 
+unknown_percent_assembly = merged %>%
+    slice( match ( order, short ) ) %>%
     mutate( percent_of_assembly = sum/assembly )
 unknown_percent_assembly
 
@@ -299,12 +289,11 @@ temp = read.table( "./assembly_summary.tab", header=TRUE, sep="\t" )
 ass_sum = as_tibble(temp)
 ass_sum
 
-p = ggplot(data=ass_sum, aes(x=assembly_size, y=contig_count, color=avg_contig_size, size=N_50)) + geom_point() + labs( x = "Assembly Size", y="Number of Contigs", color = "Average Contig Size", size = "N50", title = "Summaries of Assemblies") + geom_label(aes(label = species))
-# p
+ggplot(data=ass_sum, aes(x=assembly_size, y=contig_count, color=avg_contig_size, size=N_50)) + geom_point() + labs( x = "Assembly Size", y="Number of Contigs", color = "Average Contig Size", size = "N50", title = "Summaries of Assemblies") + geom_label(aes(label = species))
 
-pdf( file="assemblies_summary.pdf", width=9, height=7 )
-print( p )
-graphics.off()
+
+ggsave( "assemblies_summary.pdf", width=9, height=7 )
+
 ```
 
 
@@ -332,19 +321,19 @@ temp0 = temp0[!(temp0$class=="Other"),]
 temp0
 
 temp0 = aggregate( cbind(bp)~Species+class+assembly, temp0, sum )
-dna = temp0 %>% 
+dna = temp0 %>%
     filter( class == "DNA" )
-line = temp0 %>% 
+line = temp0 %>%
     filter( class == "LINE" )
-ltr = temp0 %>% 
+ltr = temp0 %>%
     filter( class == "LTR" )
-rc = temp0 %>% 
+rc = temp0 %>%
     filter( class == "RC" )
-sat_sr = temp0 %>% 
+sat_sr = temp0 %>%
         filter( class == "Satellite/Simple_Repeat" )
-unknown = temp0 %>% 
+unknown = temp0 %>%
     filter( class == "Unknown" )
-chimera = temp0 %>% 
+chimera = temp0 %>%
     filter( class == "Chimera" )
 
 cor.test(x=dna$assembly, y=dna$bp , method = 'spearman')
@@ -357,19 +346,17 @@ cor.test(x=chimera$assembly, y=chimera$bp , method = 'spearman')
 
 labels = c( "DNA", "LINE", "LTR", "RC", "Sat/SR", "Unknown", "Chimera" )
 
-ggplot( temp0 , aes( x=assembly, y=bp, color = Species ) ) %>% 
-    + geom_point() %>% 
+ggplot( temp0 , aes( x=assembly, y=bp, color = Species ) ) %>%
+    + geom_point() %>%
     + geom_smooth(aes( group = class), method = "lm", se = FALSE, size = 0.9, colour = "grey", stat="smooth") %>%
-    # + stat_smooth( method = 'lm' ) %>% 
-    + facet_wrap( ~class, scales="free", ncol = 2) %>% 
+    # + stat_smooth( method = 'lm' ) %>%
+    + facet_wrap( ~class, scales="free", ncol = 2) %>%
     + labs( x = "Assembly_size",
             y = "Basepairs",
             color = "Species",
-            title = "BP Correlation with Assembly size per Class of Repeats") # %>% 
+            title = "BP Correlation with Assembly size per Class of Repeats") # %>%
     # + geom_text( data = temp0, mapping = aes( label = labels ) )
 
-p    
-    
 ggsave( "faceted_class_correlation.pdf", width=9, height=7 )
 
 
@@ -401,34 +388,33 @@ more_data = merge( fly_data, simple_data, by=c("short") )
 more_data = more_data[!(temp0$class=="Other"),]
 more_data
 
-grouped_fly = more_data %>% 
-    dplyr::group_by( short, class ) %>% 
+grouped_fly = more_data %>%
+    dplyr::group_by( short, class ) %>%
     dplyr::summarise( count = n() )
 
 grouped_fly
 
 temp = grouped_fly
-grouped_fly = temp %>% 
-    filter( class != "Unknown" ) %>% 
+grouped_fly = temp %>%
+    filter( class != "Unknown" ) %>%
     filter( class != "Satellite/Simple_Repeat" ) %>%
     filter( class != "Other" ) %>%
-    dplyr::group_by( short, class ) %>% 
+    dplyr::group_by( short, class ) %>%
     dplyr::summarize( total = sum(count) )
 grouped_fly
 
-p = ggplot( data = grouped_fly, aes( x = class, y = total, fill = class ) ) %>% 
-    + geom_col() %>% 
-    + facet_wrap( ~short, nrow=4 ) %>% 
+ggplot( data = grouped_fly, aes( x = class, y = total, fill = class ) ) %>%
+    + geom_col() %>%
+    + facet_wrap( ~short, nrow=4 ) %>%
     + labs( x = "Species",
             y = "Counts of Repeat Identified",
             fill = "Classes",
-            title = "Summary of number of sequences identified per class") 
+            title = "Summary of number of sequences identified per class")
 
-# p
 
-pdf( file="rmodeler_summary.pdf", width=9, height=7 )
-print( p )
-graphics.off()
+
+ggsave( "rmodeler_summary.pdf", width=9, height=7 )
+
 ```
 
 
@@ -452,14 +438,14 @@ fly_data
 more_data = merge( fly_data, simple_data, by=c("short") )
 more_data = more_data[!(temp0$class=="Other"),]
 more_data
-grouped_fly = more_data %>% 
-    group_by( Species ) %>% 
-    mutate( bp_percent = bp/assembly ) %>% 
-    select( Species, bp_percent, class ) 
+grouped_fly = more_data %>%
+    group_by( Species ) %>%
+    mutate( bp_percent = bp/assembly ) %>%
+    select( Species, bp_percent, class )
 grouped_fly
 
-grouped_fly %>% 
-    group_by( Species, class ) %>% 
+grouped_fly %>%
+    group_by( Species, class ) %>%
     dplyr::summarize( total = sum(bp_percent) )
 
 grouped_fly = grouped_fly[!(grouped_fly$class=="Other"),]
@@ -468,14 +454,12 @@ grouped_fly$Species = factor(grouped_fly$Species,levels = c( "Drosophila_yakuba"
 
 grouped_fly
 
-p = ggplot( grouped_fly , aes( y=bp_percent, fill=class, x = Species) ) + geom_bar(stat = "identity") + labs( fill = "Classes",  y = "Percent of Genome",
-          title = "Percent composition of repeats within Genome" )  + coord_flip() 
-    
-p
+ggplot( grouped_fly , aes( y=bp_percent, fill=class, x = Species) ) + geom_bar(stat = "identity") + labs( fill = "Classes",  y = "Percent of Genome",
+          title = "Percent composition of repeats within Genome" )  + coord_flip()
 
-# pdf( file="percent_composition_repeats_in_genome.pdf", width=9, height=7 )
-# print( p )
-# graphics.off()
+ggsave( "percent_composition_repeats_in_genome.pdf", width=9, height=7 )
+
+
 ```
 
 
@@ -528,14 +512,14 @@ lens
 
 
 
-ggplot( lens , aes(x=class, y=length)) + 
-    geom_boxplot() + 
+ggplot( lens , aes(x=class, y=length)) +
+    geom_boxplot() +
     scale_y_log10() +
     ggtitle( "Lenght of each Class of Putative TE", subtitle = "in log_10" )    
 
 
 
- 
+
 ggsave( "class_lengths.pdf", width = 9, height = 6)
 
 ```

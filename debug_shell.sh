@@ -296,6 +296,7 @@ grep -v "##" dtri_condensed_classes.txt >> tidy_table.tab
 grep -v "##" dvir_condensed_classes.txt >> tidy_table.tab
 grep -v "##" dwil_condensed_classes.txt >> tidy_table.tab
 grep -v "##" dyak_condensed_classes.txt >> tidy_table.tab
+cp tidy_table.tab ~/
 
 
 python3 ../class_condensor.py -i ./final_output -o . -s dana
@@ -320,3 +321,39 @@ python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classification
 python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dyak_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dyak_condensed_classes.txt -s dyak; sleep 1
 
 # ====================================================================================================================================================================================================================================================================================================================================================================================================
+
+less ./dana_nanopore_2019_05_01/outfiles/dana_summary_file.txt
+less ./dbia_nanopore_2019_05_01/outfiles/dbia_summary_file.txt
+less ./dbip_nanopore_2019_05_01/outfiles/dbip_summary_file.txt
+less ./dere_nanopore_2019_05_01/outfiles/dere_summary_file.txt
+less ./deug_nanopore_2019_05_01/outfiles/deug_summary_file.txt
+less ./dmau_nanopore_2019_05_01/outfiles/dmau_summary_file.txt
+less ./dmel_nanopore_2019_05_01/outfiles/dmel_summary_file.txt
+less ./dmoj_nanopore_2019_05_01/outfiles/dmoj_summary_file.txt
+less ./dper_nanopore_2019_05_01/outfiles/dper_summary_file.txt
+less ./dpse_nanopore_2019_05_01/outfiles/dpse_summary_file.txt
+less ./dsec_nanopore_2019_05_01/outfiles/dsec_summary_file.txt
+less ./dsim_nanopore_2019_05_01/outfiles/dsim_summary_file.txt
+less ./dtri_nanopore_2019_05_01/outfiles/dtri_summary_file.txt
+less ./dvir_nanopore_2019_05_01/outfiles/dvir_summary_file.txt
+less ./dwil_nanopore_2019_05_01/outfiles/dwil_summary_file.txt
+less ./dyak_nanopore_2019_05_01/outfiles/dyak_summary_file.txt
+
+# ====================================================================================================================================================================================================================================================================================================================================================================================================
+
+cat ./dana_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dana_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./dbia_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dbia_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./dbip_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dbip_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./dere_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dere_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./deug_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./deug_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./dmau_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dmau_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./dmel_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dmel_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./dmoj_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dmoj_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./dper_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dper_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./dpse_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dpse_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./dsec_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dsec_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./dsim_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dsim_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./dtri_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dtri_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./dvir_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dvir_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./dwil_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dwil_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+cat ./dyak_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dyak_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
