@@ -206,9 +206,7 @@ temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
 simple_data = as_tibble( temp )
 simple_data
 
-p = ggplot( total, aes( x = assembly,
-                              y = rmod_bp + trf,
-                              color = Species ) ) + theme(text = element_text(size=18) )
+p = ggplot( simple_data, aes( x = assembly, y = rmod_bp + trf, color = Species ) ) + theme(text = element_text(size=18) )
 
 p + geom_point(size = 6) + labs( x = "Assembly size (linear)",
                          y = "All Repeats BasePairs (linear)",
@@ -346,6 +344,8 @@ sat_sr = temp0 %>%
         filter( class == "Satellite/Simple_Repeat" )
 unknown = temp0 %>% 
     filter( class == "Unknown" )
+chimera = temp0 %>% 
+    filter( class == "Chimera" )
 
 cor.test(x=dna$assembly, y=dna$bp , method = 'spearman')
 cor.test(x=line$assembly, y=line$bp , method = 'spearman')
@@ -353,10 +353,11 @@ cor.test(x=ltr$assembly, y=ltr$bp , method = 'spearman')
 cor.test(x=rc$assembly, y=rc$bp , method = 'spearman')
 cor.test(x=sat_sr$assembly, y=sat_sr$bp , method = 'spearman')
 cor.test(x=unknown$assembly, y=unknown$bp , method = 'spearman')
+cor.test(x=chimera$assembly, y=chimera$bp , method = 'spearman')
 
-labels = c( "DNA", "LINE", "LTR", "RC", "Sat/SR", "Unknown" )
+labels = c( "DNA", "LINE", "LTR", "RC", "Sat/SR", "Unknown", "Chimera" )
 
-p = ggplot( temp0 , aes( x=assembly, y=bp, color = Species ) ) %>% 
+ggplot( temp0 , aes( x=assembly, y=bp, color = Species ) ) %>% 
     + geom_point() %>% 
     + geom_smooth(aes( group = class), method = "lm", se = FALSE, size = 0.9, colour = "grey", stat="smooth") %>%
     # + stat_smooth( method = 'lm' ) %>% 
@@ -364,14 +365,13 @@ p = ggplot( temp0 , aes( x=assembly, y=bp, color = Species ) ) %>%
     + labs( x = "Assembly_size",
             y = "Basepairs",
             color = "Species",
-            title = "BP Correlation with Assembly size per Class of Repeats") %>% 
-    + geom_text( data = temp0, mapping = aes( label = labels ) )
+            title = "BP Correlation with Assembly size per Class of Repeats") # %>% 
+    # + geom_text( data = temp0, mapping = aes( label = labels ) )
 
-p
+p    
+    
+ggsave( "faceted_class_correlation.pdf", width=9, height=7 )
 
-# pdf( file="faceted_class_correlation.pdf", width=9, height=7 )
-# print( p )
-# graphics.off()
 
 ```
 ---
@@ -516,22 +516,26 @@ lens = as_tibble( temp )
 
 lens
 
+## remove unneeded classes
+lens = lens[ !( lens$class == "buffer" ), ]
+lens = lens[ !( lens$class == "DNA?" ), ]
+lens = lens[ !( lens$class == "Other" ), ]
+lens = lens[ !( lens$class == "rRNA" ), ]
+lens = lens[ !( lens$class == "SINE" ), ]
+lens = lens[ !( lens$class == "SINE?" ), ]
+
+lens
+
+
+
 ggplot( lens , aes(x=class, y=length)) + 
     geom_boxplot() + 
     scale_y_log10() +
     ggtitle( "Lenght of each Class of Putative TE", subtitle = "in log_10" )    
 
 
-# ggplot(unknowns, aes(x = species)) +
-#   geom_col(aes( y = bp_mb, fill="redfill")) +
-#   geom_text(aes(y = bp_mb, label = bp_mb), fontface = "bold", vjust = 0.5, hjust = 1.4, color = "black", size = 7) +
-#   geom_line(aes(y = percent * 300, group = 1, color = 'blackline')) +
-#   geom_text(aes(y = percent * 300, label = round(percent, 2)), hjust = 1, color = "black", size = 6) +
-#   scale_y_continuous(sec.axis = sec_axis(trans = ~ . / 300)) +
-#   scale_fill_manual('', labels = 'Repeats content (Mb)', values = "#b3bcff") +
-#   scale_color_manual('', labels = 'Percent of Genome', values = 'black') +
-#   theme_minimal(base_size = 20) + theme( legend.position = "bottom", axis.title.y=element_blank() ) + coord_flip()
-# 
-# ggsave( "class_lengths.pdf", width = 9, height = 12)
+
+ 
+ggsave( "class_lengths.pdf", width = 9, height = 6)
 
 ```

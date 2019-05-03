@@ -437,6 +437,14 @@ echo -e "$log_file \n \tRepeatModeler log file.\n \tCheck here for errors if job
 echo -e "$uclust_output \n \tUCLUST output.\n \tHas clustered repeats (Those that would occur multiple times in the RepeatModeler output).\n" >> $summary_file; sleep 1
 echo -e "$blastx_output \n \tUCLUSTed file ran against $species peptide database." >> $summary_file; sleep 1
 
-# ---------------------------
-# 	END OF FILE
-# ---------------------------
+#
+#                                                ,,
+#    mm                                          db
+#    MM
+#  mmMMmm   .gP"Ya  `7Mb,od8 `7MMpMMMb.pMMMb.  `7MM  `7MMpMMMb.  `7MM  `7MM  ,pP"Ybd
+#    MM    ,M'   Yb   MM' "'   MM    MM    MM    MM    MM    MM    MM    MM  8I   `"
+#    MM    8M""""""   MM       MM    MM    MM    MM    MM    MM    MM    MM  `YMMMa.
+#    MM    YM.    ,   MM       MM    MM    MM    MM    MM    MM    MM    MM  L.   I8
+#    `Mbmo  `Mbmmd' .JMML.   .JMML  JMML  JMML..JMML..JMML  JMML.  `Mbod"YML.M9mmmP'
+#
+#

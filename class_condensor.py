@@ -80,7 +80,7 @@ gff = gff[3:]
 
 repeat_info = []
 
-gff = gff[:15]
+# gff = gff[:15]
 
 for item in gff:
 	temp = []

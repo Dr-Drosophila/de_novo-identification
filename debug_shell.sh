@@ -260,19 +260,63 @@ echo >> sup.txt
 
 # ====================================================================================================================================================================================================================================================================================================================================================================================================
 
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dana_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dana_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dbia_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dbia_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dbip_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dbip_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dere_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dere_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/deug_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/deug_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dmau_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dmau_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dmel_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dmel_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dmoj_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dmoj_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dper_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dper_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dpse_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dpse_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dsec_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dsec_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dsim_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dsim_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dtri_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dtri_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dvir_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dvir_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dwil_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dwil_postmatch.fasta
-cp /scratch/cpr74/2019Spring/drosophila_classifications/dyak_nanopore_2019_03_05/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/dyak_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dana_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dana_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dbia_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dbia_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dbip_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dbip_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dere_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dere_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/deug_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/deug_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dmau_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dmau_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dmel_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dmel_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dmoj_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dmoj_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dper_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dper_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dpse_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dpse_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dsec_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dsec_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dsim_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dsim_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dtri_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dtri_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dvir_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dvir_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dwil_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dwil_postmatch.fasta
+cp /scratch/cpr74/2019Spring/drosophila_classifications/dyak_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta /projects/genetics/ellison_lab/rele_c/de_novo/postmatch/og_files/dyak_postmatch.fasta
+
+# ====================================================================================================================================================================================================================================================================================================================================================================================================
+
+echo -e "## species\tclass\tfreq\tbp\tpercent" > tidy_table.tab
+grep -v "##" dana_condensed_classes.txt >> tidy_table.tab
+grep -v "##" dbia_condensed_classes.txt >> tidy_table.tab
+grep -v "##" dbip_condensed_classes.txt >> tidy_table.tab
+grep -v "##" dere_condensed_classes.txt >> tidy_table.tab
+grep -v "##" deug_condensed_classes.txt >> tidy_table.tab
+grep -v "##" dmau_condensed_classes.txt >> tidy_table.tab
+grep -v "##" dmel_condensed_classes.txt >> tidy_table.tab
+grep -v "##" dmoj_condensed_classes.txt >> tidy_table.tab
+grep -v "##" dper_condensed_classes.txt >> tidy_table.tab
+grep -v "##" dpse_condensed_classes.txt >> tidy_table.tab
+grep -v "##" dsec_condensed_classes.txt >> tidy_table.tab
+grep -v "##" dsim_condensed_classes.txt >> tidy_table.tab
+grep -v "##" dtri_condensed_classes.txt >> tidy_table.tab
+grep -v "##" dvir_condensed_classes.txt >> tidy_table.tab
+grep -v "##" dwil_condensed_classes.txt >> tidy_table.tab
+grep -v "##" dyak_condensed_classes.txt >> tidy_table.tab
+
+
+python3 ../class_condensor.py -i ./final_output -o . -s dana
+
+# ====================================================================================================================================================================================================================================================================================================================================================================================================
+
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dana_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dana_condensed_classes.txt -s dana; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dbia_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dbia_condensed_classes.txt -s dbia; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dbip_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dbip_condensed_classes.txt -s dbip; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dere_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dere_condensed_classes.txt -s dere; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/deug_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/deug_condensed_classes.txt -s deug; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dmau_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dmau_condensed_classes.txt -s dmau; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dmel_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dmel_condensed_classes.txt -s dmel; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dmoj_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dmoj_condensed_classes.txt -s dmoj; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dper_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dper_condensed_classes.txt -s dper; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dpse_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dpse_condensed_classes.txt -s dpse; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dsec_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dsec_condensed_classes.txt -s dsec; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dsim_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dsim_condensed_classes.txt -s dsim; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dtri_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dtri_condensed_classes.txt -s dtri; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dvir_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dvir_condensed_classes.txt -s dvir; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dwil_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dwil_condensed_classes.txt -s dwil; sleep 1
+python3 ~/class_condensor.py -i /home/cpr74/2019Spring/drosophila_classifications/dyak_nanopore_2019_05_01/outfiles/final_output -o /home/cpr74/2019Spring/drosophila_classifications/identified_TEs/dyak_condensed_classes.txt -s dyak; sleep 1
+
+# ====================================================================================================================================================================================================================================================================================================================================================================================================
