@@ -240,10 +240,15 @@ library(dplyr)
 
 temp = read.table( "./more_condensed.tab", header=TRUE, sep="\t" )
 fly_data = as_tibble(temp)
-fly_data
 colnames(fly_data)[colnames(fly_data)=="species"] <- "short"
 fly_data
 
+temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
+simple_data = as_tibble( temp )
+simple_data = simple_data %>% 
+    mutate( repeats = rmod_bp + trf ) %>% 
+    select( short, repeats, assembly )
+    
 keeps = c( "short", "class", "bp" )
 total = fly_data[ keeps ]
 total$short = factor(total$short,levels = c( "dvir", "dmoj", "dwil", "dper", "dpse", "dana", "dbip", "dbia", "dtri", "deug", "dmel", "dsec", "dsim", "dmau", "dere", "dyak" ))
@@ -252,28 +257,24 @@ keep = c( "short", "bp" )
 total = total[ keep ]
 total
 
-temp = read.table( "./simple_data.tab", header=TRUE, sep="\t" )
-simple_data = as_tibble( temp )
-ass_size = simple_data[ c("short", "assembly")  ]
-
-total = total %>%
-    group_by( short ) %>%
-    summarize( sum = sum(bp) )
-
-merged = merge( total , ass_size , by="short")
+merged = merge( total , simple_data , by="short")
 merged
 
 order = c( "dvir", "dmoj", "dwil", "dper", "dpse", "dana", "dbip", "dbia", "dtri", "deug", "dmel", "dsec", "dsim", "dmau", "dere", "dyak" )
-unknown_percent_assembly = merged %>%
+unknown_percent = merged %>%
     slice( match ( order, short ) ) %>%
-    mutate( percent_of_assembly = sum/assembly )
-unknown_percent_assembly
+    mutate( percent_of_assembly = bp/assembly ) %>% 
+    mutate( percent_of_repeat = bp/repeats ) %>% 
+    select( short, percent_of_assembly, percent_of_repeat )
+unknown_percent
 
-unknown_percent_assembly$short = factor( unknown_percent_assembly$short, levels = unknown_percent_assembly$short[order(desc(unknown_percent_assembly$percent_of_assembly))])
-unknown_percent_assembly
+# unknown_percent_assembly$short = factor( unknown_percent_assembly$short, levels = unknown_percent_assembly$short[order(desc(unknown_percent_assembly$percent_of_assembly))])
+# unknown_percent_assembly
 
-ggplot(data=unknown_percent_assembly, aes(x=short, y=percent_of_assembly)) + geom_bar(stat="identity", fill="steelblue") + theme_minimal() + labs( x = "Species",
-                         y = "Percent of Genome Size") + coord_flip()
+ggplot(unknown_percent, aes(short, percent_of_assembly)) + geom_bar(aes(fill = percent_of_repeat), position = position_dodge(), stat="identity")
+
+ggplot(data=unknown_percent, aes(x=short, y=percent_of_assembly)) + geom_bar(stat="identity", fill="steelblue") + theme_minimal() + labs( x = "Species",
+                         y = "Percent of Genome Size") 
 
 ggsave( "unknown_percent_assembly.pdf", width = 9, height = 12)
 
@@ -335,10 +336,11 @@ unknown = temp0 %>%
     filter( class == "Unknown" )
 chimera = temp0 %>%
     filter( class == "Chimera" )
-
+dna
 cor.test(x=dna$assembly, y=dna$bp , method = 'spearman')
 cor.test(x=line$assembly, y=line$bp , method = 'spearman')
 cor.test(x=ltr$assembly, y=ltr$bp , method = 'spearman')
+# ltr; dvir, dtri, dmoj; remove the following from LTR and check spearman corr for LTR also
 cor.test(x=rc$assembly, y=rc$bp , method = 'spearman')
 cor.test(x=sat_sr$assembly, y=sat_sr$bp , method = 'spearman')
 cor.test(x=unknown$assembly, y=unknown$bp , method = 'spearman')
@@ -396,7 +398,6 @@ grouped_fly
 
 temp = grouped_fly
 grouped_fly = temp %>%
-    filter( class != "Unknown" ) %>%
     filter( class != "Satellite/Simple_Repeat" ) %>%
     filter( class != "Other" ) %>%
     dplyr::group_by( short, class ) %>%
@@ -409,7 +410,8 @@ ggplot( data = grouped_fly, aes( x = class, y = total, fill = class ) ) %>%
     + labs( x = "Species",
             y = "Counts of Repeat Identified",
             fill = "Classes",
-            title = "Summary of number of sequences identified per class")
+            title = "Summary of number of sequences identified per class") %>%
+    + coord_flip()
 
 
 
