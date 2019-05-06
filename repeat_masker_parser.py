@@ -25,8 +25,6 @@ Date:		2019/01/25
 #                            MM
 #                          .JMML.
 
-hi
-
 import sys # to import a file from the commmand line
 from os import system as bash				# to run bash from python
 from Bio import SeqIO # Need Seq.IO for parsing and making FASTA file
