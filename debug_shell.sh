@@ -357,3 +357,47 @@ cat ./dtri_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep
 cat ./dvir_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dvir_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
 cat ./dwil_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dwil_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
 cat ./dyak_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Sim\|Satellite"; cat ./dyak_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -c "Unknown"
+
+# ====================================================================================================================================================================================================================================================================================================================================================================================================
+
+cat dana_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat dbia_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat dbip_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat dere_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat deug_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat dmau_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat dmel_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat dmoj_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat dper_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat dpse_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat dsec_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat dsim_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat dtri_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat dvir_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat dwil_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+cat dyak_nanopore_2019_05_01/outfiles/consensi.fa.classified | grep ">" | grep -v "Simple" | grep -v "Unknown" | grep -v "Satell" | wc -l
+
+# ====================================================================================================================================================================================================================================================================================================================================================================================================
+
+cat dana_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat dbia_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat dbip_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat dere_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat deug_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat dmau_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat dmel_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat dmoj_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat dper_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat dpse_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat dsec_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat dsim_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat dtri_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat dvir_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat dwil_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+cat dyak_nanopore_2019_05_01/outfiles/uclust_postmatch.fasta | grep ">" | tr "\#" "\t" | tr "/" "\t" | tr "::" "\t" | cut -f2 | sort | uniq -c | grep -E "Chimera||DNA||LINE||LTR||RC||Unknown"; sleep 1
+
+# ====================================================================================================================================================================================================================================================================================================================================================================================================
+
+# ====================================================================================================================================================================================================================================================================================================================================================================================================
+
+# ====================================================================================================================================================================================================================================================================================================================================================================================================
